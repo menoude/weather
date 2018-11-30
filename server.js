@@ -1,14 +1,13 @@
 'use strict'
 
-const sessionEndMessages = {
-    abortedByUser: 'Sorry, there was an error.',
-    intentNotRecognized: 'Sorry, I did not understand your request.',
-    timeout: 'Sorry, your session timed out.',
-    error: 'Sorry, there was an error.'
-}
+const {
+    subscriptions,
+    hermes,
+    sessionEndMessages
+} = require('./utils.js');
 
 function Server(topic, data) {
-    this.topic = hermes[topic];
+    this.topic = subscriptions[topic];
     this.data = JSON.parse(data);
     this.message = null;
     this.answerMessage = null;
@@ -17,27 +16,24 @@ function Server(topic, data) {
     this.slots = null;
 }
 
-Server.prototype.ignore = () => {
-    if (this.topic == hermes)    
+Server.prototype.ignore = function () {
+    return (this.topic == subscriptions.sessionEnded &&
+        this.data.termination.reason == 'nominal');
 }
 
-Server.prototype.ignore = (topic, data) {
-    let answer
-
-    topic = hermes[topic];
-    if (topic == 'hotword')
-        return true;
-    else if (topic == 'sessionEnded') {
-        data = JSON.parse(data);
-
+Server.prototype.buildAnswer = function () {
+    if (this.topic == 'sessionEnded') {
+        console.log('session ended');
+        return ({
+            endpoint: hermes.ttsEndpoint,
+            payload: JSON.stringify({
+                text: sessionEndMessages[this.data.termination.reason],
+                siteId: hermes.siteId
+            })
+        });
+    } else {
+        console.log(`recognized ${this.topic}`);
     }
 }
 
-if (message == 'sessionEnd') {
-console.log('session ended');
-endReason = data.termination.reason;
-answer.payload = sessionEndMessages[endReason];
-console.log(data);
-} else {
-console.log(`recognized ${message}`);
-}
+module.exports = Server;

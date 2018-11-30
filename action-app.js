@@ -1,14 +1,8 @@
 'use strict'
 
 const mqtt = require('mqtt');
-const Server = require('server');
-
-const hermes = {
-    'hermes/dialogueManager/sessionEnded': 'sessionEnded',
-    'hermes/intent/davidsnips:WeatherForecast': 'WeatherForecast',
-    'hermes/intent/davidsnips:WeatherConditionRequest': 'WeatherConditionRequest',
-    'hermes/intent/davidsnips:TemperatureForecast': 'TemperatureForecast',
-}
+const Server = require('./server.js');
+const { subscriptions } = require('./utils.js');
 
 const client = mqtt.connect('mqtt://localhost', {
     port: 1883
@@ -16,7 +10,7 @@ const client = mqtt.connect('mqtt://localhost', {
 
 
 client.on('connect', () => {
-    for (let topic in hermes) {
+    for (let topic in subscriptions) {
         client.subscribe(topic, (err) => console.log);
     }
 });
@@ -26,9 +20,13 @@ client.on('message', (topic, data) => {
         answer;
 
     server = new Server(topic, data);
+    console.log(server.data);
+    console.log(server.topic);
+    
     if (server.ignore()) {
         return ;
     }
-    answer = server.getanswer();
+    answer = server.buildAnswer();
+    console.log(answer);
     client.publish(answer.endpoint, answer.payload);
 });
