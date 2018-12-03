@@ -5,15 +5,24 @@ const {
     hermes,
     sessionEndMessages
 } = require('./utils.js');
+const Request = require('./request.js');
+const Report = require('./report.js');
 
 function Server(topic, data) {
     this.topic = subscriptions[topic];
     this.data = JSON.parse(data);
-    this.message = null;
-    this.answerMessage = null;
-    this.endReason = null;
-    this.sessionId = null;
-    this.slots = null;
+}
+
+Server.prototype.buildAnswer = async function () {
+    let request, report;
+
+    if (this.topic == 'sessionEnded') {
+        return (this.buildError());
+    }
+    request = new Request(this.topic, this.data);
+    await request.sendRequest();
+    report = new Report(request);
+    return (report.buildReport());
 }
 
 Server.prototype.ignore = function () {
@@ -21,19 +30,16 @@ Server.prototype.ignore = function () {
         this.data.termination.reason == 'nominal');
 }
 
-Server.prototype.buildAnswer = function () {
-    if (this.topic == 'sessionEnded') {
-        console.log('session ended');
-        return ({
-            endpoint: hermes.ttsEndpoint,
-            payload: JSON.stringify({
-                text: sessionEndMessages[this.data.termination.reason],
-                siteId: hermes.siteId
-            })
-        });
-    } else {
-        console.log(`recognized ${this.topic}`);
-    }
-}
+Server.prototype.buildError = function () {
+    let answer = {};
+
+    console.log('send error');
+    answer.endpoint = hermes.ttsEndpoint;
+    answer.payload = JSON.stringify({
+        text: sessionEndMessages[this.data.termination.reason],
+        siteId: hermes.siteId
+    });
+    return (answer);
+};
 
 module.exports = Server;

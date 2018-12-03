@@ -17,8 +17,14 @@ const sessionEndMessages = {
     error: 'Sorry, there was an error.'
 };
 
+const API = {
+    key: '86b50369b1aeedddf798aa6993a45bc7',
+    url: 'http://api.openweathermap.org/data/2.5/forecast?'
+};
+
 module.exports = {
     subscriptions: subscriptions,
     hermes: hermes,
-    sessionEndMessages: sessionEndMessages
+    sessionEndMessages: sessionEndMessages,
+    API: API
 };
