@@ -1,5 +1,7 @@
 'use strict'
 
+const { sentances } = require('./utils.js');
+
 function Report(data) {
     this.data = data;
 }
