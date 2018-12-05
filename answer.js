@@ -8,4 +8,8 @@ function Answer(localisation, sessionId, intent, report) {
         sessionId: sessionId,
         text: localisation.defaultAnswers.sun,
     };
+    console.log(this);
+    console.log('---------');
 }
+
+module.exports = Answer;

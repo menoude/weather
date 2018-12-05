@@ -1,3 +1,5 @@
+'use strict'
+
 const errorMessages = {
     english: {
         abortedByUser: 'Sorry, there was an error.',
@@ -38,11 +40,11 @@ const defaultAnswers = {
 function Localisation() {
     this.language = this.findLanguage();
     this.errorMessages = errorMessages[this.language];
-    this.defaultAnswers = defaultAnswers[this.language]; 
+    this.defaultAnswers = defaultAnswers[this.language];
 }
 
 Localisation.prototype.findLanguage = function() {
     return ('english');
 };
 
-module.exports = Localisation;
+module.exports = Localisation

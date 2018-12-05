@@ -15,9 +15,8 @@ function intentManager(topic, data, localisation) {
     this.topic = subscriptions[topic];
     this.data = JSON.parse(data);
     this.localisation = localisation;
-    console.log('new intent manager');
-    console.log(this.data);
-    console.log(this.topic);
+    console.log(this);
+    console.log('---------');
 }
 
 // returns an answer: checks that intent is worthy, sets the time, sets the location, fetches the data,

@@ -21,7 +21,10 @@ client.on('message', (topic, data) => {
         answer;
 
     intentManager = new IntentManager(topic, data, localisation);
-    answer = intentManager.buildAnswer();
+    answer = intentManager.buildAnswer().then((data) => {
+        console.log(data);
+        
+    });
     console.log(answer);
     if (answer)
         client.publish(answer.endpoint, answer.payload);

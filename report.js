@@ -6,6 +6,8 @@ function Report(intent, location, time, info) {
     this.start = time.start;
     this.end = time.end;
     this.buildReport();
+    console.log(this);
+    console.log('---------');    
 }
 
 Report.prototype.buildReport = function() {
