@@ -1,14 +1,14 @@
 'use strict'
 
-const mqtt = require('mqtt');
-const IntentManager = require('./intentManager.js');
 const { subscriptions } = require('./utils.js');
+const IntentManager = require('./intentManager.js');
 const Localisation = require('./localisation.js');
+const localisation = new Localisation();
+
+const mqtt = require('mqtt');
 const client = mqtt.connect('mqtt://localhost', {
     port: 1883
 });
-
-const localisation = new Localisation();
 
 client.on('connect', () => {
     for (let topic in subscriptions) {
@@ -17,15 +17,14 @@ client.on('connect', () => {
 });
 
 client.on('message', (topic, data) => {
-    let intentManager,
-        answer;
+    let intentManager;
 
     intentManager = new IntentManager(topic, data, localisation);
-    answer = intentManager.buildAnswer().then((data) => {
-        console.log(data);
-        
-    });
-    console.log(answer);
-    if (answer)
+    if (intentManager.skip)
+        return;
+    intentManager.buildAnswer().then((answer) => {
+        console.log('answer to publish: ');
+        console.log(answer);
         client.publish(answer.endpoint, answer.payload);
+    });
 });

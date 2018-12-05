@@ -8,7 +8,7 @@ const API = {
 
 function Info(location) {
     this.request = `${API.url}?id=${location.id}&units=metric&APPID=${API.key}`;
-    console.log('this');
+    console.log(this);
 }
 
 Info.prototype.fetchInfo = async function() {
@@ -16,7 +16,7 @@ Info.prototype.fetchInfo = async function() {
 
     console.log('sending request');
     response = await axios(this.request);
-    console.log(response);
+    // console.log(response);
     console.log('---------');
     return (response);
 };

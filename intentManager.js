@@ -1,9 +1,6 @@
 'use strict'
 
-const {
-    subscriptions,
-    hermes,
-} = require('./utils.js');
+const { subscriptions, hermes } = require('./utils.js');
 const Localisation = require('./localisation.js');
 const Time = require('./time.js');
 const Location = require('./location.js');
@@ -14,8 +11,13 @@ const Answer = require('./answer.js');
 function intentManager(topic, data, localisation) {
     this.topic = subscriptions[topic];
     this.data = JSON.parse(data);
+    this.skip = this.toSkip();
+    if (this.skip)
+        return ;
+    this.sessionId = this.data.sessionId;
     this.localisation = localisation;
-    console.log(this);
+    console.log(`new intentManager for topic ${this.topic}`);
+    
     console.log('---------');
 }
 
@@ -24,18 +26,15 @@ function intentManager(topic, data, localisation) {
 intentManager.prototype.buildAnswer = async function () {
     let time, location, info, report, answer;
 
-    if (this.toIgnore())
-        return ({});
-    else if (this.topic === 'sessionEnded') {
+    if (this.topic === 'sessionEnded') {
         return (this.buildError(this.data.termination.reason));
     }
-    this.sessionId = this.data.sessionId;
     try {
-        time = new Time(this.data);
+        time = new Time(this.data.slots.find((item) => item.slotName === 'forecast_datetime'));
     } catch (e) {
-        console.log('Error with the time range');
         console.log(e);
         return (this.buildError(this.localisation.errorMessages.timeRange));
+        // make it a normal answer in order to have a session end!
     }
     location = new Location(this.data);
     info = new Info(location);
@@ -47,15 +46,14 @@ intentManager.prototype.buildAnswer = async function () {
         return (this.buildError(this.localisation.errorMessages.APICall));
     }
     report = new Report(this.topic, location, time, info);
-    answer = new Answer(this.localisation, this. sessionId, this.topic, report);
-    answer.payload = JSON.stringify(answer.payload);
+    answer = new Answer(this.localisation, this.sessionId, this.topic, report);
     return (answer);
 }
 
-intentManager.prototype.toIgnore = function () {
-    return (this.topic == subscriptions.sessionEnded &&
+intentManager.prototype.toSkip = function () {
+    return (this.topic == 'sessionEnded' &&
         this.data.termination.reason == 'nominal');
-}
+};
 
 intentManager.prototype.buildError = function (reason) {
     let answer = {};
