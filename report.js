@@ -1,13 +1,16 @@
 'use strict'
 
-const { sentances } = require('./utils.js');
-
-function Report(data) {
-    this.data = data;
+function Report(intent, location, time, info) {
+    this.intent = intent;
+    this.city = location.city;
+    this.start = time.start;
+    this.end = time.end;
+    this.buildReport();
 }
 
 Report.prototype.buildReport = function() {
-    return (this.data);
+    this.condition = 'sun';
+    return ;
 };
 
 module.exports = Report;
