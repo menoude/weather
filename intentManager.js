@@ -1,3 +1,4 @@
+
 'use strict'
 
 const { subscriptions, hermes } = require('./utils.js');
@@ -16,6 +17,7 @@ function intentManager(topic, data, localisation) {
         return ;
     this.sessionId = this.data.sessionId;
     this.localisation = localisation;
+    console.log('---------------------------');
     console.log(`new intentManager for topic ${this.topic}`);
     
     console.log('---------');
@@ -26,9 +28,8 @@ function intentManager(topic, data, localisation) {
 intentManager.prototype.buildAnswer = async function () {
     let time, location, info, report, answer;
 
-    if (this.topic === 'sessionEnded') {
+    if (this.topic === 'sessionEnded')
         return (this.buildError(this.data.termination.reason));
-    }
     try {
         time = new Time(this.data.slots.find((item) => item.slotName === 'forecast_datetime'));
     } catch (e) {
@@ -66,4 +67,4 @@ intentManager.prototype.buildError = function (reason) {
     return (answer);
 };
 
-module.exports = intentManager;
+module.exports = intentManager
