@@ -2,9 +2,9 @@
 
 function Report(intent, location, time, info) {
     this.intent = intent;
-    this.city = location.city;
-    this.start = time.start;
-    this.end = time.end;
+    this.location = location;
+    this.time = time;
+    this.info = info;
     this.buildReport();
     console.log(this);
     console.log('---------');    

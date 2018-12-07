@@ -1,6 +1,7 @@
 'use strict'
 
-function Location(data) {
+function Location(localisation, slots) {
+    this.localisation = localisation;
     this.city = 'London';
     this.country = 'UK';
     this.id = '2643743';

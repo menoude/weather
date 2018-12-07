@@ -13,5 +13,5 @@ const hermes = {
 
 module.exports = {
     subscriptions: subscriptions,
-    hermes: hermes,
+    hermes: hermes
 };

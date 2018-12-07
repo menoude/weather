@@ -37,7 +37,7 @@ intentManager.prototype.buildAnswer = async function () {
         return (this.buildError(this.localisation.errorMessages.timeRange));
         // make it a normal answer in order to have a session end!
     }
-    location = new Location(this.data);
+    location = new Location(this.data.slots);
     info = new Info(location);
     try {
         info = await info.fetchInfo();

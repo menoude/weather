@@ -1,5 +1,7 @@
 'use strict'
 
+const { readFileSync } = require('fs');
+
 const errorMessages = {
     english: {
         abortedByUser: 'Sorry, there was an error.',
@@ -20,31 +22,68 @@ const errorMessages = {
     }
 };
 
-const defaultAnswers = {
+const conditions = {
     english: {
-        sun: 'The weather will be mostly sunny.',
-        rain: 'The weather will be mostly rainy.',
-        cold: 'The weather will be mostly cold.',
-        warm: 'The weather will be mostly warm.',
-        umbrella: 'D\'ont forget your umbrella.',
+        sun: 'sunny',
+        rain: 'rainy',
+        cold: 'cold',
+        warm: 'warm',
     },
     french: {
-        sun: 'Le temps sera globalement ensoleillé.',
-        rain: 'Le temps sera globalement pluvieux.',
-        cold: 'Le temps sera globalement froid.',
-        warm: 'Le temps sera globalement chaud.',
-        umbrella: 'N\'oubliez pas votre parapluie.',
+        sun: 'ensoleillé',
+        rain: 'pluvieux',
+        cold: 'froid',
+        warm: 'chaud',
     }
 };
+
+const presentAnnouncement = {
+    english: {
+        weatherCondition: 'The weather is mostly',
+        temperatureForecast: 'Temperature is about'
+    },
+    french: {
+        weatherCondition: 'Le temps est globalement',
+        temperatureForecast: 'La température est de'
+    }
+};
+
+const futureAnnouncement = {
+    english: {
+        weatherCondition: 'The weather will be mostly',
+        temperatureForecast: 'The forecast is'
+    },
+    french: {
+        weatherCondition: 'Le temps sera globalement',
+        temperatureForecast: 'La température sera de'
+    }
+};
+
+const placesData = {
+    english: './en_mappings',
+    french: './fr_mappings'
+}
 
 function Localisation() {
     this.language = this.findLanguage();
     this.errorMessages = errorMessages[this.language];
-    this.defaultAnswers = defaultAnswers[this.language];
+    this.conditions = conditions[this.language];
+    this.presentAnnouncement = presentAnnouncement[this.language];
+    this.futureAnnouncement = futureAnnouncement[this.language];
+    this.placesData = placesData[this.language];
+    this.loadPlaces();
 }
 
-Localisation.prototype.findLanguage = function() {
+Localisation.prototype.findLanguage = function () {
     return ('english');
+};
+
+Localisation.prototype.loadPlaces = function() {
+    this.places = {
+        cities: JSON.Parse(readFileSync(`${this.placesData}/city.json`)),
+        regions: JSON.Parse(readFileSync(`${this.placesData}/region.json`)),
+        countries: JSON.Parse(readFileSync(`${this.placesData}/country.json`))
+    }
 };
 
 module.exports = Localisation
