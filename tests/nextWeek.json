@@ -1,23 +1,10 @@
 {
-    "input": "what 's the weather in london next week",
+    "input": "what will be the weather next week",
     "intent": {
       "intentName": "davidsnips:WeatherForecast",
-      "probability": 0.82512844
+      "probability": 0.78768206
     },
     "slots": [
-      {
-        "rawValue": "london",
-        "value": {
-          "kind": "Custom",
-          "value": "london"
-        },
-        "range": {
-          "start": 23,
-          "end": 29
-        },
-        "entity": "country",
-        "slotName": "country"
-      },
       {
         "rawValue": "next week",
         "value": {
@@ -27,8 +14,8 @@
           "precision": "Exact"
         },
         "range": {
-          "start": 30,
-          "end": 39
+          "start": 25,
+          "end": 34
         },
         "entity": "snips/datetime",
         "slotName": "forecast_datetime"

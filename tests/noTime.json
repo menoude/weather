@@ -1,5 +1,5 @@
 {
-    "input": "what 's the weather",
+    "input": "what s the weather",
     "intent": {
       "intentName": "davidsnips:WeatherForecast",
       "probability": 0.8518266
