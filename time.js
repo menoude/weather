@@ -8,78 +8,101 @@
 // if day, has to be later than yesterday and in 5 days range, resolves to start now and end end of day
 // if week, has to be later than last week and at most next week (depending on if we're)
 
+const FUTURE_LIMIT = 5;
+const futureInstantCheckers = {
+    'Second': checkFutureTimes,
+    'Minute': checkFutureTimes,
+    'Hour': checkFutureTimes,
+    'Day': checkFutureDay,
+    'Week': checkFutureWeek
+};
 
 function Time(timeSlot) {
-    let method;
-
     this.formulation = null;
-    this.future = false;
     this.timeSlot = timeSlot;
-    this.setTimeMethods = {
-        'Second': setFutureInstant.bind(this),
-        'Minute': setFutureInstant.bind(this),
-        'Hour': setFutureInstant.bind(this),
-        'Day': setFutureDay.bind(this),
-        'Week': setFutureWeek.bind(this)
-    };
-    if (!timeSlot)
-        this.setCurrentTime();
-    else if (timeSlot.value.kind === 'InstantTime')
-        this.setFutureInterval();
-    else {
-        method = this.setTimeMethods(timeSlot.value.grain);
-        if (!method)
-            throw (new Error('timeRange error'));
-        else
-            method();
-    }
 }
 
-Time.prototype.setCurrentTime() {
+// -------------
+function CurrentTime(timeSlot) {
+    Time.call(this, timeSlot);
+    this.future = false;
+}
+
+CurrentTime.prototype.setTime = function () {
+    this.type = 'now';
     this.start = new Date();
     this.end = this.start;
 };
 
-Time.prototype.setFutureInterval() {
+CurrentTime.prototype.checkRange = () => true;
+
+// -------------
+function FutureInterval(timeSlot) {
+    Time.call(this, timeSlot);
     this.future = true;
-    this.formulation = timeSlot.rawValue
+    this.type = 'interval';
+    this.formulation = timeSlot.rawValue;
+}
+
+FutureInterval.prototype.setTime = function () {
     this.start = new Date(this.value.from);
     this.end = new Date(this.value.to);
-    this.checkRawTimeRange();
-};
+}
 
-Time.prototype.setFutureInstant = function() {
+FutureInterval.prototype.checkRange = checkFutureTimes;
+
+// -------------
+function FutureInstant(timeSlot) {
+    Time.call(timeSlot);
     this.future = true;
-    this.formulation = timeSlot.rawValue
-    this.start = new Date(this.value.value);
+    this.formulation = timeSlot.rawValue;
+    this.type = timeSlot.value.grain;
+    if (this.type === 'Month' || this.type === 'Year') {
+        throw (new Error('timeRange error'));
+    }
+}
+
+FutureInstant.prototype.setTime = function () {
+    this.start = new Date(this.timeSlot.value.value);
     this.end = this.start;
-    this.checkRawTimeRange();
 };
 
-Time.prototype.setFutureDay = function() {
-    let now, today, tonight;
+FutureInstant.prototype.checkRange = futureInstantCheckers[this.type];
 
-    now = new Date();
-    today = new Date(now.toDateString());
-    this.start = this.value.value;
-    if (this.start < )
-    tonight = new Date(today);
-    tonight.setDate(tonight.getDate() + 1);
-    this.end = this.value.value;
-};
-
-Time.prototype.setFutureWeek = function() {
-
-};
-
-Time.prototype.checkRawTimeRange = function() {
+function checkFutureTimes() {
     let now, timeLimit;
-    
+
     now = new Date();
     timeLimit = new Date();
-    timeLimit.setDate(timeLimit.getDate() + 5);
+    timeLimit.setDate(timeLimit.getDate() + FUTURE_LIMIT);
     if (this.start.getTime() < now.getTime() - 1000 || this.end > timeLimit) {
         throw (new Error('timeRange error'));
     }
+}
+
+function checkFutureDay() {
+    let today, limitDay;
+
+    today = new Date(new Date().toDateString());
+    limitDay = new Date(today);
+    limitDay.setDate(limitDay.getDate() + FUTURE_LIMIT);
+    if (this.start < today || this.start > limitDay)
+        throw (new Error('timeRange error'));
+}
+
+function checkFutureWeek() {
+    let currentWeek, limitDay;
+
+    currentWeek = new Date(new Date().toDateString());
+    currentWeek.setDate(currentWeek.getDate() - currentWeek.getDay() + 1);
+    limitDay = new Date(currentWeek);
+    limitDay.setDate(currentWeek.getDate() + 5);
+    if (this.start < currentWeek || this.start > limitDay)
+        throw (new Error('timeRange error'));
+}
+
+module.exports = {
+    CurrentTime: CurrentTime,
+    FutureInstant: FutureInstant,
+    FutureInterval: FutureInterval,
 };
-module.exports = Time;

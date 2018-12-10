@@ -3,7 +3,7 @@
 
 const { subscriptions, hermes } = require('./utils.js');
 const Localisation = require('./localisation.js');
-const Time = require('./time.js');
+const createTime = require('./time.js');
 const Location = require('./location.js');
 const Info = require('./info.js');
 const Report = require('./report.js');
@@ -30,10 +30,10 @@ intentManager.prototype.buildAnswer = async function () {
 
     if (this.topic === 'sessionEnded')
         return (this.buildError(this.data.termination.reason));
+    time = this.buildTime();
     try {
-        time = new Time(this.data.slots.find((item) => item.slotName === 'forecast_datetime'));
+        time.checkRange();
     } catch (e) {
-        console.log(e);
         return (this.buildError(this.localisation.errorMessages.timeRange));
         // make it a normal answer in order to have a session end!
     }
@@ -55,6 +55,26 @@ intentManager.prototype.toSkip = function () {
     return (this.topic == 'sessionEnded' &&
         this.data.termination.reason == 'nominal');
 };
+
+intentManager.prototype.buildTime = function() {
+    let slot, result;
+
+    if (!this.data.slots) {
+        result = new CurrentTime();
+    } else {
+        slot = this.data.slots.find((item) => item.slotName === 'forecast_datetime');
+        if (!slot)
+            result = new CurrentTime();
+        else if (slot.value.kind === 'InstantTime')
+            result = new FutureInstant();
+        else if (slot.value.kind === 'TimeInterval')
+            result = new FutureInterval();
+    }
+    result.setTime();
+    result.checkRange();
+    return result;
+};
+
 
 intentManager.prototype.buildError = function (reason) {
     let answer = {};
