@@ -60,8 +60,8 @@ const futureAnnouncement = {
 };
 
 const placesData = {
-    english: './en_mappings',
-    french: './fr_mappings'
+    english: './mappings/en_mappings',
+    french: './mappings/fr_mappings'
 }
 
 function Localisation() {
@@ -80,9 +80,9 @@ Localisation.prototype.findLanguage = function () {
 
 Localisation.prototype.loadPlaces = function() {
     this.places = {
-        cities: JSON.Parse(readFileSync(`${this.placesData}/city.json`)),
-        regions: JSON.Parse(readFileSync(`${this.placesData}/region.json`)),
-        countries: JSON.Parse(readFileSync(`${this.placesData}/country.json`))
+        cities: JSON.parse(readFileSync(`${this.placesData}/city.json`)),
+        regions: JSON.parse(readFileSync(`${this.placesData}/region.json`)),
+        countries: JSON.parse(readFileSync(`${this.placesData}/country.json`))
     }
 };
 

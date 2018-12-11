@@ -3,7 +3,7 @@
 
 const { subscriptions, hermes } = require('./utils.js');
 const Localisation = require('./localisation.js');
-const createTime = require('./time.js');
+const { CurrentTime, FutureInterval, FutureInstant } = require('./time.js');
 const Location = require('./location.js');
 const Info = require('./info.js');
 const Report = require('./report.js');
@@ -64,11 +64,11 @@ intentManager.prototype.buildTime = function() {
     } else {
         slot = this.data.slots.find((item) => item.slotName === 'forecast_datetime');
         if (!slot)
-            result = new CurrentTime();
+            result = new CurrentTime(slot);
         else if (slot.value.kind === 'InstantTime')
-            result = new FutureInstant();
+            result = new FutureInstant(slot);
         else if (slot.value.kind === 'TimeInterval')
-            result = new FutureInterval();
+            result = new FutureInterval(slot);
     }
     result.setTime();
     result.checkRange();

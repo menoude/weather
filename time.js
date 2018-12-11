@@ -45,8 +45,8 @@ function FutureInterval(timeSlot) {
 }
 
 FutureInterval.prototype.setTime = function () {
-    this.start = new Date(this.value.from);
-    this.end = new Date(this.value.to);
+    this.start = new Date(this.timeSlot.value.from);
+    this.end = new Date(this.timeSlot.value.to);
 }
 
 FutureInterval.prototype.checkRange = checkFutureTimes;
