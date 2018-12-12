@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 valid_tests[0]="what's the weather?";
@@ -6,6 +7,7 @@ valid_tests[2]="what will be the weather in 2 hours?";
 valid_tests[3]="what will be the weather tomorrow?";
 valid_tests[4]="what's the weather for this week end?";
 valid_tests[5]="what's the weather next week?";
+valid_test_[6]="what will be the weather from now to tomorrow afternoon?";
 
 invalid_tests[1]="what was the weather 5 minutes ago?";
 invalid_tests[2]="what was the weather yesterday?";
@@ -18,7 +20,7 @@ sub_topic="hermes/nlu/intentParsed";
 pub_topic="hermes/nlu/query";
 
 generate() {
-    rm $1.txt;
+    rm $1.txt &> /dev/null;
     if [ $1 = 'valid_tests' ]
     then
         tests=("${valid_tests[@]}");
@@ -46,4 +48,3 @@ generate() {
 
 generate valid_tests;
 generate invalid_tests;
-

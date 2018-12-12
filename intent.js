@@ -1,16 +1,15 @@
-
 'use strict'
 
 const { subscriptions, hermes } = require('./utils.js');
 const Localisation = require('./localisation.js');
-const { CurrentTime, FutureInterval, FutureInstant } = require('./time.js');
+import { timeFactory } from './time.js';
 const Location = require('./location.js');
 const Info = require('./info.js');
 const Report = require('./report.js');
 const Answer = require('./answer.js');
 
-function intentManager(topic, data, localisation) {
-    this.topic = subscriptions[topic];
+function Intent(topic, data, localisation) {
+    this.name = subscriptions[topic];
     this.data = JSON.parse(data);
     this.skip = this.toSkip();
     if (this.skip)
@@ -18,19 +17,19 @@ function intentManager(topic, data, localisation) {
     this.sessionId = this.data.sessionId;
     this.localisation = localisation;
     console.log('---------------------------');
-    console.log(`new intentManager for topic ${this.topic}`);
+    console.log(`new intent for topic ${this.name}`);
     
     console.log('---------');
 }
 
 // returns an answer: checks that intent is worthy, sets the time, sets the location, fetches the data,
 // processes the data with the location and the time to get a report, then builds an answer with respect to each intent
-intentManager.prototype.buildAnswer = async function () {
+intent.prototype.buildAnswer = async function () {
     let time, location, info, report, answer;
 
-    if (this.topic === 'sessionEnded')
+    if (this.name === 'sessionEnded')
         return (this.buildError(this.data.termination.reason));
-    time = this.buildTime();
+    time = this.timeFactory(this.data);
     try {
         time.checkRange();
     } catch (e) {
@@ -46,37 +45,17 @@ intentManager.prototype.buildAnswer = async function () {
         console.log(e);
         return (this.buildError(this.localisation.errorMessages.APICall));
     }
-    report = new Report(this.topic, location, time, info);
-    answer = new Answer(this.localisation, this.sessionId, this.topic, report);
+    report = new Report(this.name, location, time, info);
+    answer = new Answer(this.localisation, this.sessionId, this.name, report);
     return (answer);
 }
 
-intentManager.prototype.toSkip = function () {
-    return (this.topic == 'sessionEnded' &&
+intent.prototype.toSkip = function () {
+    return (this.name == 'sessionEnded' &&
         this.data.termination.reason == 'nominal');
 };
 
-intentManager.prototype.buildTime = function() {
-    let slot, result;
-
-    if (!this.data.slots) {
-        result = new CurrentTime();
-    } else {
-        slot = this.data.slots.find((item) => item.slotName === 'forecast_datetime');
-        if (!slot)
-            result = new CurrentTime(slot);
-        else if (slot.value.kind === 'InstantTime')
-            result = new FutureInstant(slot);
-        else if (slot.value.kind === 'TimeInterval')
-            result = new FutureInterval(slot);
-    }
-    result.setTime();
-    result.checkRange();
-    return result;
-};
-
-
-intentManager.prototype.buildError = function (reason) {
+intent.prototype.buildError = function (reason) {
     let answer = {};
 
     answer.endpoint = hermes.tts;
@@ -87,4 +66,4 @@ intentManager.prototype.buildError = function (reason) {
     return (answer);
 };
 
-module.exports = intentManager
+module.exports = Intent;

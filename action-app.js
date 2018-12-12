@@ -1,7 +1,7 @@
 'use strict'
 
 const { subscriptions } = require('./utils.js');
-const IntentManager = require('./intentManager.js');
+const Intent = require('./intent.js');
 const Localisation = require('./localisation.js');
 const localisation = new Localisation();
 
@@ -17,12 +17,12 @@ client.on('connect', () => {
 });
 
 client.on('message', (topic, data) => {
-    let intentManager;
+    let intent;
 
-    intentManager = new IntentManager(topic, data, localisation);
-    if (intentManager.skip)
+    intent = new Intent(topic, data, localisation);
+    if (intent.skip)
         return;
-    intentManager.buildAnswer().then((answer) => {
+    intent.buildAnswer().then((answer) => {
         console.log('answer to publish: ');
         console.log(answer);
         client.publish(answer.endpoint, answer.payload);

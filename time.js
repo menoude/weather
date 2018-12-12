@@ -17,54 +17,92 @@ const futureInstantCheckers = {
     'Week': checkFutureWeek
 };
 
-function Time(timeSlot) {
-    this.formulation = null;
-    this.timeSlot = timeSlot;
+export function timeFactory(data) {
+    let slot, result;
+
+    if (!data.slots) {
+        result = new CurrentTime();
+    } else {
+        slot = data.slots.find((item) => item.slotName === 'forecast_datetime');
+        if (!slot)
+            result = new CurrentTime(slot);
+        else if (slot.value.kind === 'InstantTime')
+            result = new FutureInstant(slot);
+        else if (slot.value.kind === 'TimeInterval')
+            result = new FutureInterval(slot);
+    }
+    result.setTime();
+    result.checkRange();
+    return result;
 }
 
-// -------------
-function CurrentTime(timeSlot) {
-    Time.call(this, timeSlot);
-    this.future = false;
+class Time {
+    constructor(timeSlot) {
+        this.formulation = null;
+        this.timeSlot = timeSlot;
+    }
 }
 
-CurrentTime.prototype.setTime = function () {
-    this.type = 'now';
-    this.start = new Date();
-    this.end = this.start;
-};
+class CurrentTime extends Time {
+    constructor(timeSlot) {
+        super(timeSlot);
+        this.future = false;
+    }
 
-CurrentTime.prototype.checkRange = () => true;
+    setTime() {
+        this.type = 'now';
+        this.start = new Date();
+        this.end = this.start;
+    }
 
-// -------------
-function FutureInterval(timeSlot) {
-    Time.call(this, timeSlot);
-    this.future = true;
-    this.type = 'interval';
-    this.formulation = timeSlot.rawValue;
+    checkRange() {
+        return (true);
+    }
 }
 
-FutureInterval.prototype.setTime = function () {
-    this.start = new Date(this.timeSlot.value.from);
-    this.end = new Date(this.timeSlot.value.to);
+class FutureInstant extends Time {
+    constructor(timeSlot) {
+        super(timeSlot);
+        this.future = true;
+        this.formulation = timeSlot.rawValue;
+        this.type = timeSlot.value.grain;
+        if (this.type === 'Month' || this.type === 'Year') {
+            throw (new Error('timeRange error'));
+        }
+    }
+
+    setTime() {
+        this.start = new Date(this.timeSlot.value.value);
+        this.end = this.start;
+    }
+
+    checkRange() {
+
+    }
+}
+
+class FutureInterval extends Time {
+    constructor(timeSlot) {
+        super(timeSlot);
+        this.future = true;
+        this.type = 'interval';
+        this.formulation = timeSlot.rawValue;
+    }
+
+    setTime() {
+        this.start = new Date(this.timeSlot.value.from);
+        this.end = new Date(this.timeSlot.value.to);
+    }
+
+    checkRange = checkFutureTimes
 }
 
 FutureInterval.prototype.checkRange = checkFutureTimes;
 
 // -------------
-function FutureInstant(timeSlot) {
-    Time.call(timeSlot);
-    this.future = true;
-    this.formulation = timeSlot.rawValue;
-    this.type = timeSlot.value.grain;
-    if (this.type === 'Month' || this.type === 'Year') {
-        throw (new Error('timeRange error'));
-    }
-}
 
 FutureInstant.prototype.setTime = function () {
-    this.start = new Date(this.timeSlot.value.value);
-    this.end = this.start;
+
 };
 
 FutureInstant.prototype.checkRange = futureInstantCheckers[this.type];
@@ -100,9 +138,3 @@ function checkFutureWeek() {
     if (this.start < currentWeek || this.start > limitDay)
         throw (new Error('timeRange error'));
 }
-
-module.exports = {
-    CurrentTime: CurrentTime,
-    FutureInstant: FutureInstant,
-    FutureInterval: FutureInterval,
-};
