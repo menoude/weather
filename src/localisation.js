@@ -15,10 +15,13 @@ class Localisation {
     }
     
     loadPlaces() {
+        let path;
+
+        path = this.placesData;
         this.places = {
-            cities: JSON.parse(fs.readFileSync(`${this.placesData}/city.json`)),
-            regions: JSON.parse(fs.readFileSync(`${this.placesData}/region.json`)),
-            countries: JSON.parse(fs.readFileSync(`${this.placesData}/country.json`))
+            cities: JSON.parse(fs.readFileSync(`${path}/city.json`)),
+            regions: JSON.parse(fs.readFileSync(`${path}/region.json`)),
+            countries: JSON.parse(fs.readFileSync(`${path}/country.json`))
         }
     }
 }

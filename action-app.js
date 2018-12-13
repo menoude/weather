@@ -1,13 +1,17 @@
+
 'use strict'
 
-const { subscriptions } = require('./utils.js');
-const Config = require('./config.js');
-const Localisation = require('./localisation.js');
-// const Intent = require('./intent.js');
+const { subscriptions } = require('./src/utils.js');
+const Config = require('./src/config.js');
+const Localisation = require('./src/localisation.js');
+// const Intent = require('./src/intent.js');
 
+// possible errors thrown here
 const config = new Config('./config.ini');
 const localisation = new Localisation(config);
+
 localisation.loadPlaces();
+console.log(localisation);
 
 const mqtt = require('mqtt');
 const client = mqtt.connect('mqtt://localhost', {
@@ -31,4 +35,4 @@ client.on('connect', () => {
 //         console.log(answer);
 //         client.publish(answer.endpoint, answer.payload);
 //     });
-// });
+// })
