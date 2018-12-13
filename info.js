@@ -1,13 +1,13 @@
 'use strict'
 
-import 'axios';
+const axios = require('axios');
 
 const API = {
     key: '86b50369b1aeedddf798aa6993a45bc7',
     url: 'http://api.openweathermap.org/data/2.5/forecast'
 };
 
-export class Info() {
+class Info() {
     
     constructor(location) {
         this.request = `${API.url}?id=${location.id}&units=metric&APPID=${API.key}`;
@@ -24,3 +24,5 @@ export class Info() {
         return (response);
     }
 }
+
+module.exports = Info;

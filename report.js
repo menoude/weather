@@ -1,6 +1,6 @@
 'use strict'
 
-export class Report {
+class Report {
     constructor(intent, location, time, info) {
         this.intent = intent;
         this.location = location;
@@ -16,3 +16,5 @@ export class Report {
         return ;
     }
 }
+
+module.exports = Report;

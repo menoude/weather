@@ -1,13 +1,13 @@
 'use strict'
 
-import { subscriptions, hermes } from './utils.js';
-import timeFactory from './time.js';
-import Location from './location.js';
-import Info from './info.js';
-import Report from './report.js';
-import Answer from './answer.js';
+const { subscriptions, hermes } = require('./utils.js');
+const { timeFactory } = require('./time.js');
+const Location = require('./location.js');
+const Info = require('./info.js');
+const Report = require('./report.js');
+const Answer = require('./answer.js');
 
-export class Intent {
+class Intent {
     
     constructor(topic, data, localisation) {
         this.name = subscriptions[topic];
@@ -67,3 +67,5 @@ export class Intent {
         return (answer);
     }
 }
+
+module.export = Intent;

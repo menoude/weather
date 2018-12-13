@@ -1,8 +1,8 @@
 'use strict'
 
-import { hermes } from './utils.js';
+const { hermes } = require('./utils.js');
 
-export class Answer {
+class Answer {
     
     constructor(localisation, sessionId, intent, report) {
         this.localisation = localisation;
@@ -26,3 +26,5 @@ export class Answer {
     
     }
 }
+
+module.exports = Answer;

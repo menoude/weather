@@ -1,4 +1,4 @@
-export const errorMessages = {
+const errorMessages = {
     english: {
         abortedByUser: 'Sorry, there was an error.',
         intentNotRecognized: 'Sorry, I did not understand your request.',
@@ -18,7 +18,7 @@ export const errorMessages = {
     }
 };
 
-export const conditions = {
+const conditions = {
     english: {
         sun: 'sunny',
         rain: 'rainy',
@@ -33,7 +33,7 @@ export const conditions = {
     }
 };
 
-export const presentAnnouncement = {
+const presentAnnouncement = {
     english: {
         weatherCondition: 'The weather is mostly',
         temperatureForecast: 'Temperature is about'
@@ -44,7 +44,7 @@ export const presentAnnouncement = {
     }
 };
 
-export const futureAnnouncement = {
+const futureAnnouncement = {
     english: {
         weatherCondition: 'The weather will be mostly',
         temperatureForecast: 'The forecast is'
@@ -55,7 +55,15 @@ export const futureAnnouncement = {
     }
 };
 
-export const placesData = {
+const placesData = {
     english: './mappings/en_mappings',
     french: './mappings/fr_mappings'
 }
+
+module.exports = {
+    errorMessages: errorMessages,
+    conditions: conditions,
+    presentAnnouncement: presentAnnouncement,
+    futureAnnouncement: futureAnnouncement,
+    placesData: placesData
+};

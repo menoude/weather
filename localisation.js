@@ -1,9 +1,9 @@
 'use strict'
 
-import { readFileSync } from 'fs';
-import * from './languageResources.js';
+const { readFileSync } = require('fs');
+const { errorMessages, conditions, presentAnnouncement, futureAnnouncement, placesData } = require('./languageResources.js');
 
-export class Localisation {
+class Localisation {
     
     constructor() {
         this.language = this.findLanguage();
@@ -27,3 +27,5 @@ export class Localisation {
         }
     }
 }
+
+module.exports = Localisation;

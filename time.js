@@ -17,7 +17,7 @@ const futureInstantCheckers = {
     'Week': checkFutureWeek
 };
 
-export function timeFactory(data) {
+function timeFactory(data) {
     let slot, result;
 
     if (!data.slots) {
@@ -142,3 +142,7 @@ function checkFutureWeek() {
     if (this.start < currentWeek || this.start > limitDay)
         throw (new Error('timeRange error'));
 }
+
+module.exports = {
+    timeFactory: timeFactory
+};
