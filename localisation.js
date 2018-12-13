@@ -1,29 +1,24 @@
 'use strict'
 
-const { readFileSync } = require('fs');
+const fs = require('fs');
 const { errorMessages, conditions, presentAnnouncement, futureAnnouncement, placesData } = require('./languageResources.js');
 
 class Localisation {
     
-    constructor() {
-        this.language = this.findLanguage();
-        this.errorMessages = errorMessages[this.language];
-        this.conditions = conditions[this.language];
-        this.presentAnnouncement = presentAnnouncement[this.language];
-        this.futureAnnouncement = futureAnnouncement[this.language];
-        this.placesData = placesData[this.language];
-        this.loadPlaces();
+    constructor(config) {        
+        this.locale = config.locale;
+        this.errorMessages = errorMessages[this.locale];
+        this.conditions = conditions[this.locale];
+        this.presentAnnouncement = presentAnnouncement[this.locale];
+        this.futureAnnouncement = futureAnnouncement[this.locale];
+        this.placesData = placesData[this.locale];
     }
     
-    findLanguage() {
-        return ('english');
-    }
-
     loadPlaces() {
         this.places = {
-            cities: JSON.parse(readFileSync(`${this.placesData}/city.json`)),
-            regions: JSON.parse(readFileSync(`${this.placesData}/region.json`)),
-            countries: JSON.parse(readFileSync(`${this.placesData}/country.json`))
+            cities: JSON.parse(fs.readFileSync(`${this.placesData}/city.json`)),
+            regions: JSON.parse(fs.readFileSync(`${this.placesData}/region.json`)),
+            countries: JSON.parse(fs.readFileSync(`${this.placesData}/country.json`))
         }
     }
 }
