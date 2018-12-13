@@ -37,6 +37,7 @@ export function timeFactory(data) {
 }
 
 class Time {
+    
     constructor(timeSlot) {
         this.formulation = null;
         this.timeSlot = timeSlot;
@@ -44,6 +45,7 @@ class Time {
 }
 
 class CurrentTime extends Time {
+    
     constructor(timeSlot) {
         super(timeSlot);
         this.future = false;
@@ -61,6 +63,7 @@ class CurrentTime extends Time {
 }
 
 class FutureInstant extends Time {
+    
     constructor(timeSlot) {
         super(timeSlot);
         this.future = true;
@@ -82,6 +85,7 @@ class FutureInstant extends Time {
 }
 
 class FutureInterval extends Time {
+    
     constructor(timeSlot) {
         super(timeSlot);
         this.future = true;

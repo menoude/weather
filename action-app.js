@@ -1,11 +1,11 @@
 'use strict'
 
-const { subscriptions } = require('./utils.js');
-const Intent = require('./intent.js');
-const Localisation = require('./localisation.js');
-const localisation = new Localisation();
+import { subscriptions } from './utils.js';
+import Intent from './intent.js';
+import Localisation from './localisation.js';
+import 'mqtt';
 
-const mqtt = require('mqtt');
+const localisation = new Localisation();
 const client = mqtt.connect('mqtt://localhost', {
     port: 1883
 });
