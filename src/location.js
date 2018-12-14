@@ -1,6 +1,6 @@
 'use strict'
 
-export class Location {
+class Location {
     constructor(localisation, slots) {
         this.localisation = localisation;
         this.city = 'London';
@@ -10,3 +10,5 @@ export class Location {
         console.log('------');
     }   
 }
+
+module.exports = Location;

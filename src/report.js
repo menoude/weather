@@ -11,7 +11,7 @@ class Report {
         console.log('---------');    
     }
 
-    buildReport = function() {
+    buildReport() {
         this.condition = 'sun';
         return ;
     }

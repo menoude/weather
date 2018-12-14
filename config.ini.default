@@ -3,4 +3,4 @@
 [secret]
 api_key=
 locale=english
-default_location=London
+default_location="New York City"

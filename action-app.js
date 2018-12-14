@@ -2,37 +2,55 @@
 'use strict'
 
 const { subscriptions } = require('./src/utils.js');
+const CustomError = require('./src/customError.js');
 const Config = require('./src/config.js');
-const Localisation = require('./src/localisation.js');
-// const Intent = require('./src/intent.js');
-
-// possible errors thrown here
-const config = new Config('./config.ini');
-const localisation = new Localisation(config);
-
-localisation.loadPlaces();
-console.log(localisation);
-
+const Locale = require('./src/locale.js');
+const Places = require('./src/places.js');
+const Intent = require('./src/intent.js');
 const mqtt = require('mqtt');
+
 const client = mqtt.connect('mqtt://localhost', {
     port: 1883
 });
 
+const locale = new Locale();
+const places = new Places();
+const config = new Config(locale, places);
+
 client.on('connect', () => {
-    for (let topic in subscriptions) {
-        client.subscribe(topic, (err) => console.log);
+    try {
+        config.parseConfig('./config.ini');
+        locale.loadConfig(config);
+        places.loadPlaces(locale);
+        for (let topic in subscriptions) {
+            client.subscribe(topic, (err) => {
+                if (err)
+                    throw new CustomError(err, 'mqtt');
+            });
+        }
+    } catch (err) {
+        err.formulate(locale);
+        console.log(err);
+        client.publish(err.endpoint, err.payload);
+        process.exit(1);
     }
 });
 
-// client.on('message', (topic, data) => {
-//     let intent;
+client.on('message', (topic, data) => {
+    let intent;
 
-//     intent = new Intent(topic, data, localisation);
-//     if (intent.skip)
-//         return;
-//     intent.buildAnswer().then((answer) => {
-//         console.log('answer to publish: ');
-//         console.log(answer);
-//         client.publish(answer.endpoint, answer.payload);
-//     });
-// })
+    try {
+        intent = new Intent(topic, data, locale);
+        if (intent.skip)
+            return;
+        intent.buildAnswer().then((answer) => {
+            console.log(answer);
+            client.publish(answer.endpoint, answer.payload);
+        });
+    } catch (err) {
+        console.log(err);
+        err.formulate(locale);
+        console.log(err);
+        client.publish(err.endpoint, err.payload);
+    }
+})

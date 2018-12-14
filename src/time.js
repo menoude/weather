@@ -98,7 +98,7 @@ class FutureInterval extends Time {
         this.end = new Date(this.timeSlot.value.to);
     }
 
-    checkRange = checkFutureTimes
+    // checkRange = checkFutureTimes
 }
 
 FutureInterval.prototype.checkRange = checkFutureTimes;

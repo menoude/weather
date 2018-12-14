@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const url = 'http://api.openweathermap.org/data/2.5/forecast';
 
-class Info() {
+class Info {
     
     constructor(config, location) {
         this.request = `${url}?id=${location.id}&units=metric&APPID=${config.apiKey}`;

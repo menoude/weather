@@ -9,14 +9,14 @@ const Answer = require('./answer.js');
 
 class Intent {
     
-    constructor(topic, data, localisation) {
+    constructor(topic, data, locale) {
         this.name = subscriptions[topic];
         this.data = JSON.parse(data);
         this.skip = this.toSkip();
         if (this.skip)
             return ;
         this.sessionId = this.data.sessionId;
-        this.localisation = localisation;
+        this.locale = locale;
         console.log('---------------------------');
         console.log(`new intent for topic ${this.name}`);
         
@@ -29,43 +29,32 @@ class Intent {
         let time, location, info, report, answer;
         
         if (this.name === 'sessionEnded')
-            return (this.buildError(this.data.termination.reason));
+            throw new CustomError('', this.data.termination.reason, this.sessionId);
         time = timeFactory(this.data);
         try {
             time.checkRange();
         } catch (e) {
-            return (this.buildError(this.localisation.errorMessages.timeRange));
+            throw new CustomError('', this.locale.errorMessages.timeRange, this.sessionId);
             // make it a normal answer in order to have a session end!
         }
         location = new Location(this.data.slots);
-        info = new Info(location);
+        info = new Info(config, location);
         try {
             info = await info.fetchInfo();
         } catch (e) {
             console.log('Error with the API call');
             console.log(e);
-            return (this.buildError(this.localisation.errorMessages.APICall));
+            throw new CustomError('', this.locale.errorMessages.APICall, this.sessionId);
         }
-        report = new Report(this.name, location, time, info);
-        answer = new Answer(this.localisation, this.sessionId, this.name, report);
-        return (answer);
+        // report = new Report(this.name, location, time, info);
+        // answer = new Answer(this.locale, this.sessionId, this.name, report);
+        // return (answer);
     }
 
     toSkip() {
         return (this.name == 'sessionEnded' &&
             this.data.termination.reason == 'nominal');
     }
-    
-    buildError(reason) {
-        let answer = {};
-    
-        answer.endpoint = hermes.tts;
-        answer.payload = JSON.stringify({
-            text: this.localisation.errorMessages[reason],
-            siteId: hermes.siteId
-        });
-        return (answer);
-    }
 }
 
-module.export = Intent;
+module.exports = Intent;

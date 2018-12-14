@@ -4,8 +4,8 @@ const { hermes } = require('./utils.js');
 
 class Answer {
     
-    constructor(localisation, sessionId, intent, report) {
-        this.localisation = localisation;
+    constructor(locale, sessionId, intent, report) {
+        this.locale = locale;
         this.report = report;
         this.reply = '';
         this.endpoint = hermes.endSession;
@@ -20,8 +20,8 @@ class Answer {
     
     buildSentance() {
         if (this.report.time.future) {
-            this.localisation.announcement = this.localisation.announcement.future;
-            this.reply = `${this.report.time.formulation}, ${this.localisation.announcement.weatherCondition} ${this.localisation.conditions[this.report.condition]}`;
+            this.locale.announcement = this.locale.announcement.future;
+            this.reply = `${this.report.time.formulation}, ${this.locale.announcement.weatherCondition} ${this.locale.conditions[this.report.condition]}`;
         }
     
     }

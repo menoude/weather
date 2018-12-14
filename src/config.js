@@ -3,16 +3,22 @@
 
 const { readFileSync } = require('fs');
 const ini = require('ini');
+const CustomError = require('./customError.js');
 
 class Config {
     
-    constructor(filePath) {
+    constructor(locale, places) {
+        this.locale = locale.language;
+        this.defautLocation = Object.values(places.cities)[0];
+    }
+
+    parseConfig(filePath) {
         let file, content;
         
         try {
             file = readFileSync(filePath, 'utf8');
         } catch (e) {
-            throw new Error('problem with the config file');
+            throw new CustomError(e.message, 'config');
         }
         content = ini.parse(file);
         for (let section in content) {
@@ -22,7 +28,7 @@ class Config {
         }
         this.locale = this.locale.toLowerCase();
         if (!(this.locale == 'english' || this.locale == 'french'))
-            throw new Error('problem with the locale');
+            throw new CustomError(e.message, 'locale');
     }
 
     static snakeToCamel(string) {
