@@ -32,7 +32,7 @@ client.on('connect', () => {
         err.formulate(locale);
         console.log(err);
         client.publish(err.endpoint, err.payload);
-        process.exit(1);
+        setTimeout(() => process.exit(1), 50);
     }
 });
 
