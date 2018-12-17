@@ -17,25 +17,6 @@ const futureInstantCheckers = {
     'Week': checkFutureWeek
 };
 
-function timeFactory(data) {
-    let slot, result;
-
-    if (!data.slots) {
-        result = new CurrentTime();
-    } else {
-        slot = data.slots.find((item) => item.slotName === 'forecast_datetime');
-        if (!slot)
-            result = new CurrentTime(slot);
-        else if (slot.value.kind === 'InstantTime')
-            result = new FutureInstant(slot);
-        else if (slot.value.kind === 'TimeInterval')
-            result = new FutureInterval(slot);
-    }
-    result.setTime();
-    result.checkRange();
-    return result;
-}
-
 class Time {
     
     constructor(timeSlot) {
@@ -143,6 +124,4 @@ function checkFutureWeek() {
         throw (new Error('timeRange error'));
 }
 
-module.exports = {
-    timeFactory: timeFactory
-};
+module.exports = Time;
