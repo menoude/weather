@@ -1,20 +1,23 @@
-
 'use strict'
 
-const { readFileSync } = require('fs');
+const {
+    readFileSync
+} = require('fs');
 const ini = require('ini');
 const CustomError = require('./customError.js');
 
 class Config {
-    
+
     constructor(locale, places) {
         this.locale = locale.language;
-        this.defautLocation = Object.values(places.cities)[0];
+        this.defautLocation = this.locale === 'english' ?
+            places.cities['New York City'] :
+            places.cities['Paris'];
     }
 
     parseConfig(filePath) {
         let file, content;
-        
+
         try {
             file = readFileSync(filePath, 'utf8');
         } catch (e) {
@@ -32,7 +35,7 @@ class Config {
     }
 
     static snakeToCamel(string) {
-        return (string.replace(/\_\w/g, function(snakePart) {
+        return (string.replace(/\_\w/g, function (snakePart) {
             return (snakePart[1].toUpperCase());
         }));
     }

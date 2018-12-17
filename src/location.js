@@ -1,14 +1,19 @@
 'use strict'
 
 class Location {
-    constructor(localisation, slots) {
-        this.localisation = localisation;
-        this.city = 'London';
-        this.country = 'UK';
-        this.id = '2643743';
-        console.log(this);
-        console.log('------');
-    }   
+    constructor(config) {
+// set the default location
+    }
+    
+    setFromSlot(locationSlot, places) {
+        let place;
+        
+        if (!locationSlot)
+            return ;
+        this.name = locationSlot.value.value;
+        this.type = locationSlot.slotName;
+        this.id = places[this.type][this.name].id;
+    }
 }
 
 module.exports = Location;

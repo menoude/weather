@@ -7,14 +7,14 @@ const CustomError = require('./customError.js');
 class Places {
 
     constructor() {
-        this.cities = {
+        this.city = {
             "New York City": {
                 "geonameid": "5128581", 
                 "value": "New York City", 
                 "population": 8175133
             }
         }
-        this.regions = {
+        this.region = {
             "California": {
                 "geonameid": "5332921", 
                 "country": "US", 
@@ -22,7 +22,7 @@ class Places {
                 "population": 37691912
             },
         }
-        this.countries = {
+        this.country = {
             "United States": {
                 "geonameid": "6252001", 
                 "value": "United States", 
@@ -36,11 +36,9 @@ class Places {
 
         path = placesData[locale.language];
         try {
-            this.places = {
-                cities: JSON.parse(readFileSync(`${path}/city.json`)),
-                regions: JSON.parse(readFileSync(`${path}/region.json`)),
-                countries: JSON.parse(readFileSync(`${path}/country.json`))
-            }
+            this.city = JSON.parse(readFileSync(`${path}/city.json`));
+            this.region = JSON.parse(readFileSync(`${path}/region.json`));
+            this.country = JSON.parse(readFileSync(`${path}/country.json`));
         } catch (e) {
             throw new CustomError(e.message, 'places');
         }

@@ -20,6 +20,20 @@ class Message {
         if (this.topic === 'sessionEnded')
             throw new CustomError('', this.data.termination.reason, this.sessionId);
     }
+
+    findPeriod() {
+        return (this.data.slots.find((item) => {
+            return (item.slotname === 'forecast_datetime');
+        }));
+    }
+
+    findLocation() {
+        return (this.data.slots.find((item) => {
+            return (item.slotname === 'city' ||
+                item.slotname === 'region' ||
+                item.slotname === 'country');
+        }));
+    }
 }
 
 module.exports = Message;
