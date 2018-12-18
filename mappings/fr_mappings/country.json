@@ -89,10 +89,10 @@
     "value": "Ouganda", 
     "population": 33398682
   }, 
-  "Trinit\u00e9-et-Tobago": {
+  "Trinité-et-Tobago": {
     "geonameid": "3573591", 
     "country": "TT", 
-    "value": "Trinit\u00e9-et-Tobago", 
+    "value": "Trinité-et-Tobago", 
     "population": 1328019
   }, 
   "Guatemala": {
@@ -101,10 +101,10 @@
     "value": "Guatemala", 
     "population": 13550440
   }, 
-  "Guin\u00e9e \u00e9quatoriale": {
+  "Guinée équatoriale": {
     "geonameid": "2309096", 
     "country": "GQ", 
-    "value": "Guin\u00e9e \u00e9quatoriale", 
+    "value": "Guinée équatoriale", 
     "population": 1014999
   }, 
   "eSwatini": {
@@ -137,10 +137,10 @@
     "value": "Allemagne", 
     "population": 81802257
   }, 
-  "C\u00f4te d\u2019Ivoire": {
+  "Côte d’Ivoire": {
     "geonameid": "2287781", 
     "country": "CI", 
-    "value": "C\u00f4te d\u2019Ivoire", 
+    "value": "Côte d’Ivoire", 
     "population": 21058798
   }, 
   "Tanzanie": {
@@ -173,10 +173,10 @@
     "value": "Tonga", 
     "population": 122580
   }, 
-  "\u00c9quateur": {
+  "Équateur": {
     "geonameid": "3658394", 
     "country": "EC", 
-    "value": "\u00c9quateur", 
+    "value": "Équateur", 
     "population": 14790608
   }, 
   "Pakistan": {
@@ -191,22 +191,22 @@
     "value": "Samoa", 
     "population": 192001
   }, 
-  "Y\u00e9men": {
+  "Yémen": {
     "geonameid": "69543", 
     "country": "YE", 
-    "value": "Y\u00e9men", 
+    "value": "Yémen", 
     "population": 23495361
   }, 
-  "P\u00e9rou": {
+  "Pérou": {
     "geonameid": "3932488", 
     "country": "PE", 
-    "value": "P\u00e9rou", 
+    "value": "Pérou", 
     "population": 29907003
   }, 
-  "G\u00e9orgie": {
+  "Géorgie": {
     "geonameid": "614540", 
     "country": "GE", 
-    "value": "G\u00e9orgie", 
+    "value": "Géorgie", 
     "population": 4630000
   }, 
   "Tadjikistan": {
@@ -251,10 +251,10 @@
     "value": "Afghanistan", 
     "population": 29121286
   }, 
-  "Ha\u00efti": {
+  "Haïti": {
     "geonameid": "3723988", 
     "country": "HT", 
-    "value": "Ha\u00efti", 
+    "value": "Haïti", 
     "population": 9648924
   }, 
   "Bangladesh": {
@@ -263,10 +263,10 @@
     "value": "Bangladesh", 
     "population": 156118464
   }, 
-  "Nouvelle-Z\u00e9lande": {
+  "Nouvelle-Zélande": {
     "geonameid": "2186224", 
     "country": "NZ", 
-    "value": "Nouvelle-Z\u00e9lande", 
+    "value": "Nouvelle-Zélande", 
     "population": 4252277
   }, 
   "Mongolie": {
@@ -275,10 +275,10 @@
     "value": "Mongolie", 
     "population": 3086918
   }, 
-  "\u00c9mirats Arabes Unis": {
+  "Émirats Arabes Unis": {
     "geonameid": "290557", 
     "country": "AE", 
-    "value": "\u00c9mirats Arabes Unis", 
+    "value": "Émirats Arabes Unis", 
     "population": 4975593
   }, 
   "France": {
@@ -311,10 +311,10 @@
     "value": "Laos", 
     "population": 6368162
   }, 
-  "Bosnie-Herz\u00e9govine": {
+  "Bosnie-Herzégovine": {
     "geonameid": "3277605", 
     "country": "BA", 
-    "value": "Bosnie-Herz\u00e9govine", 
+    "value": "Bosnie-Herzégovine", 
     "population": 4590000
   }, 
   "Nauru": {
@@ -329,10 +329,10 @@
     "value": "Tchad", 
     "population": 10543464
   }, 
-  "Ta\u00efwan": {
+  "Taïwan": {
     "geonameid": "1668284", 
     "country": "TW", 
-    "value": "Ta\u00efwan", 
+    "value": "Taïwan", 
     "population": 22894384
   }, 
   "Malawi": {
@@ -341,10 +341,10 @@
     "value": "Malawi", 
     "population": 15447500
   }, 
-  "Arm\u00e9nie": {
+  "Arménie": {
     "geonameid": "174982", 
     "country": "AM", 
-    "value": "Arm\u00e9nie", 
+    "value": "Arménie", 
     "population": 2968000
   }, 
   "Cuba": {
@@ -353,10 +353,10 @@
     "value": "Cuba", 
     "population": 11423000
   }, 
-  "Mac\u00e9doine": {
+  "Macédoine": {
     "geonameid": "718075", 
     "country": "MK", 
-    "value": "Mac\u00e9doine", 
+    "value": "Macédoine", 
     "population": 2062294
   }, 
   "Djibouti": {
@@ -371,34 +371,34 @@
     "value": "Chine", 
     "population": 1330044000
   }, 
-  "Tha\u00eflande": {
+  "Thaïlande": {
     "geonameid": "1605651", 
     "country": "TH", 
-    "value": "Tha\u00eflande", 
+    "value": "Thaïlande", 
     "population": 67089500
   }, 
-  "Ouzb\u00e9kistan": {
+  "Ouzbékistan": {
     "geonameid": "1512440", 
     "country": "UZ", 
-    "value": "Ouzb\u00e9kistan", 
+    "value": "Ouzbékistan", 
     "population": 27865738
   }, 
-  "Guin\u00e9e": {
+  "Guinée": {
     "geonameid": "2420477", 
     "country": "GN", 
-    "value": "Guin\u00e9e", 
+    "value": "Guinée", 
     "population": 10324025
   }, 
-  "S\u00e9n\u00e9gal": {
+  "Sénégal": {
     "geonameid": "2245662", 
     "country": "SN", 
-    "value": "S\u00e9n\u00e9gal", 
+    "value": "Sénégal", 
     "population": 12323252
   }, 
-  "Gr\u00e8ce": {
+  "Grèce": {
     "geonameid": "390903", 
     "country": "GR", 
-    "value": "Gr\u00e8ce", 
+    "value": "Grèce", 
     "population": 11000000
   }, 
   "Cameroun": {
@@ -407,10 +407,10 @@
     "value": "Cameroun", 
     "population": 19294149
   }, 
-  "\u00c9rythr\u00e9e": {
+  "Érythrée": {
     "geonameid": "338010", 
     "country": "ER", 
-    "value": "\u00c9rythr\u00e9e", 
+    "value": "Érythrée", 
     "population": 5792984
   }, 
   "Ukraine": {
@@ -425,10 +425,10 @@
     "value": "Libye", 
     "population": 6461454
   }, 
-  "S\u00e3o Tom\u00e9-et-Principe": {
+  "São Tomé-et-Principe": {
     "geonameid": "2410758", 
     "country": "ST", 
-    "value": "S\u00e3o Tom\u00e9-et-Principe", 
+    "value": "São Tomé-et-Principe", 
     "population": 175808
   }, 
   "Malaisie": {
@@ -449,10 +449,10 @@
     "value": "Centrafrique", 
     "population": 4844927
   }, 
-  "Papouasie-Nouvelle Guin\u00e9e": {
+  "Papouasie-Nouvelle Guinée": {
     "geonameid": "2088628", 
     "country": "PG", 
-    "value": "Papouasie-Nouvelle Guin\u00e9e", 
+    "value": "Papouasie-Nouvelle Guinée", 
     "population": 6064515
   }, 
   "Islande": {
@@ -527,10 +527,10 @@
     "value": "Barbade", 
     "population": 285653
   }, 
-  "Indon\u00e9sie": {
+  "Indonésie": {
     "geonameid": "1643084", 
     "country": "ID", 
-    "value": "Indon\u00e9sie", 
+    "value": "Indonésie", 
     "population": 242968342
   }, 
   "Qatar": {
@@ -539,16 +539,16 @@
     "value": "Qatar", 
     "population": 840926
   }, 
-  "\u00c9gypte": {
+  "Égypte": {
     "geonameid": "357994", 
     "country": "EG", 
-    "value": "\u00c9gypte", 
+    "value": "Égypte", 
     "population": 80471869
   }, 
-  "Slov\u00e9nie": {
+  "Slovénie": {
     "geonameid": "3190538", 
     "country": "SI", 
-    "value": "Slov\u00e9nie", 
+    "value": "Slovénie", 
     "population": 2007000
   }, 
   "Mozambique": {
@@ -557,10 +557,10 @@
     "value": "Mozambique", 
     "population": 22061451
   }, 
-  "Cor\u00e9e du Nord": {
+  "Corée du Nord": {
     "geonameid": "1873107", 
     "country": "KP", 
-    "value": "Cor\u00e9e du Nord", 
+    "value": "Corée du Nord", 
     "population": 22912177
   }, 
   "Hongrie": {
@@ -593,10 +593,10 @@
     "value": "Slovaquie", 
     "population": 5455000
   }, 
-  "Cor\u00e9e du Sud": {
+  "Corée du Sud": {
     "geonameid": "1835841", 
     "country": "KR", 
-    "value": "Cor\u00e9e du Sud", 
+    "value": "Corée du Sud", 
     "population": 48422644
   }, 
   "Finlande": {
@@ -641,10 +641,10 @@
     "value": "Andorre", 
     "population": 84000
   }, 
-  "Kowe\u00eft": {
+  "Koweït": {
     "geonameid": "285570", 
     "country": "KW", 
-    "value": "Kowe\u00eft", 
+    "value": "Koweït", 
     "population": 2789132
   }, 
   "Nigeria": {
@@ -671,10 +671,10 @@
     "value": "Irak", 
     "population": 29671605
   }, 
-  "Jama\u00efque": {
+  "Jamaïque": {
     "geonameid": "3489940", 
     "country": "JM", 
-    "value": "Jama\u00efque", 
+    "value": "Jamaïque", 
     "population": 2847232
   }, 
   "Iran": {
@@ -695,22 +695,22 @@
     "value": "Australie", 
     "population": 21515754
   }, 
-  "Mont\u00e9n\u00e9gro": {
+  "Monténégro": {
     "geonameid": "3194884", 
     "country": "ME", 
-    "value": "Mont\u00e9n\u00e9gro", 
+    "value": "Monténégro", 
     "population": 666730
   }, 
-  "B\u00e9nin": {
+  "Bénin": {
     "geonameid": "2395170", 
     "country": "BJ", 
-    "value": "B\u00e9nin", 
+    "value": "Bénin", 
     "population": 9056010
   }, 
-  "Br\u00e9sil": {
+  "Brésil": {
     "geonameid": "3469034", 
     "country": "BR", 
-    "value": "Br\u00e9sil", 
+    "value": "Brésil", 
     "population": 201103330
   }, 
   "Belgique": {
@@ -749,10 +749,10 @@
     "value": "Sierra Leone", 
     "population": 5245695
   }, 
-  "Alg\u00e9rie": {
+  "Algérie": {
     "geonameid": "2589581", 
     "country": "DZ", 
-    "value": "Alg\u00e9rie", 
+    "value": "Algérie", 
     "population": 34586184
   }, 
   "Philippines": {
@@ -809,10 +809,10 @@
     "value": "Salomon", 
     "population": 559198
   }, 
-  "Norv\u00e8ge": {
+  "Norvège": {
     "geonameid": "3144096", 
     "country": "NO", 
-    "value": "Norv\u00e8ge", 
+    "value": "Norvège", 
     "population": 5009150
   }, 
   "Estonie": {
@@ -839,10 +839,10 @@
     "value": "Sainte-Lucie", 
     "population": 160922
   }, 
-  "R\u00e9publique Dominicaine": {
+  "République Dominicaine": {
     "geonameid": "3508796", 
     "country": "DO", 
-    "value": "R\u00e9publique Dominicaine", 
+    "value": "République Dominicaine", 
     "population": 9823821
   }, 
   "Comores": {
@@ -851,10 +851,10 @@
     "value": "Comores", 
     "population": 773407
   }, 
-  "V\u00e9n\u00e9zu\u00e9la": {
+  "Vénézuéla": {
     "geonameid": "3625428", 
     "country": "VE", 
-    "value": "V\u00e9n\u00e9zu\u00e9la", 
+    "value": "Vénézuéla", 
     "population": 27223228
   }, 
   "Colombie": {
@@ -875,10 +875,10 @@
     "value": "Timor-Leste", 
     "population": 1154625
   }, 
-  "N\u00e9pal": {
+  "Népal": {
     "geonameid": "1282988", 
     "country": "NP", 
-    "value": "N\u00e9pal", 
+    "value": "Népal", 
     "population": 28951852
   }, 
   "Burundi": {
@@ -929,28 +929,28 @@
     "value": "Maurice", 
     "population": 1294104
   }, 
-  "B\u00e9larus": {
+  "Bélarus": {
     "geonameid": "630336", 
     "country": "BY", 
-    "value": "B\u00e9larus", 
+    "value": "Bélarus", 
     "population": 9685000
   }, 
-  "\u00c9thiopie": {
+  "Éthiopie": {
     "geonameid": "337996", 
     "country": "ET", 
-    "value": "\u00c9thiopie", 
+    "value": "Éthiopie", 
     "population": 88013491
   }, 
-  "Azerba\u00efdjan": {
+  "Azerbaïdjan": {
     "geonameid": "587116", 
     "country": "AZ", 
-    "value": "Azerba\u00efdjan", 
+    "value": "Azerbaïdjan", 
     "population": 8303512
   }, 
-  "Su\u00e8de": {
+  "Suède": {
     "geonameid": "2661886", 
     "country": "SE", 
-    "value": "Su\u00e8de", 
+    "value": "Suède", 
     "population": 9828655
   }, 
   "Cambodge": {
@@ -959,10 +959,10 @@
     "value": "Cambodge", 
     "population": 14453680
   }, 
-  "Isra\u00ebl": {
+  "Israël": {
     "geonameid": "294640", 
     "country": "IL", 
-    "value": "Isra\u00ebl", 
+    "value": "Israël", 
     "population": 7353985
   }, 
   "Saint-Vincent-et-les-Grenadines": {
@@ -995,10 +995,10 @@
     "value": "Oman", 
     "population": 2967717
   }, 
-  "Bahre\u00efn": {
+  "Bahreïn": {
     "geonameid": "290291", 
     "country": "BH", 
-    "value": "Bahre\u00efn", 
+    "value": "Bahreïn", 
     "population": 738004
   }, 
   "Kazakhstan": {
@@ -1031,10 +1031,10 @@
     "value": "Salvador", 
     "population": 6052064
   }, 
-  "Tch\u00e9quie": {
+  "Tchéquie": {
     "geonameid": "3077311", 
     "country": "CZ", 
-    "value": "Tch\u00e9quie", 
+    "value": "Tchéquie", 
     "population": 10476000
   }, 
   "Albanie": {
@@ -1043,10 +1043,10 @@
     "value": "Albanie", 
     "population": 2986952
   }, 
-  "Guin\u00e9e-Bissau": {
+  "Guinée-Bissau": {
     "geonameid": "2372248", 
     "country": "GW", 
-    "value": "Guin\u00e9e-Bissau", 
+    "value": "Guinée-Bissau", 
     "population": 1565126
   }, 
   "Jordanie": {

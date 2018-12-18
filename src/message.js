@@ -24,13 +24,13 @@ class Message {
             throw new CustomError('', this.data.termination.reason, this.sessionId);
     }
 
-    findPeriod() {
+    filterPeriod() {
         return (this.data.slots.find((item) => {
             return (item.slotname === 'forecast_datetime');
         }));
     }
 
-    findLocation() {
+    filterLocation() {
         return (this.data.slots.find((item) => {
             return (item.slotName === 'city' ||
                 item.slotName === 'region' ||

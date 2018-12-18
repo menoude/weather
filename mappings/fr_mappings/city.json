@@ -17,10 +17,10 @@
     "value": "Dreux", 
     "population": 31058
   }, 
-  "\u00c9pernay": {
+  "Épernay": {
     "geonameid": "3020062", 
     "country": "FR", 
-    "value": "\u00c9pernay", 
+    "value": "Épernay", 
     "population": 27082
   }, 
   "Kerns": {
@@ -77,10 +77,10 @@
     "value": "Thuir", 
     "population": 7933
   }, 
-  "Ingr\u00e9": {
+  "Ingré": {
     "geonameid": "3012780", 
     "country": "FR", 
-    "value": "Ingr\u00e9", 
+    "value": "Ingré", 
     "population": 8001
   }, 
   "Dammam": {
@@ -95,10 +95,10 @@
     "value": "Marck", 
     "population": 9158
   }, 
-  "Ch\u00e2teauroux": {
+  "Châteauroux": {
     "geonameid": "3026204", 
     "country": "FR", 
-    "value": "Ch\u00e2teauroux", 
+    "value": "Châteauroux", 
     "population": 53301
   }, 
   "Barberaz": {
@@ -143,16 +143,24 @@
     "value": "Tournai", 
     "population": 67721
   }, 
-  "Neufch\u00e2teau": {
-    "geonameid": "2790286", 
-    "country": "BE", 
-    "value": "Neufch\u00e2teau", 
-    "population": 6416
-  }, 
-  "Saint-Christol-l\u00e8s-Al\u00e8s": {
+  "Neufchâteau": [
+    {
+      "geonameid": "2990682", 
+      "country": "FR", 
+      "value": "Neufchâteau", 
+      "population": 8047
+    }, 
+    {
+      "geonameid": "2790286", 
+      "country": "BE", 
+      "value": "Neufchâteau", 
+      "population": 6416
+    }
+  ], 
+  "Saint-Christol-lès-Alès": {
     "geonameid": "2981173", 
     "country": "FR", 
-    "value": "Saint-Christol-l\u00e8s-Al\u00e8s", 
+    "value": "Saint-Christol-lès-Alès", 
     "population": 6113
   }, 
   "Waterloo": {
@@ -173,10 +181,10 @@
     "value": "Allschwil", 
     "population": 18189
   }, 
-  "Surg\u00e8res": {
+  "Surgères": {
     "geonameid": "2973672", 
     "country": "FR", 
-    "value": "Surg\u00e8res", 
+    "value": "Surgères", 
     "population": 5888
   }, 
   "Ruswil": {
@@ -197,10 +205,10 @@
     "value": "Meerhout", 
     "population": 9346
   }, 
-  "Sainte-Sigol\u00e8ne": {
+  "Sainte-Sigolène": {
     "geonameid": "2980328", 
     "country": "FR", 
-    "value": "Sainte-Sigol\u00e8ne", 
+    "value": "Sainte-Sigolène", 
     "population": 5734
   }, 
   "Meylan": {
@@ -227,10 +235,10 @@
     "value": "Wuustwezel", 
     "population": 18117
   }, 
-  "K\u00fcssnacht am Rigi": {
+  "Küssnacht am Rigi": {
     "geonameid": "2660088", 
     "country": "CH", 
-    "value": "K\u00fcssnacht am Rigi", 
+    "value": "Küssnacht am Rigi", 
     "population": 11777
   }, 
   "La Ricamarie": {
@@ -239,10 +247,10 @@
     "value": "La Ricamarie", 
     "population": 7997
   }, 
-  "Saint-Aubin-l\u00e8s-Elbeuf": {
+  "Saint-Aubin-lès-Elbeuf": {
     "geonameid": "2981547", 
     "country": "FR", 
-    "value": "Saint-Aubin-l\u00e8s-Elbeuf", 
+    "value": "Saint-Aubin-lès-Elbeuf", 
     "population": 8486
   }, 
   "Saint-Gall": {
@@ -257,16 +265,16 @@
     "value": "Neuilly-Plaisance", 
     "population": 18725
   }, 
-  "Darn\u00e9tal": {
+  "Darnétal": {
     "geonameid": "3021717", 
     "country": "FR", 
-    "value": "Darn\u00e9tal", 
+    "value": "Darnétal", 
     "population": 9064
   }, 
-  "Qu\u00e9ven": {
+  "Quéven": {
     "geonameid": "2984760", 
     "country": "FR", 
-    "value": "Qu\u00e9ven", 
+    "value": "Quéven", 
     "population": 9316
   }, 
   "Annonay": {
@@ -317,10 +325,10 @@
     "value": "Seysses", 
     "population": 6466
   }, 
-  "Montb\u00e9liard": {
+  "Montbéliard": {
     "geonameid": "2992938", 
     "country": "FR", 
-    "value": "Montb\u00e9liard", 
+    "value": "Montbéliard", 
     "population": 28865
   }, 
   "Amplepuis": {
@@ -341,16 +349,16 @@
     "value": "Buchrain", 
     "population": 5341
   }, 
-  "M\u00e4nnedorf": {
+  "Männedorf": {
     "geonameid": "2659772", 
     "country": "CH", 
-    "value": "M\u00e4nnedorf", 
+    "value": "Männedorf", 
     "population": 7951
   }, 
-  "Villers-l\u00e8s-Nancy": {
+  "Villers-lès-Nancy": {
     "geonameid": "2968368", 
     "country": "FR", 
-    "value": "Villers-l\u00e8s-Nancy", 
+    "value": "Villers-lès-Nancy", 
     "population": 15899
   }, 
   "Villebon-sur-Yvette": {
@@ -371,16 +379,16 @@
     "value": "Nogent-sur-Oise", 
     "population": 19690
   }, 
-  "Rez\u00e9": {
+  "Rezé": {
     "geonameid": "2983770", 
     "country": "FR", 
-    "value": "Rez\u00e9", 
+    "value": "Rezé", 
     "population": 39248
   }, 
-  "Janz\u00e9": {
+  "Janzé": {
     "geonameid": "3012495", 
     "country": "FR", 
-    "value": "Janz\u00e9", 
+    "value": "Janzé", 
     "population": 5927
   }, 
   "Seloncourt": {
@@ -407,10 +415,10 @@
     "value": "Diest", 
     "population": 22516
   }, 
-  "Le V\u00e9sinet": {
+  "Le Vésinet": {
     "geonameid": "2998854", 
     "country": "FR", 
-    "value": "Le V\u00e9sinet", 
+    "value": "Le Vésinet", 
     "population": 16740
   }, 
   "Sedan": {
@@ -437,10 +445,10 @@
     "value": "Calonne-Ricouart", 
     "population": 6099
   }, 
-  "M\u00e1laga": {
+  "Málaga": {
     "geonameid": "2514256", 
     "country": "ES", 
-    "value": "M\u00e1laga", 
+    "value": "Málaga", 
     "population": 568305
   }, 
   "Parmain": {
@@ -455,10 +463,10 @@
     "value": "Suresnes", 
     "population": 44697
   }, 
-  "L\u00e9signy": {
+  "Lésigny": {
     "geonameid": "3000602", 
     "country": "FR", 
-    "value": "L\u00e9signy", 
+    "value": "Lésigny", 
     "population": 8421
   }, 
   "Saint-Mandrier-sur-Mer": {
@@ -467,10 +475,10 @@
     "value": "Saint-Mandrier-sur-Mer", 
     "population": 6987
   }, 
-  "W\u00fclflingen (Kreis 6)": {
+  "Wülflingen (Kreis 6)": {
     "geonameid": "6295524", 
     "country": "CH", 
-    "value": "W\u00fclflingen (Kreis 6)", 
+    "value": "Wülflingen (Kreis 6)", 
     "population": 12598
   }, 
   "Stuttgart": {
@@ -563,10 +571,10 @@
     "value": "Homs", 
     "population": 775404
   }, 
-  "P\u00e9kin": {
+  "Pékin": {
     "geonameid": "1816670", 
     "country": "CN", 
-    "value": "P\u00e9kin", 
+    "value": "Pékin", 
     "population": 11716620
   }, 
   "Las Vegas": {
@@ -575,10 +583,10 @@
     "value": "Las Vegas", 
     "population": 623747
   }, 
-  "Gar\u00e9oult": {
+  "Garéoult": {
     "geonameid": "3016635", 
     "country": "FR", 
-    "value": "Gar\u00e9oult", 
+    "value": "Garéoult", 
     "population": 5268
   }, 
   "Saint-Girons": {
@@ -593,10 +601,10 @@
     "value": "Montoir-de-Bretagne", 
     "population": 6762
   }, 
-  "Le Poin\u00e7onnet": {
+  "Le Poinçonnet": {
     "geonameid": "3002626", 
     "country": "FR", 
-    "value": "Le Poin\u00e7onnet", 
+    "value": "Le Poinçonnet", 
     "population": 5120
   }, 
   "Saint-Renan": {
@@ -671,10 +679,10 @@
     "value": "Chassieu", 
     "population": 9412
   }, 
-  "Cesson-S\u00e9vign\u00e9": {
+  "Cesson-Sévigné": {
     "geonameid": "3027767", 
     "country": "FR", 
-    "value": "Cesson-S\u00e9vign\u00e9", 
+    "value": "Cesson-Sévigné", 
     "population": 16222
   }, 
   "La Mure": {
@@ -689,10 +697,10 @@
     "value": "Foix", 
     "population": 9860
   }, 
-  "Ch\u00e2teaudun": {
+  "Châteaudun": {
     "geonameid": "3026285", 
     "country": "FR", 
-    "value": "Ch\u00e2teaudun", 
+    "value": "Châteaudun", 
     "population": 16006
   }, 
   "Oostkamp": {
@@ -701,10 +709,10 @@
     "value": "Oostkamp", 
     "population": 21489
   }, 
-  "P\u00e9renchies": {
+  "Pérenchies": {
     "geonameid": "2988003", 
     "country": "FR", 
-    "value": "P\u00e9renchies", 
+    "value": "Pérenchies", 
     "population": 7761
   }, 
   "Cagnes-sur-Mer": {
@@ -743,10 +751,10 @@
     "value": "Niigata", 
     "population": 505272
   }, 
-  "Dou\u00e9-la-Fontaine": {
+  "Doué-la-Fontaine": {
     "geonameid": "3020964", 
     "country": "FR", 
-    "value": "Dou\u00e9-la-Fontaine", 
+    "value": "Doué-la-Fontaine", 
     "population": 8089
   }, 
   "Saint-Gaudens": {
@@ -773,10 +781,10 @@
     "value": "Aarschot", 
     "population": 27656
   }, 
-  "Can\u00e9jan": {
+  "Canéjan": {
     "geonameid": "3028838", 
     "country": "FR", 
-    "value": "Can\u00e9jan", 
+    "value": "Canéjan", 
     "population": 5513
   }, 
   "Saint-Alban": {
@@ -797,10 +805,10 @@
     "value": "Mions", 
     "population": 11424
   }, 
-  "B\u00e8gles": {
+  "Bègles": {
     "geonameid": "3033881", 
     "country": "FR", 
-    "value": "B\u00e8gles", 
+    "value": "Bègles", 
     "population": 23504
   }, 
   "Carqueiranne": {
@@ -821,10 +829,10 @@
     "value": "Betton", 
     "population": 9343
   }, 
-  "Li\u00e9vin": {
+  "Liévin": {
     "geonameid": "2998431", 
     "country": "FR", 
-    "value": "Li\u00e9vin", 
+    "value": "Liévin", 
     "population": 34370
   }, 
   "Jouars-Pontchartrain": {
@@ -893,10 +901,10 @@
     "value": "Saint-Fargeau-Ponthierry", 
     "population": 12097
   }, 
-  "Le P\u00e9age-de-Roussillon": {
+  "Le Péage-de-Roussillon": {
     "geonameid": "3002988", 
     "country": "FR", 
-    "value": "Le P\u00e9age-de-Roussillon", 
+    "value": "Le Péage-de-Roussillon", 
     "population": 6869
   }, 
   "Saint-Marcel": {
@@ -971,10 +979,10 @@
     "value": "Saint-Jean-de-Braye", 
     "population": 19874
   }, 
-  "Petite-For\u00eat": {
+  "Petite-Forêt": {
     "geonameid": "2987722", 
     "country": "FR", 
-    "value": "Petite-For\u00eat", 
+    "value": "Petite-Forêt", 
     "population": 5017
   }, 
   "Lure": {
@@ -1013,16 +1021,16 @@
     "value": "Omdourman", 
     "population": 1200000
   }, 
-  "Villers-Cotter\u00eats": {
+  "Villers-Cotterêts": {
     "geonameid": "2968405", 
     "country": "FR", 
-    "value": "Villers-Cotter\u00eats", 
+    "value": "Villers-Cotterêts", 
     "population": 10068
   }, 
-  "\u00c9tampes": {
+  "Étampes": {
     "geonameid": "3019459", 
     "country": "FR", 
-    "value": "\u00c9tampes", 
+    "value": "Étampes", 
     "population": 23012
   }, 
   "Saint-Avertin": {
@@ -1037,10 +1045,10 @@
     "value": "Bree", 
     "population": 14363
   }, 
-  "L\u00e9guevin": {
+  "Léguevin": {
     "geonameid": "3003874", 
     "country": "FR", 
-    "value": "L\u00e9guevin", 
+    "value": "Léguevin", 
     "population": 6976
   }, 
   "Steffisburg": {
@@ -1067,10 +1075,10 @@
     "value": "Ars-sur-Moselle", 
     "population": 5116
   }, 
-  "Aytr\u00e9": {
+  "Aytré": {
     "geonameid": "3035560", 
     "country": "FR", 
-    "value": "Aytr\u00e9", 
+    "value": "Aytré", 
     "population": 8335
   }, 
   "La Garenne-Colombes": {
@@ -1091,10 +1099,10 @@
     "value": "Nieul-sur-Mer", 
     "population": 6058
   }, 
-  "\u0141\u00f3d\u017a": {
+  "Łódź": {
     "geonameid": "3093133", 
     "country": "PL", 
-    "value": "\u0141\u00f3d\u017a", 
+    "value": "Łódź", 
     "population": 768755
   }, 
   "Tarascon": {
@@ -1103,10 +1111,10 @@
     "value": "Tarascon", 
     "population": 14735
   }, 
-  "La Verri\u00e8re": {
+  "La Verrière": {
     "geonameid": "3005639", 
     "country": "FR", 
-    "value": "La Verri\u00e8re", 
+    "value": "La Verrière", 
     "population": 6427
   }, 
   "Valbonne": {
@@ -1181,10 +1189,10 @@
     "value": "Jurbise", 
     "population": 9483
   }, 
-  "Amb\u00e9rieu-en-Bugey": {
+  "Ambérieu-en-Bugey": {
     "geonameid": "3037943", 
     "country": "FR", 
-    "value": "Amb\u00e9rieu-en-Bugey", 
+    "value": "Ambérieu-en-Bugey", 
     "population": 13260
   }, 
   "Nazareth": {
@@ -1277,10 +1285,10 @@
     "value": "Binche", 
     "population": 32030
   }, 
-  "Rd pt des Chataigniers, Rte de Milizac, Guilers, Finist\u00e8re, France": {
+  "Rd pt des Chataigniers, Rte de Milizac, Guilers, Finistère, France": {
     "geonameid": "11238455", 
     "country": "FR", 
-    "value": "Rd pt des Chataigniers, Rte de Milizac, Guilers, Finist\u00e8re, France", 
+    "value": "Rd pt des Chataigniers, Rte de Milizac, Guilers, Finistère, France", 
     "population": 8000
   }, 
   "Soultz-Haut-Rhin": {
@@ -1301,10 +1309,10 @@
     "value": "Lilongwe", 
     "population": 646750
   }, 
-  "Treilli\u00e8res": {
+  "Treillières": {
     "geonameid": "2971908", 
     "country": "FR", 
-    "value": "Treilli\u00e8res", 
+    "value": "Treillières", 
     "population": 6572
   }, 
   "Strassen": {
@@ -1313,10 +1321,10 @@
     "value": "Strassen", 
     "population": 6006
   }, 
-  "Saint-Pierre-l\u00e8s-Elbeuf": {
+  "Saint-Pierre-lès-Elbeuf": {
     "geonameid": "2977428", 
     "country": "FR", 
-    "value": "Saint-Pierre-l\u00e8s-Elbeuf", 
+    "value": "Saint-Pierre-lès-Elbeuf", 
     "population": 8602
   }, 
   "Louvain": {
@@ -1343,10 +1351,10 @@
     "value": "Marseille", 
     "population": 794811
   }, 
-  "Yaound\u00e9": {
+  "Yaoundé": {
     "geonameid": "2220957", 
     "country": "CM", 
-    "value": "Yaound\u00e9", 
+    "value": "Yaoundé", 
     "population": 1299369
   }, 
   "Boulogne-Billancourt": {
@@ -1379,10 +1387,10 @@
     "value": "Geraardsbergen", 
     "population": 30807
   }, 
-  "Besan\u00e7on": {
+  "Besançon": {
     "geonameid": "3033123", 
     "country": "FR", 
-    "value": "Besan\u00e7on", 
+    "value": "Besançon", 
     "population": 128426
   }, 
   "Fort Worth": {
@@ -1409,10 +1417,10 @@
     "value": "Gelterkinden", 
     "population": 5709
   }, 
-  "Saint-P\u00e9tersbourg": {
+  "Saint-Pétersbourg": {
     "geonameid": "498817", 
     "country": "RU", 
-    "value": "Saint-P\u00e9tersbourg", 
+    "value": "Saint-Pétersbourg", 
     "population": 5028000
   }, 
   "Saint-Ghislain": {
@@ -1427,10 +1435,10 @@
     "value": "Dortmund", 
     "population": 588462
   }, 
-  "Ville-d\u2019Avray": {
+  "Ville-d’Avray": {
     "geonameid": "2968819", 
     "country": "FR", 
-    "value": "Ville-d\u2019Avray", 
+    "value": "Ville-d’Avray", 
     "population": 11431
   }, 
   "Soignies": {
@@ -1439,10 +1447,10 @@
     "value": "Soignies", 
     "population": 24869
   }, 
-  "Belleville-sur-Sa\u00f4ne": {
+  "Belleville-sur-Saône": {
     "geonameid": "3033636", 
     "country": "FR", 
-    "value": "Belleville-sur-Sa\u00f4ne", 
+    "value": "Belleville-sur-Saône", 
     "population": 6299
   }, 
   "Choisy-le-Roi": {
@@ -1457,16 +1465,16 @@
     "value": "Wanze", 
     "population": 12918
   }, 
-  "Cond\u00e9-sur-l\u2019Escaut": {
+  "Condé-sur-l’Escaut": {
     "geonameid": "3023955", 
     "country": "FR", 
-    "value": "Cond\u00e9-sur-l\u2019Escaut", 
+    "value": "Condé-sur-l’Escaut", 
     "population": 10215
   }, 
-  "M\u00e9dine": {
+  "Médine": {
     "geonameid": "109223", 
     "country": "SA", 
-    "value": "M\u00e9dine", 
+    "value": "Médine", 
     "population": 1300000
   }, 
   "Zomergem": {
@@ -1481,10 +1489,10 @@
     "value": "Saint-Yrieix-la-Perche", 
     "population": 7895
   }, 
-  "Acign\u00e9": {
+  "Acigné": {
     "geonameid": "3038698", 
     "country": "FR", 
-    "value": "Acign\u00e9", 
+    "value": "Acigné", 
     "population": 5746
   }, 
   "Vigneux-sur-Seine": {
@@ -1499,10 +1507,10 @@
     "value": "Niort", 
     "population": 54660
   }, 
-  "\u00c9cully": {
+  "Écully": {
     "geonameid": "3020392", 
     "country": "FR", 
-    "value": "\u00c9cully", 
+    "value": "Écully", 
     "population": 19437
   }, 
   "Uzwil": {
@@ -1511,10 +1519,10 @@
     "value": "Uzwil", 
     "population": 12111
   }, 
-  "S\u00e9lestat": {
+  "Sélestat": {
     "geonameid": "2975233", 
     "country": "FR", 
-    "value": "S\u00e9lestat", 
+    "value": "Sélestat", 
     "population": 18941
   }, 
   "Paray-Vieille-Poste": {
@@ -1523,10 +1531,10 @@
     "value": "Paray-Vieille-Poste", 
     "population": 7559
   }, 
-  "Port-Saint-Louis-du-Rh\u00f4ne": {
+  "Port-Saint-Louis-du-Rhône": {
     "geonameid": "2985934", 
     "country": "FR", 
-    "value": "Port-Saint-Louis-du-Rh\u00f4ne", 
+    "value": "Port-Saint-Louis-du-Rhône", 
     "population": 8503
   }, 
   "Herstal": {
@@ -1565,10 +1573,10 @@
     "value": "Tbilissi", 
     "population": 1049498
   }, 
-  "S\u00e9zanne": {
+  "Sézanne": {
     "geonameid": "2974640", 
     "country": "FR", 
-    "value": "S\u00e9zanne", 
+    "value": "Sézanne", 
     "population": 5748
   }, 
   "Coxyde": {
@@ -1613,10 +1621,10 @@
     "value": "Cham", 
     "population": 13495
   }, 
-  "Ch\u00e2teau-du-Loir": {
+  "Château-du-Loir": {
     "geonameid": "3026286", 
     "country": "FR", 
-    "value": "Ch\u00e2teau-du-Loir", 
+    "value": "Château-du-Loir", 
     "population": 5567
   }, 
   "Horw": {
@@ -1697,10 +1705,10 @@
     "value": "Bengaluru", 
     "population": 5104047
   }, 
-  "\u00c9gletons": {
+  "Égletons": {
     "geonameid": "3020358", 
     "country": "FR", 
-    "value": "\u00c9gletons", 
+    "value": "Égletons", 
     "population": 5316
   }, 
   "Boucau": {
@@ -1709,22 +1717,30 @@
     "value": "Boucau", 
     "population": 7532
   }, 
-  "Bruges": {
-    "geonameid": "3029799", 
-    "country": "FR", 
-    "value": "Bruges", 
-    "population": 12650
-  }, 
+  "Bruges": [
+    {
+      "geonameid": "2800931", 
+      "country": "BE", 
+      "value": "Bruges", 
+      "population": 116709
+    }, 
+    {
+      "geonameid": "3029799", 
+      "country": "FR", 
+      "value": "Bruges", 
+      "population": 12650
+    }
+  ], 
   "Langres": {
     "geonameid": "3007680", 
     "country": "FR", 
     "value": "Langres", 
     "population": 8638
   }, 
-  "S\u00e9nas": {
+  "Sénas": {
     "geonameid": "2975120", 
     "country": "FR", 
-    "value": "S\u00e9nas", 
+    "value": "Sénas", 
     "population": 6062
   }, 
   "Faisalabad": {
@@ -1823,10 +1839,10 @@
     "value": "Enghien", 
     "population": 11367
   }, 
-  "Luc\u00e9": {
+  "Lucé": {
     "geonameid": "2997246", 
     "country": "FR", 
-    "value": "Luc\u00e9", 
+    "value": "Lucé", 
     "population": 17780
   }, 
   "Trooz": {
@@ -1841,10 +1857,10 @@
     "value": "Ivry-sur-Seine", 
     "population": 57897
   }, 
-  "Douchanb\u00e9": {
+  "Douchanbé": {
     "geonameid": "1221874", 
     "country": "TJ", 
-    "value": "Douchanb\u00e9", 
+    "value": "Douchanbé", 
     "population": 679400
   }, 
   "Bressuire": {
@@ -1853,10 +1869,10 @@
     "value": "Bressuire", 
     "population": 20743
   }, 
-  "Ch\u00e2tillon-sur-Seiche": {
+  "Châtillon-sur-Seiche": {
     "geonameid": "3026047", 
     "country": "FR", 
-    "value": "Ch\u00e2tillon-sur-Seiche", 
+    "value": "Châtillon-sur-Seiche", 
     "population": 6152
   }, 
   "Massagno": {
@@ -1877,10 +1893,10 @@
     "value": "Aulnoye-Aymeries", 
     "population": 9242
   }, 
-  "S\u00e8te": {
+  "Sète": {
     "geonameid": "2974733", 
     "country": "FR", 
-    "value": "S\u00e8te", 
+    "value": "Sète", 
     "population": 40736
   }, 
   "Gand": {
@@ -1913,16 +1929,16 @@
     "value": "Le Pontet", 
     "population": 16182
   }, 
-  "Fr\u00e9jus": {
+  "Fréjus": {
     "geonameid": "3017253", 
     "country": "FR", 
-    "value": "Fr\u00e9jus", 
+    "value": "Fréjus", 
     "population": 53098
   }, 
-  "Sainte-Foy-l\u00e8s-Lyon": {
+  "Sainte-Foy-lès-Lyon": {
     "geonameid": "2980586", 
     "country": "FR", 
-    "value": "Sainte-Foy-l\u00e8s-Lyon", 
+    "value": "Sainte-Foy-lès-Lyon", 
     "population": 21893
   }, 
   "San Salvador": {
@@ -1949,10 +1965,10 @@
     "value": "Prilly", 
     "population": 10524
   }, 
-  "P\u00e9rols": {
+  "Pérols": {
     "geonameid": "2987936", 
     "country": "FR", 
-    "value": "P\u00e9rols", 
+    "value": "Pérols", 
     "population": 8753
   }, 
   "Bulawayo": {
@@ -1991,16 +2007,16 @@
     "value": "Gauchy", 
     "population": 5676
   }, 
-  "Foug\u00e8res": {
+  "Fougères": {
     "geonameid": "3017609", 
     "country": "FR", 
-    "value": "Foug\u00e8res", 
+    "value": "Fougères", 
     "population": 23719
   }, 
-  "Qu\u00e9bec": {
+  "Québec": {
     "geonameid": "6325494", 
     "country": "CA", 
-    "value": "Qu\u00e9bec", 
+    "value": "Québec", 
     "population": 528595
   }, 
   "Bitche": {
@@ -2009,10 +2025,10 @@
     "value": "Bitche", 
     "population": 5668
   }, 
-  "Tr\u00e9laz\u00e9": {
+  "Trélazé": {
     "geonameid": "2971896", 
     "country": "FR", 
-    "value": "Tr\u00e9laz\u00e9", 
+    "value": "Trélazé", 
     "population": 11740
   }, 
   "Haubourdin": {
@@ -2069,10 +2085,10 @@
     "value": "Lint", 
     "population": 7982
   }, 
-  "B\u00e9darieux": {
+  "Bédarieux": {
     "geonameid": "3033913", 
     "country": "FR", 
-    "value": "B\u00e9darieux", 
+    "value": "Bédarieux", 
     "population": 6907
   }, 
   "Liedekerke": {
@@ -2129,22 +2145,22 @@
     "value": "Rumilly", 
     "population": 13077
   }, 
-  "\u00c9pinay-sur-Orge": {
+  "Épinay-sur-Orge": {
     "geonameid": "3020021", 
     "country": "FR", 
-    "value": "\u00c9pinay-sur-Orge", 
+    "value": "Épinay-sur-Orge", 
     "population": 9507
   }, 
-  "\u00c9p\u00f4ne": {
+  "Épône": {
     "geonameid": "3019985", 
     "country": "FR", 
-    "value": "\u00c9p\u00f4ne", 
+    "value": "Épône", 
     "population": 6770
   }, 
-  "La Trinit\u00e9": {
+  "La Trinité": {
     "geonameid": "3006152", 
     "country": "FR", 
-    "value": "La Trinit\u00e9", 
+    "value": "La Trinité", 
     "population": 10128
   }, 
   "Laval": {
@@ -2159,10 +2175,10 @@
     "value": "Cahors", 
     "population": 23331
   }, 
-  "M\u00fcnchenbuchsee": {
+  "Münchenbuchsee": {
     "geonameid": "2659552", 
     "country": "CH", 
-    "value": "M\u00fcnchenbuchsee", 
+    "value": "Münchenbuchsee", 
     "population": 9801
   }, 
   "Aadorf": {
@@ -2171,10 +2187,10 @@
     "value": "Aadorf", 
     "population": 7620
   }, 
-  "Naintr\u00e9": {
+  "Naintré": {
     "geonameid": "2991036", 
     "country": "FR", 
-    "value": "Naintr\u00e9", 
+    "value": "Naintré", 
     "population": 5644
   }, 
   "Thouars": {
@@ -2207,16 +2223,16 @@
     "value": "Bouillargues", 
     "population": 5714
   }, 
-  "Ille-sur-T\u00eat": {
+  "Ille-sur-Têt": {
     "geonameid": "3012848", 
     "country": "FR", 
-    "value": "Ille-sur-T\u00eat", 
+    "value": "Ille-sur-Têt", 
     "population": 5470
   }, 
-  "Les Ponts-de-C\u00e9": {
+  "Les Ponts-de-Cé": {
     "geonameid": "2999908", 
     "country": "FR", 
-    "value": "Les Ponts-de-C\u00e9", 
+    "value": "Les Ponts-de-Cé", 
     "population": 12915
   }, 
   "Montargis": {
@@ -2249,10 +2265,10 @@
     "value": "Cosne-Cours-sur-Loire", 
     "population": 11613
   }, 
-  "M\u00e8ze": {
+  "Mèze": {
     "geonameid": "2994043", 
     "country": "FR", 
-    "value": "M\u00e8ze", 
+    "value": "Mèze", 
     "population": 8557
   }, 
   "Wezembeek-Oppem": {
@@ -2291,10 +2307,10 @@
     "value": "Eybens", 
     "population": 10195
   }, 
-  "Gu\u00e9nange": {
+  "Guénange": {
     "geonameid": "3014407", 
     "country": "FR", 
-    "value": "Gu\u00e9nange", 
+    "value": "Guénange", 
     "population": 7409
   }, 
   "Manosque": {
@@ -2303,10 +2319,10 @@
     "value": "Manosque", 
     "population": 21351
   }, 
-  "M\u00e9rignac": {
+  "Mérignac": {
     "geonameid": "2994393", 
     "country": "FR", 
-    "value": "M\u00e9rignac", 
+    "value": "Mérignac", 
     "population": 69791
   }, 
   "Nantes": {
@@ -2333,16 +2349,16 @@
     "value": "Neuves-Maisons", 
     "population": 6971
   }, 
-  "Kitaky\u016bsh\u016b": {
+  "Kitakyūshū": {
     "geonameid": "1859307", 
     "country": "JP", 
-    "value": "Kitaky\u016bsh\u016b", 
+    "value": "Kitakyūshū", 
     "population": 997536
   }, 
-  "J\u00e9rusalem": {
+  "Jérusalem": {
     "geonameid": "281184", 
     "country": "IL", 
-    "value": "J\u00e9rusalem", 
+    "value": "Jérusalem", 
     "population": 801000
   }, 
   "Onex": {
@@ -2393,10 +2409,10 @@
     "value": "Aigle", 
     "population": 7723
   }, 
-  "\u00c9zanville": {
+  "Ézanville": {
     "geonameid": "3019175", 
     "country": "FR", 
-    "value": "\u00c9zanville", 
+    "value": "Ézanville", 
     "population": 8950
   }, 
   "Romainville": {
@@ -2435,10 +2451,10 @@
     "value": "Flawil", 
     "population": 9739
   }, 
-  "Li\u00e8ge": {
+  "Liège": {
     "geonameid": "2792413", 
     "country": "BE", 
-    "value": "Li\u00e8ge", 
+    "value": "Liège", 
     "population": 182597
   }, 
   "Beyne-Heusay": {
@@ -2471,10 +2487,10 @@
     "value": "Jumelles", 
     "population": 7328
   }, 
-  "Del\u00e9mont": {
+  "Delémont": {
     "geonameid": "2661035", 
     "country": "CH", 
-    "value": "Del\u00e9mont", 
+    "value": "Delémont", 
     "population": 11315
   }, 
   "Romagnat": {
@@ -2483,16 +2499,16 @@
     "value": "Romagnat", 
     "population": 8771
   }, 
-  "Sch\u00fcbelbach": {
+  "Schübelbach": {
     "geonameid": "2658696", 
     "country": "CH", 
-    "value": "Sch\u00fcbelbach", 
+    "value": "Schübelbach", 
     "population": 7745
   }, 
-  "P\u00e9lissanne": {
+  "Pélissanne": {
     "geonameid": "2988186", 
     "country": "FR", 
-    "value": "P\u00e9lissanne", 
+    "value": "Pélissanne", 
     "population": 9064
   }, 
   "Roussillon": {
@@ -2501,10 +2517,10 @@
     "value": "Roussillon", 
     "population": 8082
   }, 
-  "\u00c9tr\u00e9chy": {
+  "Étréchy": {
     "geonameid": "3019372", 
     "country": "FR", 
-    "value": "\u00c9tr\u00e9chy", 
+    "value": "Étréchy", 
     "population": 6461
   }, 
   "Bry-sur-Marne": {
@@ -2525,10 +2541,10 @@
     "value": "Chagny", 
     "population": 5684
   }, 
-  "V\u00e9traz-Monthoux": {
+  "Vétraz-Monthoux": {
     "geonameid": "2969543", 
     "country": "FR", 
-    "value": "V\u00e9traz-Monthoux", 
+    "value": "Vétraz-Monthoux", 
     "population": 5991
   }, 
   "Terrasson-Lavilledieu": {
@@ -2579,10 +2595,10 @@
     "value": "Maule", 
     "population": 6272
   }, 
-  "Quesnoy-sur-De\u00fble": {
+  "Quesnoy-sur-Deûle": {
     "geonameid": "2984787", 
     "country": "FR", 
-    "value": "Quesnoy-sur-De\u00fble", 
+    "value": "Quesnoy-sur-Deûle", 
     "population": 6496
   }, 
   "Oud-Turnhout": {
@@ -2591,10 +2607,10 @@
     "value": "Oud-Turnhout", 
     "population": 12354
   }, 
-  "M\u00e9ricourt": {
+  "Méricourt": {
     "geonameid": "2994401", 
     "country": "FR", 
-    "value": "M\u00e9ricourt", 
+    "value": "Méricourt", 
     "population": 11580
   }, 
   "Soisy-sous-Montmorency": {
@@ -2657,10 +2673,10 @@
     "value": "Gonesse", 
     "population": 26758
   }, 
-  "N\u0153ux-les-Mines": {
+  "Nœux-les-Mines": {
     "geonameid": "2990287", 
     "country": "FR", 
-    "value": "N\u0153ux-les-Mines", 
+    "value": "Nœux-les-Mines", 
     "population": 11970
   }, 
   "Villemomble": {
@@ -2711,10 +2727,10 @@
     "value": "Montbard", 
     "population": 5737
   }, 
-  "Le Poir\u00e9-sur-Vie": {
+  "Le Poiré-sur-Vie": {
     "geonameid": "3002620", 
     "country": "FR", 
-    "value": "Le Poir\u00e9-sur-Vie", 
+    "value": "Le Poiré-sur-Vie", 
     "population": 6273
   }, 
   "Izegem": {
@@ -2741,10 +2757,10 @@
     "value": "Bazas", 
     "population": 5131
   }, 
-  "Malz\u00e9ville": {
+  "Malzéville": {
     "geonameid": "2996298", 
     "country": "FR", 
-    "value": "Malz\u00e9ville", 
+    "value": "Malzéville", 
     "population": 8095
   }, 
   "Fismes": {
@@ -2801,10 +2817,10 @@
     "value": "Flines-lez-Raches", 
     "population": 5567
   }, 
-  "Malemort-sur-Corr\u00e8ze": {
+  "Malemort-sur-Corrèze": {
     "geonameid": "2996448", 
     "country": "FR", 
-    "value": "Malemort-sur-Corr\u00e8ze", 
+    "value": "Malemort-sur-Corrèze", 
     "population": 7124
   }, 
   "Le Mans": {
@@ -2837,10 +2853,10 @@
     "value": "Jarny", 
     "population": 8704
   }, 
-  "Saint-Just-en-Chauss\u00e9e": {
+  "Saint-Just-en-Chaussée": {
     "geonameid": "2979010", 
     "country": "FR", 
-    "value": "Saint-Just-en-Chauss\u00e9e", 
+    "value": "Saint-Just-en-Chaussée", 
     "population": 5756
   }, 
   "Roye": {
@@ -2849,16 +2865,16 @@
     "value": "Roye", 
     "population": 6655
   }, 
-  "\u00c9vian-les-Bains": {
+  "Évian-les-Bains": {
     "geonameid": "3019280", 
     "country": "FR", 
-    "value": "\u00c9vian-les-Bains", 
+    "value": "Évian-les-Bains", 
     "population": 8207
   }, 
-  "\u00c9vron": {
+  "Évron": {
     "geonameid": "3019259", 
     "country": "FR", 
-    "value": "\u00c9vron", 
+    "value": "Évron", 
     "population": 7808
   }, 
   "Avranches": {
@@ -2921,16 +2937,16 @@
     "value": "Balen", 
     "population": 19978
   }, 
-  "Loud\u00e9ac": {
+  "Loudéac": {
     "geonameid": "2997465", 
     "country": "FR", 
-    "value": "Loud\u00e9ac", 
+    "value": "Loudéac", 
     "population": 10552
   }, 
-  "Artigues-pr\u00e8s-Bordeaux": {
+  "Artigues-près-Bordeaux": {
     "geonameid": "3036655", 
     "country": "FR", 
-    "value": "Artigues-pr\u00e8s-Bordeaux", 
+    "value": "Artigues-près-Bordeaux", 
     "population": 6582
   }, 
   "Moyeuvre-Grande": {
@@ -2999,10 +3015,10 @@
     "value": "Sprimont", 
     "population": 12945
   }, 
-  "Bruay-la-Buissi\u00e8re": {
+  "Bruay-la-Buissière": {
     "geonameid": "3029825", 
     "country": "FR", 
-    "value": "Bruay-la-Buissi\u00e8re", 
+    "value": "Bruay-la-Buissière", 
     "population": 24474
   }, 
   "Orgeval": {
@@ -3029,10 +3045,10 @@
     "value": "Kilchberg", 
     "population": 6511
   }, 
-  "Montlh\u00e9ry": {
+  "Montlhéry": {
     "geonameid": "2992309", 
     "country": "FR", 
-    "value": "Montlh\u00e9ry", 
+    "value": "Montlhéry", 
     "population": 6351
   }, 
   "Philippeville": {
@@ -3065,10 +3081,10 @@
     "value": "Diekirch", 
     "population": 6242
   }, 
-  "Saint-Gr\u00e9goire": {
+  "Saint-Grégoire": {
     "geonameid": "2979619", 
     "country": "FR", 
-    "value": "Saint-Gr\u00e9goire", 
+    "value": "Saint-Grégoire", 
     "population": 8058
   }, 
   "Chaponost": {
@@ -3083,10 +3099,10 @@
     "value": "Brunehault", 
     "population": 7592
   }, 
-  "Ch\u00e2tellerault": {
+  "Châtellerault": {
     "geonameid": "3026141", 
     "country": "FR", 
-    "value": "Ch\u00e2tellerault", 
+    "value": "Châtellerault", 
     "population": 37210
   }, 
   "Alken": {
@@ -3101,10 +3117,10 @@
     "value": "Wintzenheim", 
     "population": 7845
   }, 
-  "Far\u00e9bersviller": {
+  "Farébersviller": {
     "geonameid": "3019044", 
     "country": "FR", 
-    "value": "Far\u00e9bersviller", 
+    "value": "Farébersviller", 
     "population": 7068
   }, 
   "Soumagne": {
@@ -3125,10 +3141,10 @@
     "value": "Portet-sur-Garonne", 
     "population": 9794
   }, 
-  "C\u00e9bazat": {
+  "Cébazat": {
     "geonameid": "3028028", 
     "country": "FR", 
-    "value": "C\u00e9bazat", 
+    "value": "Cébazat", 
     "population": 8114
   }, 
   "Budapest": {
@@ -3185,10 +3201,10 @@
     "value": "La Paz", 
     "population": 812799
   }, 
-  "B\u00e2le": {
+  "Bâle": {
     "geonameid": "2661604", 
     "country": "CH", 
-    "value": "B\u00e2le", 
+    "value": "Bâle", 
     "population": 164488
   }, 
   "Marguerittes": {
@@ -3215,10 +3231,10 @@
     "value": "Auterive", 
     "population": 7369
   }, 
-  "P\u00e9rigueux": {
+  "Périgueux": {
     "geonameid": "2987967", 
     "country": "FR", 
-    "value": "P\u00e9rigueux", 
+    "value": "Périgueux", 
     "population": 34770
   }, 
   "Gradignan": {
@@ -3227,10 +3243,10 @@
     "value": "Gradignan", 
     "population": 24385
   }, 
-  "Mons-en-Bar\u0153ul": {
+  "Mons-en-Barœul": {
     "geonameid": "2993207", 
     "country": "FR", 
-    "value": "Mons-en-Bar\u0153ul", 
+    "value": "Mons-en-Barœul", 
     "population": 23006
   }, 
   "Blantyre": {
@@ -3245,10 +3261,10 @@
     "value": "Kowloon", 
     "population": 2019533
   }, 
-  "B\u00e9darrides": {
+  "Bédarrides": {
     "geonameid": "3033912", 
     "country": "FR", 
-    "value": "B\u00e9darrides", 
+    "value": "Bédarrides", 
     "population": 5014
   }, 
   "Portland": {
@@ -3269,10 +3285,10 @@
     "value": "Thann", 
     "population": 8429
   }, 
-  "Argel\u00e8s": {
+  "Argelès": {
     "geonameid": "3037068", 
     "country": "FR", 
-    "value": "Argel\u00e8s", 
+    "value": "Argelès", 
     "population": 10044
   }, 
   "Saran": {
@@ -3293,16 +3309,16 @@
     "value": "Gingelom", 
     "population": 7930
   }, 
-  "Ch\u00e2teaugiron": {
+  "Châteaugiron": {
     "geonameid": "3026275", 
     "country": "FR", 
-    "value": "Ch\u00e2teaugiron", 
+    "value": "Châteaugiron", 
     "population": 6274
   }, 
-  "Kar\u00e2chi": {
+  "Karâchi": {
     "geonameid": "1174872", 
     "country": "PK", 
-    "value": "Kar\u00e2chi", 
+    "value": "Karâchi", 
     "population": 11624219
   }, 
   "Marvejols": {
@@ -3323,10 +3339,10 @@
     "value": "Shenzhen", 
     "population": 10358381
   }, 
-  "Caudebec-l\u00e8s-Elbeuf": {
+  "Caudebec-lès-Elbeuf": {
     "geonameid": "3028214", 
     "country": "FR", 
-    "value": "Caudebec-l\u00e8s-Elbeuf", 
+    "value": "Caudebec-lès-Elbeuf", 
     "population": 10104
   }, 
   "Auchel": {
@@ -3347,10 +3363,10 @@
     "value": "Vitry-sur-Seine", 
     "population": 81001
   }, 
-  "Neufch\u00e2tel-en-Bray": {
+  "Neufchâtel-en-Bray": {
     "geonameid": "2990680", 
     "country": "FR", 
-    "value": "Neufch\u00e2tel-en-Bray", 
+    "value": "Neufchâtel-en-Bray", 
     "population": 5416
   }, 
   "Xi'an": {
@@ -3383,28 +3399,36 @@
     "value": "Lessines", 
     "population": 17687
   }, 
-  "Bouff\u00e9mont": {
+  "Bouffémont": {
     "geonameid": "3031294", 
     "country": "FR", 
-    "value": "Bouff\u00e9mont", 
+    "value": "Bouffémont", 
     "population": 5652
   }, 
-  "Pf\u00e4ffikon": {
-    "geonameid": "2659220", 
-    "country": "CH", 
-    "value": "Pf\u00e4ffikon", 
-    "population": 7310
-  }, 
-  "Chennevi\u00e8res-sur-Marne": {
+  "Pfäffikon": [
+    {
+      "geonameid": "2659219", 
+      "country": "CH", 
+      "value": "Pfäffikon", 
+      "population": 7994
+    }, 
+    {
+      "geonameid": "2659220", 
+      "country": "CH", 
+      "value": "Pfäffikon", 
+      "population": 7310
+    }
+  ], 
+  "Chennevières-sur-Marne": {
     "geonameid": "3025509", 
     "country": "FR", 
-    "value": "Chennevi\u00e8res-sur-Marne", 
+    "value": "Chennevières-sur-Marne", 
     "population": 18314
   }, 
-  "Vaur\u00e9al": {
+  "Vauréal": {
     "geonameid": "2970432", 
     "country": "FR", 
-    "value": "Vaur\u00e9al", 
+    "value": "Vauréal", 
     "population": 20699
   }, 
   "Waimes": {
@@ -3491,10 +3515,10 @@
     "value": "Hamhung", 
     "population": 559056
   }, 
-  "Th\u00f4nes": {
+  "Thônes": {
     "geonameid": "2972749", 
     "country": "FR", 
-    "value": "Th\u00f4nes", 
+    "value": "Thônes", 
     "population": 6032
   }, 
   "Roulers": {
@@ -3527,16 +3551,16 @@
     "value": "Ostwald", 
     "population": 11261
   }, 
-  "Vitr\u00e9": {
+  "Vitré": {
     "geonameid": "2967879", 
     "country": "FR", 
-    "value": "Vitr\u00e9", 
+    "value": "Vitré", 
     "population": 17266
   }, 
-  "Fontenay-Tr\u00e9signy": {
+  "Fontenay-Trésigny": {
     "geonameid": "3017902", 
     "country": "FR", 
-    "value": "Fontenay-Tr\u00e9signy", 
+    "value": "Fontenay-Trésigny", 
     "population": 5047
   }, 
   "Hanovre": {
@@ -3569,10 +3593,10 @@
     "value": "Jodoigne", 
     "population": 11930
   }, 
-  "Th\u00f4nex": {
+  "Thônex": {
     "geonameid": "3209505", 
     "country": "CH", 
-    "value": "Th\u00f4nex", 
+    "value": "Thônex", 
     "population": 13057
   }, 
   "Cambrai": {
@@ -3605,10 +3629,10 @@
     "value": "Menucourt", 
     "population": 5382
   }, 
-  "S\u00e9ville": {
+  "Séville": {
     "geonameid": "2510911", 
     "country": "ES", 
-    "value": "S\u00e9ville", 
+    "value": "Séville", 
     "population": 703206
   }, 
   "Talange": {
@@ -3623,10 +3647,10 @@
     "value": "Kaohsiung", 
     "population": 1519711
   }, 
-  "Qui\u00e9vrechain": {
+  "Quiévrechain": {
     "geonameid": "2984728", 
     "country": "FR", 
-    "value": "Qui\u00e9vrechain", 
+    "value": "Quiévrechain", 
     "population": 6201
   }, 
   "Locarno": {
@@ -3707,22 +3731,22 @@
     "value": "Hegnau", 
     "population": 7961
   }, 
-  "Altst\u00e4tten": {
+  "Altstätten": {
     "geonameid": "2661766", 
     "country": "CH", 
-    "value": "Altst\u00e4tten", 
+    "value": "Altstätten", 
     "population": 10574
   }, 
-  "Montlu\u00e7on": {
+  "Montluçon": {
     "geonameid": "2992292", 
     "country": "FR", 
-    "value": "Montlu\u00e7on", 
+    "value": "Montluçon", 
     "population": 44960
   }, 
-  "Vand\u0153uvre-l\u00e8s-Nancy": {
+  "Vandœuvre-lès-Nancy": {
     "geonameid": "2970797", 
     "country": "FR", 
-    "value": "Vand\u0153uvre-l\u00e8s-Nancy", 
+    "value": "Vandœuvre-lès-Nancy", 
     "population": 31785
   }, 
   "Rodez": {
@@ -3731,10 +3755,10 @@
     "value": "Rodez", 
     "population": 28337
   }, 
-  "Chavannes-pr\u00e8s-Renens": {
+  "Chavannes-près-Renens": {
     "geonameid": "2661197", 
     "country": "CH", 
-    "value": "Chavannes-pr\u00e8s-Renens", 
+    "value": "Chavannes-près-Renens", 
     "population": 5454
   }, 
   "Freetown": {
@@ -3749,10 +3773,10 @@
     "value": "Oftringen", 
     "population": 10390
   }, 
-  "Solli\u00e9s Farl\u00e8de": {
+  "Solliés Farlède": {
     "geonameid": "3009566", 
     "country": "FR", 
-    "value": "Solli\u00e9s Farl\u00e8de", 
+    "value": "Solliés Farlède", 
     "population": 6918
   }, 
   "Melle": {
@@ -3797,10 +3821,10 @@
     "value": "Jouy-en-Josas", 
     "population": 8383
   }, 
-  "V\u00e9lizy-Villacoublay": {
+  "Vélizy-Villacoublay": {
     "geonameid": "2970203", 
     "country": "FR", 
-    "value": "V\u00e9lizy-Villacoublay", 
+    "value": "Vélizy-Villacoublay", 
     "population": 21741
   }, 
   "Butgenbach": {
@@ -3839,12 +3863,20 @@
     "value": "Grasse", 
     "population": 47581
   }, 
-  "Essen": {
-    "geonameid": "2798615", 
-    "country": "BE", 
-    "value": "Essen", 
-    "population": 16754
-  }, 
+  "Essen": [
+    {
+      "geonameid": "2928810", 
+      "country": "DE", 
+      "value": "Essen", 
+      "population": 593085
+    }, 
+    {
+      "geonameid": "2798615", 
+      "country": "BE", 
+      "value": "Essen", 
+      "population": 16754
+    }
+  ], 
   "Orsay": {
     "geonameid": "2989204", 
     "country": "FR", 
@@ -3893,10 +3925,10 @@
     "value": "Moissac", 
     "population": 13703
   }, 
-  "Chamali\u00e8res": {
+  "Chamalières": {
     "geonameid": "3027453", 
     "country": "FR", 
-    "value": "Chamali\u00e8res", 
+    "value": "Chamalières", 
     "population": 20298
   }, 
   "Evergem": {
@@ -3917,10 +3949,10 @@
     "value": "Buggenhout", 
     "population": 13510
   }, 
-  "Al\u00e8s": {
+  "Alès": {
     "geonameid": "3038224", 
     "country": "FR", 
-    "value": "Al\u00e8s", 
+    "value": "Alès", 
     "population": 42410
   }, 
   "Puteaux": {
@@ -3995,10 +4027,10 @@
     "value": "Eaubonne", 
     "population": 24096
   }, 
-  "San Miguel de Tucum\u00e1n": {
+  "San Miguel de Tucumán": {
     "geonameid": "3836873", 
     "country": "AR", 
-    "value": "San Miguel de Tucum\u00e1n", 
+    "value": "San Miguel de Tucumán", 
     "population": 781023
   }, 
   "Saint-Ismier": {
@@ -4031,10 +4063,10 @@
     "value": "Sully-sur-Loire", 
     "population": 6285
   }, 
-  "Dom\u00e9rat": {
+  "Domérat": {
     "geonameid": "3021209", 
     "country": "FR", 
-    "value": "Dom\u00e9rat", 
+    "value": "Domérat", 
     "population": 9015
   }, 
   "Montmorillon": {
@@ -4043,22 +4075,22 @@
     "value": "Montmorillon", 
     "population": 7960
   }, 
-  "Plouzan\u00e9": {
+  "Plouzané": {
     "geonameid": "2986626", 
     "country": "FR", 
-    "value": "Plouzan\u00e9", 
+    "value": "Plouzané", 
     "population": 13118
   }, 
-  "Ploudalm\u00e9zeau": {
+  "Ploudalmézeau": {
     "geonameid": "2986692", 
     "country": "FR", 
-    "value": "Ploudalm\u00e9zeau", 
+    "value": "Ploudalmézeau", 
     "population": 5243
   }, 
-  "Saint-M\u00e9dard-en-Jalles": {
+  "Saint-Médard-en-Jalles": {
     "geonameid": "2978072", 
     "country": "FR", 
-    "value": "Saint-M\u00e9dard-en-Jalles", 
+    "value": "Saint-Médard-en-Jalles", 
     "population": 29742
   }, 
   "Pauillac": {
@@ -4067,10 +4099,10 @@
     "value": "Pauillac", 
     "population": 5792
   }, 
-  "M\u00fcnsingen": {
+  "Münsingen": {
     "geonameid": "2659546", 
     "country": "CH", 
-    "value": "M\u00fcnsingen", 
+    "value": "Münsingen", 
     "population": 10928
   }, 
   "Nyons": {
@@ -4079,10 +4111,10 @@
     "value": "Nyons", 
     "population": 7330
   }, 
-  "G\u00eanes": {
+  "Gênes": {
     "geonameid": "3176219", 
     "country": "IT", 
-    "value": "G\u00eanes", 
+    "value": "Gênes", 
     "population": 580223
   }, 
   "Bocholt": {
@@ -4163,10 +4195,10 @@
     "value": "Massy", 
     "population": 38768
   }, 
-  "Ch\u00e2teaulin": {
+  "Châteaulin": {
     "geonameid": "3026262", 
     "country": "FR", 
-    "value": "Ch\u00e2teaulin", 
+    "value": "Châteaulin", 
     "population": 5379
   }, 
   "Maputo": {
@@ -4247,22 +4279,22 @@
     "value": "Lillers", 
     "population": 10104
   }, 
-  "Saint-Loub\u00e8s": {
+  "Saint-Loubès": {
     "geonameid": "2978749", 
     "country": "FR", 
-    "value": "Saint-Loub\u00e8s", 
+    "value": "Saint-Loubès", 
     "population": 7678
   }, 
-  "Liffr\u00e9": {
+  "Liffré": {
     "geonameid": "2998423", 
     "country": "FR", 
-    "value": "Liffr\u00e9", 
+    "value": "Liffré", 
     "population": 7034
   }, 
-  "Villeneuve-l\u00e8s-Avignon": {
+  "Villeneuve-lès-Avignon": {
     "geonameid": "2968545", 
     "country": "FR", 
-    "value": "Villeneuve-l\u00e8s-Avignon", 
+    "value": "Villeneuve-lès-Avignon", 
     "population": 13451
   }, 
   "L'Union": {
@@ -4289,10 +4321,10 @@
     "value": "Moissy-Cramayel", 
     "population": 16259
   }, 
-  "Ch\u00e2tillon-sur-Seine": {
+  "Châtillon-sur-Seine": {
     "geonameid": "3026046", 
     "country": "FR", 
-    "value": "Ch\u00e2tillon-sur-Seine", 
+    "value": "Châtillon-sur-Seine", 
     "population": 6939
   }, 
   "Bourbourg": {
@@ -4319,10 +4351,10 @@
     "value": "Sallaumines", 
     "population": 10637
   }, 
-  "Bourg-de-P\u00e9age": {
+  "Bourg-de-Péage": {
     "geonameid": "3031020", 
     "country": "FR", 
-    "value": "Bourg-de-P\u00e9age", 
+    "value": "Bourg-de-Péage", 
     "population": 10090
   }, 
   "Saragosse": {
@@ -4349,10 +4381,10 @@
     "value": "Guilers", 
     "population": 7328
   }, 
-  "Tr\u00e9voux": {
+  "Trévoux": {
     "geonameid": "2971722", 
     "country": "FR", 
-    "value": "Tr\u00e9voux", 
+    "value": "Trévoux", 
     "population": 6957
   }, 
   "Couvin": {
@@ -4373,10 +4405,10 @@
     "value": "Wil", 
     "population": 16808
   }, 
-  "B\u00e9thune": {
+  "Béthune": {
     "geonameid": "3033002", 
     "country": "FR", 
-    "value": "B\u00e9thune", 
+    "value": "Béthune", 
     "population": 31568
   }, 
   "Montfort-sur-Meu": {
@@ -4427,10 +4459,10 @@
     "value": "Martigues", 
     "population": 45749
   }, 
-  "Br\u00eame": {
+  "Brême": {
     "geonameid": "2944388", 
     "country": "DE", 
-    "value": "Br\u00eame", 
+    "value": "Brême", 
     "population": 546501
   }, 
   "Albuquerque": {
@@ -4439,10 +4471,10 @@
     "value": "Albuquerque", 
     "population": 559121
   }, 
-  "Carri\u00e8res-sous-Poissy": {
+  "Carrières-sous-Poissy": {
     "geonameid": "3028521", 
     "country": "FR", 
-    "value": "Carri\u00e8res-sous-Poissy", 
+    "value": "Carrières-sous-Poissy", 
     "population": 15465
   }, 
   "Parempuyre": {
@@ -4463,10 +4495,10 @@
     "value": "Payerne", 
     "population": 7655
   }, 
-  "Pl\u00e9rin": {
+  "Plérin": {
     "geonameid": "2986795", 
     "country": "FR", 
-    "value": "Pl\u00e9rin", 
+    "value": "Plérin", 
     "population": 13860
   }, 
   "Boussu": {
@@ -4481,10 +4513,10 @@
     "value": "Wellen", 
     "population": 6804
   }, 
-  "Ch\u00eane-Bourg": {
+  "Chêne-Bourg": {
     "geonameid": "2661191", 
     "country": "CH", 
-    "value": "Ch\u00eane-Bourg", 
+    "value": "Chêne-Bourg", 
     "population": 7959
   }, 
   "Chennai": {
@@ -4499,16 +4531,16 @@
     "value": "Montgeron", 
     "population": 22843
   }, 
-  "Gu\u00e9ret": {
+  "Guéret": {
     "geonameid": "3014383", 
     "country": "FR", 
-    "value": "Gu\u00e9ret", 
+    "value": "Guéret", 
     "population": 15853
   }, 
-  "R\u00fcmlang": {
+  "Rümlang": {
     "geonameid": "2658927", 
     "country": "CH", 
-    "value": "R\u00fcmlang", 
+    "value": "Rümlang", 
     "population": 5144
   }, 
   "Marcoussis": {
@@ -4517,10 +4549,10 @@
     "value": "Marcoussis", 
     "population": 7756
   }, 
-  "Solli\u00e8s-Pont": {
+  "Solliès-Pont": {
     "geonameid": "2974338", 
     "country": "FR", 
-    "value": "Solli\u00e8s-Pont", 
+    "value": "Solliès-Pont", 
     "population": 12052
   }, 
   "El Paso": {
@@ -4535,10 +4567,10 @@
     "value": "Peer", 
     "population": 15551
   }, 
-  "Saint-Ouen-l\u2019Aum\u00f4ne": {
+  "Saint-Ouen-l’Aumône": {
     "geonameid": "2977800", 
     "country": "FR", 
-    "value": "Saint-Ouen-l\u2019Aum\u00f4ne", 
+    "value": "Saint-Ouen-l’Aumône", 
     "population": 22977
   }, 
   "Ahmedabad": {
@@ -4565,10 +4597,10 @@
     "value": "Oostmalle", 
     "population": 7034
   }, 
-  "Eygui\u00e8res": {
+  "Eyguières": {
     "geonameid": "3019219", 
     "country": "FR", 
-    "value": "Eygui\u00e8res", 
+    "value": "Eyguières", 
     "population": 6475
   }, 
   "Vittel": {
@@ -4589,10 +4621,10 @@
     "value": "Mbuji-Mayi", 
     "population": 874761
   }, 
-  "Chambray-l\u00e8s-Tours": {
+  "Chambray-lès-Tours": {
     "geonameid": "3027343", 
     "country": "FR", 
-    "value": "Chambray-l\u00e8s-Tours", 
+    "value": "Chambray-lès-Tours", 
     "population": 10910
   }, 
   "Roeulx": {
@@ -4625,10 +4657,10 @@
     "value": "Bagnes", 
     "population": 6626
   }, 
-  "Ch\u00e2tenay-Malabry": {
+  "Châtenay-Malabry": {
     "geonameid": "3026108", 
     "country": "FR", 
-    "value": "Ch\u00e2tenay-Malabry", 
+    "value": "Châtenay-Malabry", 
     "population": 32715
   }, 
   "Lagord": {
@@ -4643,10 +4675,10 @@
     "value": "Harbin", 
     "population": 5878939
   }, 
-  "Saint-Ju\u00e9ry": {
+  "Saint-Juéry": {
     "geonameid": "2979148", 
     "country": "FR", 
-    "value": "Saint-Ju\u00e9ry", 
+    "value": "Saint-Juéry", 
     "population": 6997
   }, 
   "Saint-Jean-de-Monts": {
@@ -4673,10 +4705,10 @@
     "value": "Grabs", 
     "population": 6384
   }, 
-  "Ballan-Mir\u00e9": {
+  "Ballan-Miré": {
     "geonameid": "3035226", 
     "country": "FR", 
-    "value": "Ballan-Mir\u00e9", 
+    "value": "Ballan-Miré", 
     "population": 7398
   }, 
   "Bakou": {
@@ -4739,10 +4771,10 @@
     "value": "Venelles", 
     "population": 7917
   }, 
-  "Ch\u00e2telaillon-Plage": {
+  "Châtelaillon-Plage": {
     "geonameid": "3026172", 
     "country": "FR", 
-    "value": "Ch\u00e2telaillon-Plage", 
+    "value": "Châtelaillon-Plage", 
     "population": 6059
   }, 
   "Dakar": {
@@ -4751,10 +4783,10 @@
     "value": "Dakar", 
     "population": 2476400
   }, 
-  "Suc\u00e9-sur-Erdre": {
+  "Sucé-sur-Erdre": {
     "geonameid": "2973748", 
     "country": "FR", 
-    "value": "Suc\u00e9-sur-Erdre", 
+    "value": "Sucé-sur-Erdre", 
     "population": 6335
   }, 
   "Avignon": {
@@ -4775,10 +4807,10 @@
     "value": "Calais", 
     "population": 74433
   }, 
-  "Pierre-B\u00e9nite": {
+  "Pierre-Bénite": {
     "geonameid": "2987314", 
     "country": "FR", 
-    "value": "Pierre-B\u00e9nite", 
+    "value": "Pierre-Bénite", 
     "population": 9971
   }, 
   "Orange": {
@@ -4829,10 +4861,10 @@
     "value": "Dol-de-Bretagne", 
     "population": 5394
   }, 
-  "Saint-\u00c9gr\u00e8ve": {
+  "Saint-Égrève": {
     "geonameid": "2980636", 
     "country": "FR", 
-    "value": "Saint-\u00c9gr\u00e8ve", 
+    "value": "Saint-Égrève", 
     "population": 15904
   }, 
   "Edegem": {
@@ -4877,10 +4909,10 @@
     "value": "Cernay", 
     "population": 11127
   }, 
-  "Armenti\u00e8res": {
+  "Armentières": {
     "geonameid": "3036903", 
     "country": "FR", 
-    "value": "Armenti\u00e8res", 
+    "value": "Armentières", 
     "population": 26646
   }, 
   "Pepinster": {
@@ -4919,10 +4951,10 @@
     "value": "Coutras", 
     "population": 7682
   }, 
-  "Sca\u00ebr": {
+  "Scaër": {
     "geonameid": "2975485", 
     "country": "FR", 
-    "value": "Sca\u00ebr", 
+    "value": "Scaër", 
     "population": 5525
   }, 
   "Hennebont": {
@@ -4937,10 +4969,10 @@
     "value": "Lachen", 
     "population": 6685
   }, 
-  "Mekn\u00e8s": {
+  "Meknès": {
     "geonameid": "2542715", 
     "country": "MA", 
-    "value": "Mekn\u00e8s", 
+    "value": "Meknès", 
     "population": 545705
   }, 
   "Rabat": {
@@ -5015,10 +5047,10 @@
     "value": "Montrouge", 
     "population": 38708
   }, 
-  "La Fl\u00e8che": {
+  "La Flèche": {
     "geonameid": "3009443", 
     "country": "FR", 
-    "value": "La Fl\u00e8che", 
+    "value": "La Flèche", 
     "population": 18536
   }, 
   "Saint-Priest-en-Jarez": {
@@ -5045,10 +5077,10 @@
     "value": "Houilles", 
     "population": 31121
   }, 
-  "Garges-l\u00e8s-Gonesse": {
+  "Garges-lès-Gonesse": {
     "geonameid": "3016621", 
     "country": "FR", 
-    "value": "Garges-l\u00e8s-Gonesse", 
+    "value": "Garges-lès-Gonesse", 
     "population": 39847
   }, 
   "Gannat": {
@@ -5141,10 +5173,10 @@
     "value": "Carouge", 
     "population": 19344
   }, 
-  "W\u00e4denswil": {
+  "Wädenswil": {
     "geonameid": "2658082", 
     "country": "CH", 
-    "value": "W\u00e4denswil", 
+    "value": "Wädenswil", 
     "population": 13269
   }, 
   "Habay-la-Vieille": {
@@ -5165,10 +5197,10 @@
     "value": "Beaugency", 
     "population": 7659
   }, 
-  "H\u00e9ricourt": {
+  "Héricourt": {
     "geonameid": "3013456", 
     "country": "FR", 
-    "value": "H\u00e9ricourt", 
+    "value": "Héricourt", 
     "population": 10985
   }, 
   "Voisins-le-Bretonneux": {
@@ -5327,10 +5359,10 @@
     "value": "Beyrouth", 
     "population": 1916100
   }, 
-  "Ach\u00e8res": {
+  "Achères": {
     "geonameid": "3038712", 
     "country": "FR", 
-    "value": "Ach\u00e8res", 
+    "value": "Achères", 
     "population": 22555
   }, 
   "Neuilly-sur-Marne": {
@@ -5381,10 +5413,10 @@
     "value": "Frasnes-lez-Buissenal", 
     "population": 10936
   }, 
-  "Sept\u00e8mes-les-Vallons": {
+  "Septèmes-les-Vallons": {
     "geonameid": "2975020", 
     "country": "FR", 
-    "value": "Sept\u00e8mes-les-Vallons", 
+    "value": "Septèmes-les-Vallons", 
     "population": 10220
   }, 
   "Bizanos": {
@@ -5421,7 +5453,7 @@
     "geonameid": "2659050", 
     "country": "CH", 
     "value": "Richterswil", 
-    "population": 7103
+    "population": 10189
   }, 
   "Oberuzwil": {
     "geonameid": "2659331", 
@@ -5435,10 +5467,10 @@
     "value": "Munich", 
     "population": 1260391
   }, 
-  "\u00c9pernon": {
+  "Épernon": {
     "geonameid": "3020057", 
     "country": "FR", 
-    "value": "\u00c9pernon", 
+    "value": "Épernon", 
     "population": 5266
   }, 
   "Vidauban": {
@@ -5465,10 +5497,10 @@
     "value": "Graulhet", 
     "population": 13057
   }, 
-  "Vis\u00e9": {
+  "Visé": {
     "geonameid": "2784548", 
     "country": "BE", 
-    "value": "Vis\u00e9", 
+    "value": "Visé", 
     "population": 17054
   }, 
   "Garches": {
@@ -5489,10 +5521,10 @@
     "value": "Fondettes", 
     "population": 9684
   }, 
-  "Ar\u00e8s": {
+  "Arès": {
     "geonameid": "3037095", 
     "country": "FR", 
-    "value": "Ar\u00e8s", 
+    "value": "Arès", 
     "population": 5081
   }, 
   "Guin": {
@@ -5531,10 +5563,10 @@
     "value": "Esneux", 
     "population": 13497
   }, 
-  "Alen\u00e7on": {
+  "Alençon": {
     "geonameid": "3038230", 
     "country": "FR", 
-    "value": "Alen\u00e7on", 
+    "value": "Alençon", 
     "population": 30786
   }, 
   "Moutier": {
@@ -5579,10 +5611,10 @@
     "value": "Zhengzhou", 
     "population": 4253913
   }, 
-  "P\u00e9zenas": {
+  "Pézenas": {
     "geonameid": "2987441", 
     "country": "FR", 
-    "value": "P\u00e9zenas", 
+    "value": "Pézenas", 
     "population": 8647
   }, 
   "Rivesaltes": {
@@ -5609,10 +5641,10 @@
     "value": "Herisau", 
     "population": 15438
   }, 
-  "Kryvy\u00ef Rih": {
+  "Kryvyï Rih": {
     "geonameid": "703845", 
     "country": "UA", 
-    "value": "Kryvy\u00ef Rih", 
+    "value": "Kryvyï Rih", 
     "population": 652380
   }, 
   "Mainvilliers": {
@@ -5639,10 +5671,10 @@
     "value": "Bidart", 
     "population": 5021
   }, 
-  "Vend\u00f4me": {
+  "Vendôme": {
     "geonameid": "2970110", 
     "country": "FR", 
-    "value": "Vend\u00f4me", 
+    "value": "Vendôme", 
     "population": 19226
   }, 
   "Nandy": {
@@ -5687,10 +5719,10 @@
     "value": "Beausoleil", 
     "population": 13376
   }, 
-  "\u00c9gly": {
+  "Égly": {
     "geonameid": "3020346", 
     "country": "FR", 
-    "value": "\u00c9gly", 
+    "value": "Égly", 
     "population": 5259
   }, 
   "Avon": {
@@ -5711,10 +5743,10 @@
     "value": "Ollioules", 
     "population": 13916
   }, 
-  "Hom\u00e9court": {
+  "Homécourt": {
     "geonameid": "3013195", 
     "country": "FR", 
-    "value": "Hom\u00e9court", 
+    "value": "Homécourt", 
     "population": 6971
   }, 
   "Brugg": {
@@ -5735,10 +5767,10 @@
     "value": "Maisons-Alfort", 
     "population": 53964
   }, 
-  "Saint-Pour\u00e7ain-sur-Sioule": {
+  "Saint-Pourçain-sur-Sioule": {
     "geonameid": "2977365", 
     "country": "FR", 
-    "value": "Saint-Pour\u00e7ain-sur-Sioule", 
+    "value": "Saint-Pourçain-sur-Sioule", 
     "population": 5480
   }, 
   "Losone": {
@@ -5807,10 +5839,10 @@
     "value": "Les Mureaux", 
     "population": 32134
   }, 
-  "Andr\u00e9sy": {
+  "Andrésy": {
     "geonameid": "3037692", 
     "country": "FR", 
-    "value": "Andr\u00e9sy", 
+    "value": "Andrésy", 
     "population": 12929
   }, 
   "Frameries": {
@@ -5819,16 +5851,16 @@
     "value": "Frameries", 
     "population": 20598
   }, 
-  "Ch\u00e2teaubriant": {
+  "Châteaubriant": {
     "geonameid": "3026303", 
     "country": "FR", 
-    "value": "Ch\u00e2teaubriant", 
+    "value": "Châteaubriant", 
     "population": 13024
   }, 
-  "Montr\u00e9al": {
+  "Montréal": {
     "geonameid": "6077243", 
     "country": "CA", 
-    "value": "Montr\u00e9al", 
+    "value": "Montréal", 
     "population": 1600000
   }, 
   "Binningen": {
@@ -5867,16 +5899,16 @@
     "value": "Caussade", 
     "population": 6333
   }, 
-  "La Fert\u00e9-Mac\u00e9": {
+  "La Ferté-Macé": {
     "geonameid": "3009486", 
     "country": "FR", 
-    "value": "La Fert\u00e9-Mac\u00e9", 
+    "value": "La Ferté-Macé", 
     "population": 7372
   }, 
-  "Salies-de-B\u00e9arn": {
+  "Salies-de-Béarn": {
     "geonameid": "2976444", 
     "country": "FR", 
-    "value": "Salies-de-B\u00e9arn", 
+    "value": "Salies-de-Béarn", 
     "population": 5235
   }, 
   "Douvrin": {
@@ -5885,10 +5917,10 @@
     "value": "Douvrin", 
     "population": 5199
   }, 
-  "La Voulte-sur-Rh\u00f4ne": {
+  "La Voulte-sur-Rhône": {
     "geonameid": "3005435", 
     "country": "FR", 
-    "value": "La Voulte-sur-Rh\u00f4ne", 
+    "value": "La Voulte-sur-Rhône", 
     "population": 5108
   }, 
   "La Gaude": {
@@ -5909,10 +5941,10 @@
     "value": "Reims", 
     "population": 196565
   }, 
-  "Hasti\u00e8re-Lavaux": {
+  "Hastière-Lavaux": {
     "geonameid": "2796482", 
     "country": "BE", 
-    "value": "Hasti\u00e8re-Lavaux", 
+    "value": "Hastière-Lavaux", 
     "population": 5147
   }, 
   "Saint-Gratien": {
@@ -5969,10 +6001,10 @@
     "value": "Remiremont", 
     "population": 9339
   }, 
-  "Bruay-sur-l\u2019Escaut": {
+  "Bruay-sur-l’Escaut": {
     "geonameid": "3029824", 
     "country": "FR", 
-    "value": "Bruay-sur-l\u2019Escaut", 
+    "value": "Bruay-sur-l’Escaut", 
     "population": 11690
   }, 
   "Callao": {
@@ -5981,10 +6013,10 @@
     "value": "Callao", 
     "population": 813264
   }, 
-  "Ch\u00e2teauneuf-sur-Loire": {
+  "Châteauneuf-sur-Loire": {
     "geonameid": "3026222", 
     "country": "FR", 
-    "value": "Ch\u00e2teauneuf-sur-Loire", 
+    "value": "Châteauneuf-sur-Loire", 
     "population": 7446
   }, 
   "Commercy": {
@@ -6005,10 +6037,10 @@
     "value": "Villepreux", 
     "population": 9895
   }, 
-  "Gen\u00e8ve": {
+  "Genève": {
     "geonameid": "2660646", 
     "country": "CH", 
-    "value": "Gen\u00e8ve", 
+    "value": "Genève", 
     "population": 183981
   }, 
   "Le Caire": {
@@ -6029,10 +6061,10 @@
     "value": "Apt", 
     "population": 11609
   }, 
-  "Montigny-l\u00e8s-Metz": {
+  "Montigny-lès-Metz": {
     "geonameid": "2992402", 
     "country": "FR", 
-    "value": "Montigny-l\u00e8s-Metz", 
+    "value": "Montigny-lès-Metz", 
     "population": 26369
   }, 
   "La Panne": {
@@ -6041,10 +6073,10 @@
     "value": "La Panne", 
     "population": 9799
   }, 
-  "Bl\u00e9nod-l\u00e8s-Pont-\u00e0-Mousson": {
+  "Blénod-lès-Pont-à-Mousson": {
     "geonameid": "3032275", 
     "country": "FR", 
-    "value": "Bl\u00e9nod-l\u00e8s-Pont-\u00e0-Mousson", 
+    "value": "Blénod-lès-Pont-à-Mousson", 
     "population": 5014
   }, 
   "Berck": {
@@ -6077,10 +6109,10 @@
     "value": "Dnipro", 
     "population": 1032822
   }, 
-  "C\u00e9ret": {
+  "Céret": {
     "geonameid": "3027888", 
     "country": "FR", 
-    "value": "C\u00e9ret", 
+    "value": "Céret", 
     "population": 8171
   }, 
   "Pessac": {
@@ -6131,10 +6163,10 @@
     "value": "Bourgoin-Jallieu", 
     "population": 23517
   }, 
-  "Saint-Jean-de-V\u00e9das": {
+  "Saint-Jean-de-Védas": {
     "geonameid": "2979261", 
     "country": "FR", 
-    "value": "Saint-Jean-de-V\u00e9das", 
+    "value": "Saint-Jean-de-Védas", 
     "population": 9134
   }, 
   "Mirecourt": {
@@ -6143,10 +6175,10 @@
     "value": "Mirecourt", 
     "population": 6998
   }, 
-  "Plombi\u00e8res": {
+  "Plombières": {
     "geonameid": "2788849", 
     "country": "BE", 
-    "value": "Plombi\u00e8res", 
+    "value": "Plombières", 
     "population": 9596
   }, 
   "Maubeuge": {
@@ -6161,10 +6193,10 @@
     "value": "Conflans-Sainte-Honorine", 
     "population": 36358
   }, 
-  "Boll\u00e8ne": {
+  "Bollène": {
     "geonameid": "3031868", 
     "country": "FR", 
-    "value": "Boll\u00e8ne", 
+    "value": "Bollène", 
     "population": 14703
   }, 
   "Louvroil": {
@@ -6173,16 +6205,16 @@
     "value": "Louvroil", 
     "population": 7446
   }, 
-  "Douvres-la-D\u00e9livrande": {
+  "Douvres-la-Délivrande": {
     "geonameid": "3020887", 
     "country": "FR", 
-    "value": "Douvres-la-D\u00e9livrande", 
+    "value": "Douvres-la-Délivrande", 
     "population": 5182
   }, 
-  "Labrugui\u00e8re": {
+  "Labruguière": {
     "geonameid": "3010720", 
     "country": "FR", 
-    "value": "Labrugui\u00e8re", 
+    "value": "Labruguière", 
     "population": 5846
   }, 
   "Saint-Denis": {
@@ -6197,10 +6229,10 @@
     "value": "Bonheiden", 
     "population": 14260
   }, 
-  "D\u00e9ville-l\u00e8s-Rouen": {
+  "Déville-lès-Rouen": {
     "geonameid": "3021484", 
     "country": "FR", 
-    "value": "D\u00e9ville-l\u00e8s-Rouen", 
+    "value": "Déville-lès-Rouen", 
     "population": 10548
   }, 
   "Hettange-Grande": {
@@ -6221,10 +6253,10 @@
     "value": "Celles", 
     "population": 5471
   }, 
-  "Gr\u00e4nichen": {
+  "Gränichen": {
     "geonameid": "2660523", 
     "country": "CH", 
-    "value": "Gr\u00e4nichen", 
+    "value": "Gränichen", 
     "population": 6557
   }, 
   "Uster": {
@@ -6251,16 +6283,16 @@
     "value": "Colomiers", 
     "population": 31363
   }, 
-  "F\u00e9camp": {
+  "Fécamp": {
     "geonameid": "3018794", 
     "country": "FR", 
-    "value": "F\u00e9camp", 
+    "value": "Fécamp", 
     "population": 22003
   }, 
-  "Ky\u014dto": {
+  "Kyōto": {
     "geonameid": "1857910", 
     "country": "JP", 
-    "value": "Ky\u014dto", 
+    "value": "Kyōto", 
     "population": 1459640
   }, 
   "Sainte-Menehould": {
@@ -6281,12 +6313,20 @@
     "value": "Marseille 10", 
     "population": 51299
   }, 
-  "Kirchberg": {
-    "geonameid": "2660156", 
-    "country": "CH", 
-    "value": "Kirchberg", 
-    "population": 5335
-  }, 
+  "Kirchberg": [
+    {
+      "geonameid": "2660155", 
+      "country": "CH", 
+      "value": "Kirchberg", 
+      "population": 8127
+    }, 
+    {
+      "geonameid": "2660156", 
+      "country": "CH", 
+      "value": "Kirchberg", 
+      "population": 5335
+    }
+  ], 
   "Gagny": {
     "geonameid": "3016830", 
     "country": "FR", 
@@ -6329,10 +6369,10 @@
     "value": "Marseille 12", 
     "population": 58734
   }, 
-  "Saint-L\u00f4": {
+  "Saint-Lô": {
     "geonameid": "2978758", 
     "country": "FR", 
-    "value": "Saint-L\u00f4", 
+    "value": "Saint-Lô", 
     "population": 21722
   }, 
   "Fouillard": {
@@ -6371,10 +6411,10 @@
     "value": "Belo Horizonte", 
     "population": 2373224
   }, 
-  "Saint-R\u00e9my": {
+  "Saint-Rémy": {
     "geonameid": "2977229", 
     "country": "FR", 
-    "value": "Saint-R\u00e9my", 
+    "value": "Saint-Rémy", 
     "population": 6046
   }, 
   "Zelzate": {
@@ -6395,10 +6435,10 @@
     "value": "Tarare", 
     "population": 10806
   }, 
-  "Charnay-l\u00e8s-M\u00e2con": {
+  "Charnay-lès-Mâcon": {
     "geonameid": "3026534", 
     "country": "FR", 
-    "value": "Charnay-l\u00e8s-M\u00e2con", 
+    "value": "Charnay-lès-Mâcon", 
     "population": 7019
   }, 
   "Jaipur": {
@@ -6407,10 +6447,10 @@
     "value": "Jaipur", 
     "population": 2711758
   }, 
-  "Lu\u00e7on": {
+  "Luçon": {
     "geonameid": "2997210", 
     "country": "FR", 
-    "value": "Lu\u00e7on", 
+    "value": "Luçon", 
     "population": 10140
   }, 
   "Philadelphie": {
@@ -6437,10 +6477,10 @@
     "value": "Cali", 
     "population": 2392877
   }, 
-  "L\u2019Isle-d\u2019Abeau": {
+  "L’Isle-d’Abeau": {
     "geonameid": "2998136", 
     "country": "FR", 
-    "value": "L\u2019Isle-d\u2019Abeau", 
+    "value": "L’Isle-d’Abeau", 
     "population": 12033
   }, 
   "Winnipeg": {
@@ -6473,10 +6513,10 @@
     "value": "Bormes-les-Mimosas", 
     "population": 6857
   }, 
-  "La Bass\u00e9e": {
+  "La Bassée": {
     "geonameid": "3011307", 
     "country": "FR", 
-    "value": "La Bass\u00e9e", 
+    "value": "La Bassée", 
     "population": 6027
   }, 
   "Aiseau": {
@@ -6485,10 +6525,10 @@
     "value": "Aiseau", 
     "population": 10906
   }, 
-  "Meg\u00e8ve": {
+  "Megève": {
     "geonameid": "2994768", 
     "country": "FR", 
-    "value": "Meg\u00e8ve", 
+    "value": "Megève", 
     "population": 5129
   }, 
   "Romorantin": {
@@ -6521,10 +6561,10 @@
     "value": "Guayaquil", 
     "population": 1952029
   }, 
-  "Br\u00e9tigny-sur-Orge": {
+  "Brétigny-sur-Orge": {
     "geonameid": "3030257", 
     "country": "FR", 
-    "value": "Br\u00e9tigny-sur-Orge", 
+    "value": "Brétigny-sur-Orge", 
     "population": 24317
   }, 
   "Concarneau": {
@@ -6635,28 +6675,28 @@
     "value": "Mer", 
     "population": 5830
   }, 
-  "Saint-Rapha\u00ebl": {
+  "Saint-Raphaël": {
     "geonameid": "2977246", 
     "country": "FR", 
-    "value": "Saint-Rapha\u00ebl", 
+    "value": "Saint-Raphaël", 
     "population": 34918
   }, 
-  "Villab\u00e9": {
+  "Villabé": {
     "geonameid": "2969058", 
     "country": "FR", 
-    "value": "Villab\u00e9", 
+    "value": "Villabé", 
     "population": 5090
   }, 
-  "Bourg-L\u00e9opold": {
+  "Bourg-Léopold": {
     "geonameid": "2792856", 
     "country": "BE", 
-    "value": "Bourg-L\u00e9opold", 
+    "value": "Bourg-Léopold", 
     "population": 14149
   }, 
-  "Bagn\u00e8res-de-Bigorre": {
+  "Bagnères-de-Bigorre": {
     "geonameid": "3035418", 
     "country": "FR", 
-    "value": "Bagn\u00e8res-de-Bigorre", 
+    "value": "Bagnères-de-Bigorre", 
     "population": 8967
   }, 
   "Luisant": {
@@ -6683,16 +6723,16 @@
     "value": "Wevelgem", 
     "population": 30954
   }, 
-  "K\u00f6niz": {
+  "Köniz": {
     "geonameid": "2660119", 
     "country": "CH", 
-    "value": "K\u00f6niz", 
+    "value": "Köniz", 
     "population": 37196
   }, 
-  "Maizi\u00e8res-l\u00e8s-Metz": {
+  "Maizières-lès-Metz": {
     "geonameid": "2996538", 
     "country": "FR", 
-    "value": "Maizi\u00e8res-l\u00e8s-Metz", 
+    "value": "Maizières-lès-Metz", 
     "population": 9845
   }, 
   "Launaguet": {
@@ -6719,10 +6759,10 @@
     "value": "La Wantzenau", 
     "population": 5765
   }, 
-  "Ferri\u00e8re-la-Grande": {
+  "Ferrière-la-Grande": {
     "geonameid": "3018650", 
     "country": "FR", 
-    "value": "Ferri\u00e8re-la-Grande", 
+    "value": "Ferrière-la-Grande", 
     "population": 5834
   }, 
   "Haacht": {
@@ -6749,22 +6789,22 @@
     "value": "Mougins", 
     "population": 18973
   }, 
-  "Saint-Paul-l\u00e8s-Dax": {
+  "Saint-Paul-lès-Dax": {
     "geonameid": "2977648", 
     "country": "FR", 
-    "value": "Saint-Paul-l\u00e8s-Dax", 
+    "value": "Saint-Paul-lès-Dax", 
     "population": 11839
   }, 
-  "Ch\u00e2teau-Gontier": {
+  "Château-Gontier": {
     "geonameid": "3026273", 
     "country": "FR", 
-    "value": "Ch\u00e2teau-Gontier", 
+    "value": "Château-Gontier", 
     "population": 12292
   }, 
-  "Fouqui\u00e8res-l\u00e8s-Lens": {
+  "Fouquières-lès-Lens": {
     "geonameid": "3017556", 
     "country": "FR", 
-    "value": "Fouqui\u00e8res-l\u00e8s-Lens", 
+    "value": "Fouquières-lès-Lens", 
     "population": 7008
   }, 
   "Saint-Jean-de-Maurienne": {
@@ -6827,10 +6867,10 @@
     "value": "Menton", 
     "population": 29649
   }, 
-  "Cou\u00ebron": {
+  "Couëron": {
     "geonameid": "3023324", 
     "country": "FR", 
-    "value": "Cou\u00ebron", 
+    "value": "Couëron", 
     "population": 19466
   }, 
   "Isbergues": {
@@ -6857,10 +6897,10 @@
     "value": "Lambersart", 
     "population": 28613
   }, 
-  "Carthag\u00e8ne": {
+  "Carthagène": {
     "geonameid": "3687238", 
     "country": "CO", 
-    "value": "Carthag\u00e8ne", 
+    "value": "Carthagène", 
     "population": 952024
   }, 
   "Dison": {
@@ -6875,12 +6915,20 @@
     "value": "Mogadiscio", 
     "population": 2587183
   }, 
-  "Rochefort": {
-    "geonameid": "2787948", 
-    "country": "BE", 
-    "value": "Rochefort", 
-    "population": 11978
-  }, 
+  "Rochefort": [
+    {
+      "geonameid": "2983276", 
+      "country": "FR", 
+      "value": "Rochefort", 
+      "population": 29427
+    }, 
+    {
+      "geonameid": "2787948", 
+      "country": "BE", 
+      "value": "Rochefort", 
+      "population": 11978
+    }
+  ], 
   "Faches-Thumesnil": {
     "geonameid": "3019153", 
     "country": "FR", 
@@ -6935,10 +6983,10 @@
     "value": "Okayama", 
     "population": 639652
   }, 
-  "Saint-\u00c9tienne-de-Montluc": {
+  "Saint-Étienne-de-Montluc": {
     "geonameid": "2980259", 
     "country": "FR", 
-    "value": "Saint-\u00c9tienne-de-Montluc", 
+    "value": "Saint-Étienne-de-Montluc", 
     "population": 6809
   }, 
   "Bourges": {
@@ -6965,10 +7013,10 @@
     "value": "Gembloux", 
     "population": 21676
   }, 
-  "H\u1ea3i Ph\u00f2ng": {
+  "Hải Phòng": {
     "geonameid": "1581298", 
     "country": "VN", 
-    "value": "H\u1ea3i Ph\u00f2ng", 
+    "value": "Hải Phòng", 
     "population": 602695
   }, 
   "Saint-Laurent-de-la-Salanque": {
@@ -7019,10 +7067,10 @@
     "value": "Grimbergen", 
     "population": 33561
   }, 
-  "Nanteuil-l\u00e8s-Meaux": {
+  "Nanteuil-lès-Meaux": {
     "geonameid": "2990957", 
     "country": "FR", 
-    "value": "Nanteuil-l\u00e8s-Meaux", 
+    "value": "Nanteuil-lès-Meaux", 
     "population": 5499
   }, 
   "Monthey": {
@@ -7055,10 +7103,10 @@
     "value": "Thal", 
     "population": 6433
   }, 
-  "Ch\u00e9cy": {
+  "Chécy": {
     "geonameid": "3025650", 
     "country": "FR", 
-    "value": "Ch\u00e9cy", 
+    "value": "Chécy", 
     "population": 7655
   }, 
   "Aubagne": {
@@ -7103,10 +7151,10 @@
     "value": "Guer", 
     "population": 6308
   }, 
-  "Ozoir-la-Ferri\u00e8re": {
+  "Ozoir-la-Ferrière": {
     "geonameid": "2988867", 
     "country": "FR", 
-    "value": "Ozoir-la-Ferri\u00e8re", 
+    "value": "Ozoir-la-Ferrière", 
     "population": 22530
   }, 
   "Meise": {
@@ -7115,10 +7163,10 @@
     "value": "Meise", 
     "population": 18497
   }, 
-  "La Louvi\u00e8re": {
+  "La Louvière": {
     "geonameid": "2793508", 
     "country": "BE", 
-    "value": "La Louvi\u00e8re", 
+    "value": "La Louvière", 
     "population": 76668
   }, 
   "Kano": {
@@ -7139,10 +7187,10 @@
     "value": "Oulan-Bator", 
     "population": 844818
   }, 
-  "Saint-S\u00e9bastien-sur-Loire": {
+  "Saint-Sébastien-sur-Loire": {
     "geonameid": "2976984", 
     "country": "FR", 
-    "value": "Saint-S\u00e9bastien-sur-Loire", 
+    "value": "Saint-Sébastien-sur-Loire", 
     "population": 29238
   }, 
   "Santiago du Chili": {
@@ -7217,16 +7265,16 @@
     "value": "Blagnac", 
     "population": 24263
   }, 
-  "Wroc\u0142aw": {
+  "Wrocław": {
     "geonameid": "3081368", 
     "country": "PL", 
-    "value": "Wroc\u0142aw", 
+    "value": "Wrocław", 
     "population": 634893
   }, 
-  "Saint-Pol-de-L\u00e9on": {
+  "Saint-Pol-de-Léon": {
     "geonameid": "2977390", 
     "country": "FR", 
-    "value": "Saint-Pol-de-L\u00e9on", 
+    "value": "Saint-Pol-de-Léon", 
     "population": 7627
   }, 
   "Linas": {
@@ -7241,16 +7289,16 @@
     "value": "Lanton", 
     "population": 5765
   }, 
-  "\u00c9lancourt": {
+  "Élancourt": {
     "geonameid": "3020310", 
     "country": "FR", 
-    "value": "\u00c9lancourt", 
+    "value": "Élancourt", 
     "population": 30831
   }, 
-  "Chasse-sur-Rh\u00f4ne": {
+  "Chasse-sur-Rhône": {
     "geonameid": "3026384", 
     "country": "FR", 
-    "value": "Chasse-sur-Rh\u00f4ne", 
+    "value": "Chasse-sur-Rhône", 
     "population": 5229
   }, 
   "Chapelle-lez-Herlaimont": {
@@ -7283,16 +7331,16 @@
     "value": "Abou Ghraib", 
     "population": 900000
   }, 
-  "Montigny-l\u00e8s-Cormeilles": {
+  "Montigny-lès-Cormeilles": {
     "geonameid": "2992404", 
     "country": "FR", 
-    "value": "Montigny-l\u00e8s-Cormeilles", 
+    "value": "Montigny-lès-Cormeilles", 
     "population": 17910
   }, 
-  "Asni\u00e8res-sur-Seine": {
+  "Asnières-sur-Seine": {
     "geonameid": "3036572", 
     "country": "FR", 
-    "value": "Asni\u00e8res-sur-Seine", 
+    "value": "Asnières-sur-Seine", 
     "population": 86742
   }, 
   "Sint-Amands": {
@@ -7301,10 +7349,10 @@
     "value": "Sint-Amands", 
     "population": 7653
   }, 
-  "Sainte-Genevi\u00e8ve-des-Bois": {
+  "Sainte-Geneviève-des-Bois": {
     "geonameid": "2980558", 
     "country": "FR", 
-    "value": "Sainte-Genevi\u00e8ve-des-Bois", 
+    "value": "Sainte-Geneviève-des-Bois", 
     "population": 33689
   }, 
   "Lokeren": {
@@ -7337,10 +7385,10 @@
     "value": "Buc", 
     "population": 6120
   }, 
-  "C\u00f3rdoba": {
+  "Córdoba": {
     "geonameid": "3860259", 
     "country": "AR", 
-    "value": "C\u00f3rdoba", 
+    "value": "Córdoba", 
     "population": 1428214
   }, 
   "Le Cannet": {
@@ -7373,10 +7421,10 @@
     "value": "Vitrolles", 
     "population": 38591
   }, 
-  "Saint-Mand\u00e9": {
+  "Saint-Mandé": {
     "geonameid": "2978621", 
     "country": "FR", 
-    "value": "Saint-Mand\u00e9", 
+    "value": "Saint-Mandé", 
     "population": 21261
   }, 
   "Gisors": {
@@ -7385,10 +7433,10 @@
     "value": "Gisors", 
     "population": 12363
   }, 
-  "Ch\u00e2tenoy-le-Royal": {
+  "Châtenoy-le-Royal": {
     "geonameid": "3026094", 
     "country": "FR", 
-    "value": "Ch\u00e2tenoy-le-Royal", 
+    "value": "Châtenoy-le-Royal", 
     "population": 6058
   }, 
   "Bondoufle": {
@@ -7463,10 +7511,10 @@
     "value": "Metz", 
     "population": 123914
   }, 
-  "Adela\u00efde": {
+  "Adelaïde": {
     "geonameid": "2078025", 
     "country": "AU", 
-    "value": "Adela\u00efde", 
+    "value": "Adelaïde", 
     "population": 1225235
   }, 
   "Zingem": {
@@ -7475,10 +7523,10 @@
     "value": "Zingem", 
     "population": 6588
   }, 
-  "Pl\u00e9dran": {
+  "Plédran": {
     "geonameid": "2986818", 
     "country": "FR", 
-    "value": "Pl\u00e9dran", 
+    "value": "Plédran", 
     "population": 5550
   }, 
   "Altdorf": {
@@ -7571,10 +7619,10 @@
     "value": "Fresnes-sur-Escaut", 
     "population": 7573
   }, 
-  "\u00c9queurdreville-Hainneville": {
+  "Équeurdreville-Hainneville": {
     "geonameid": "3019960", 
     "country": "FR", 
-    "value": "\u00c9queurdreville-Hainneville", 
+    "value": "Équeurdreville-Hainneville", 
     "population": 18862
   }, 
   "Orbe": {
@@ -7601,10 +7649,10 @@
     "value": "Bucaramanga", 
     "population": 571820
   }, 
-  "M\u00e9ry-sur-Oise": {
+  "Méry-sur-Oise": {
     "geonameid": "2994283", 
     "country": "FR", 
-    "value": "M\u00e9ry-sur-Oise", 
+    "value": "Méry-sur-Oise", 
     "population": 9490
   }, 
   "Villeneuve-la-Garenne": {
@@ -7619,16 +7667,16 @@
     "value": "Bobigny", 
     "population": 44962
   }, 
-  "Neuville-sur-Sa\u00f4ne": {
+  "Neuville-sur-Saône": {
     "geonameid": "2990516", 
     "country": "FR", 
-    "value": "Neuville-sur-Sa\u00f4ne", 
+    "value": "Neuville-sur-Saône", 
     "population": 7453
   }, 
-  "Chemill\u00e9-Melay": {
+  "Chemillé-Melay": {
     "geonameid": "3025602", 
     "country": "FR", 
-    "value": "Chemill\u00e9-Melay", 
+    "value": "Chemillé-Melay", 
     "population": 6683
   }, 
   "Riom": {
@@ -7643,10 +7691,10 @@
     "value": "Wittenbach", 
     "population": 8542
   }, 
-  "Villars-sur-Gl\u00e2ne": {
+  "Villars-sur-Glâne": {
     "geonameid": "2658128", 
     "country": "CH", 
-    "value": "Villars-sur-Gl\u00e2ne", 
+    "value": "Villars-sur-Glâne", 
     "population": 10021
   }, 
   "Salvador": {
@@ -7661,10 +7709,10 @@
     "value": "Copenhague", 
     "population": 1153615
   }, 
-  "Cabri\u00e8s": {
+  "Cabriès": {
     "geonameid": "3029283", 
     "country": "FR", 
-    "value": "Cabri\u00e8s", 
+    "value": "Cabriès", 
     "population": 8122
   }, 
   "Mar del Plata": {
@@ -7739,16 +7787,16 @@
     "value": "Juprelle", 
     "population": 8354
   }, 
-  "Saint-Andr\u00e9-les-Vergers": {
+  "Saint-André-les-Vergers": {
     "geonameid": "2981716", 
     "country": "FR", 
-    "value": "Saint-Andr\u00e9-les-Vergers", 
+    "value": "Saint-André-les-Vergers", 
     "population": 11203
   }, 
-  "D\u00e9ols": {
+  "Déols": {
     "geonameid": "3021570", 
     "country": "FR", 
-    "value": "D\u00e9ols", 
+    "value": "Déols", 
     "population": 8635
   }, 
   "Pully": {
@@ -7835,10 +7883,10 @@
     "value": "Corbas", 
     "population": 9753
   }, 
-  "Vitry-le-Fran\u00e7ois": {
+  "Vitry-le-François": {
     "geonameid": "2967856", 
     "country": "FR", 
-    "value": "Vitry-le-Fran\u00e7ois", 
+    "value": "Vitry-le-François", 
     "population": 17250
   }, 
   "Aussillon": {
@@ -7883,10 +7931,10 @@
     "value": "Prades", 
     "population": 6836
   }, 
-  "M\u00e9ru": {
+  "Méru": {
     "geonameid": "2994306", 
     "country": "FR", 
-    "value": "M\u00e9ru", 
+    "value": "Méru", 
     "population": 13528
   }, 
   "Dornach": {
@@ -7901,10 +7949,10 @@
     "value": "Wavrin", 
     "population": 7770
   }, 
-  "V\u00e9nissieux": {
+  "Vénissieux": {
     "geonameid": "2970072", 
     "country": "FR", 
-    "value": "V\u00e9nissieux", 
+    "value": "Vénissieux", 
     "population": 57584
   }, 
   "Plouguerneau": {
@@ -7925,10 +7973,10 @@
     "value": "Grand-Couronne", 
     "population": 9569
   }, 
-  "San Jos\u00e9": {
+  "San José": {
     "geonameid": "5392171", 
     "country": "US", 
-    "value": "San Jos\u00e9", 
+    "value": "San José", 
     "population": 1026908
   }, 
   "Fully": {
@@ -7955,10 +8003,10 @@
     "value": "Toul", 
     "population": 17680
   }, 
-  "S\u00e9oul": {
+  "Séoul": {
     "geonameid": "1835848", 
     "country": "KR", 
-    "value": "S\u00e9oul", 
+    "value": "Séoul", 
     "population": 10349312
   }, 
   "Freienbach": {
@@ -8027,10 +8075,10 @@
     "value": "La Valette-du-Var", 
     "population": 23134
   }, 
-  "Saint-Fran\u00e7ois": {
+  "Saint-François": {
     "geonameid": "2980080", 
     "country": "FR", 
-    "value": "Saint-Fran\u00e7ois", 
+    "value": "Saint-François", 
     "population": 13577
   }, 
   "Viroflay": {
@@ -8051,10 +8099,10 @@
     "value": "Sin-le-Noble", 
     "population": 17682
   }, 
-  "Saint-Andr\u00e9-lez-Lille": {
+  "Saint-André-lez-Lille": {
     "geonameid": "2981779", 
     "country": "FR", 
-    "value": "Saint-Andr\u00e9-lez-Lille", 
+    "value": "Saint-André-lez-Lille", 
     "population": 10931
   }, 
   "Birsfelden": {
@@ -8111,10 +8159,10 @@
     "value": "Hochdorf", 
     "population": 8192
   }, 
-  "Le Cr\u00e8s": {
+  "Le Crès": {
     "geonameid": "3004434", 
     "country": "FR", 
-    "value": "Le Cr\u00e8s", 
+    "value": "Le Crès", 
     "population": 7621
   }, 
   "Saint-Prix": {
@@ -8135,12 +8183,20 @@
     "value": "Kolkata", 
     "population": 4631392
   }, 
-  "Vienne": {
-    "geonameid": "2969284", 
-    "country": "FR", 
-    "value": "Vienne", 
-    "population": 32293
-  }, 
+  "Vienne": [
+    {
+      "geonameid": "2761369", 
+      "country": "AT", 
+      "value": "Vienne", 
+      "population": 1691468
+    }, 
+    {
+      "geonameid": "2969284", 
+      "country": "FR", 
+      "value": "Vienne", 
+      "population": 32293
+    }
+  ], 
   "Courcouronnes": {
     "geonameid": "3023056", 
     "country": "FR", 
@@ -8171,34 +8227,42 @@
     "value": "Le Grand-Saconnex", 
     "population": 9781
   }, 
-  "Khuln\u00e2": {
+  "Khulnâ": {
     "geonameid": "1336135", 
     "country": "BD", 
-    "value": "Khuln\u00e2", 
+    "value": "Khulnâ", 
     "population": 1342339
   }, 
-  "M\u00f6hlin": {
+  "Möhlin": {
     "geonameid": "2659645", 
     "country": "CH", 
-    "value": "M\u00f6hlin", 
+    "value": "Möhlin", 
     "population": 9382
   }, 
-  "\u00c9cublens": {
-    "geonameid": "2660947", 
-    "country": "CH", 
-    "value": "\u00c9cublens", 
-    "population": 10065
-  }, 
+  "Écublens": [
+    {
+      "geonameid": "6285791", 
+      "country": "CH", 
+      "value": "Écublens", 
+      "population": 10262
+    }, 
+    {
+      "geonameid": "2660947", 
+      "country": "CH", 
+      "value": "Écublens", 
+      "population": 10065
+    }
+  ], 
   "Notre-Dame-de-Gravenchon": {
     "geonameid": "2990056", 
     "country": "FR", 
     "value": "Notre-Dame-de-Gravenchon", 
     "population": 8839
   }, 
-  "Charleville-M\u00e9zi\u00e8res": {
+  "Charleville-Mézières": {
     "geonameid": "3026613", 
     "country": "FR", 
-    "value": "Charleville-M\u00e9zi\u00e8res", 
+    "value": "Charleville-Mézières", 
     "population": 52415
   }, 
   "Bussy-Saint-Georges": {
@@ -8207,10 +8271,10 @@
     "value": "Bussy-Saint-Georges", 
     "population": 10043
   }, 
-  "D\u00e9cines-Charpieu": {
+  "Décines-Charpieu": {
     "geonameid": "3021662", 
     "country": "FR", 
-    "value": "D\u00e9cines-Charpieu", 
+    "value": "Décines-Charpieu", 
     "population": 24674
   }, 
   "Kreuzlingen": {
@@ -8273,10 +8337,10 @@
     "value": "Bar-sur-Aube", 
     "population": 5387
   }, 
-  "Arpajon-sur-C\u00e8re": {
+  "Arpajon-sur-Cère": {
     "geonameid": "3036822", 
     "country": "FR", 
-    "value": "Arpajon-sur-C\u00e8re", 
+    "value": "Arpajon-sur-Cère", 
     "population": 5744
   }, 
   "Riorges": {
@@ -8291,12 +8355,20 @@
     "value": "Ramillies", 
     "population": 5749
   }, 
-  "Vernouillet": {
-    "geonameid": "2969751", 
-    "country": "FR", 
-    "value": "Vernouillet", 
-    "population": 9965
-  }, 
+  "Vernouillet": [
+    {
+      "geonameid": "2969752", 
+      "country": "FR", 
+      "value": "Vernouillet", 
+      "population": 11783
+    }, 
+    {
+      "geonameid": "2969751", 
+      "country": "FR", 
+      "value": "Vernouillet", 
+      "population": 9965
+    }
+  ], 
   "Albertville": {
     "geonameid": "3038266", 
     "country": "FR", 
@@ -8327,10 +8399,10 @@
     "value": "Croix", 
     "population": 21361
   }, 
-  "Saint-R\u00e9my-l\u00e8s-Chevreuse": {
+  "Saint-Rémy-lès-Chevreuse": {
     "geonameid": "2977197", 
     "country": "FR", 
-    "value": "Saint-R\u00e9my-l\u00e8s-Chevreuse", 
+    "value": "Saint-Rémy-lès-Chevreuse", 
     "population": 8072
   }, 
   "Rebecq-Rognon": {
@@ -8351,10 +8423,10 @@
     "value": "Saint-Chamas", 
     "population": 6901
   }, 
-  "Fl\u00e9malle-Haute": {
+  "Flémalle-Haute": {
     "geonameid": "2798307", 
     "country": "BE", 
-    "value": "Fl\u00e9malle-Haute", 
+    "value": "Flémalle-Haute", 
     "population": 25144
   }, 
   "La Massana": {
@@ -8363,10 +8435,10 @@
     "value": "La Massana", 
     "population": 7211
   }, 
-  "\u00c9guilles": {
+  "Éguilles": {
     "geonameid": "3020330", 
     "country": "FR", 
-    "value": "\u00c9guilles", 
+    "value": "Éguilles", 
     "population": 7480
   }, 
   "Bougival": {
@@ -8381,10 +8453,10 @@
     "value": "Juvisy-sur-Orge", 
     "population": 12376
   }, 
-  "Saint-\u00c9tienne-du-Rouvray": {
+  "Saint-Étienne-du-Rouvray": {
     "geonameid": "2980236", 
     "country": "FR", 
-    "value": "Saint-\u00c9tienne-du-Rouvray", 
+    "value": "Saint-Étienne-du-Rouvray", 
     "population": 28953
   }, 
   "Grande-Synthe": {
@@ -8423,10 +8495,10 @@
     "value": "Annecy", 
     "population": 49232
   }, 
-  "P\u00e9rigny": {
+  "Périgny": {
     "geonameid": "2987976", 
     "country": "FR", 
-    "value": "P\u00e9rigny", 
+    "value": "Périgny", 
     "population": 6460
   }, 
   "Rotterdam": {
@@ -8519,10 +8591,10 @@
     "value": "Le Blanc", 
     "population": 7026
   }, 
-  "\u00c9ragny": {
+  "Éragny": {
     "geonameid": "3019952", 
     "country": "FR", 
-    "value": "\u00c9ragny", 
+    "value": "Éragny", 
     "population": 15385
   }, 
   "Pointe-Noire": {
@@ -8609,10 +8681,10 @@
     "value": "Lummen", 
     "population": 13689
   }, 
-  "St\u00e4fa": {
+  "Stäfa": {
     "geonameid": "2658518", 
     "country": "CH", 
-    "value": "St\u00e4fa", 
+    "value": "Stäfa", 
     "population": 5737
   }, 
   "Chantonnay": {
@@ -8621,10 +8693,10 @@
     "value": "Chantonnay", 
     "population": 8375
   }, 
-  "Boissy-Saint-L\u00e9ger": {
+  "Boissy-Saint-Léger": {
     "geonameid": "3031898", 
     "country": "FR", 
-    "value": "Boissy-Saint-L\u00e9ger", 
+    "value": "Boissy-Saint-Léger", 
     "population": 15877
   }, 
   "Villetaneuse": {
@@ -8633,10 +8705,10 @@
     "value": "Villetaneuse", 
     "population": 12025
   }, 
-  "Bouak\u00e9": {
+  "Bouaké": {
     "geonameid": "2290956", 
     "country": "CI", 
-    "value": "Bouak\u00e9", 
+    "value": "Bouaké", 
     "population": 567481
   }, 
   "Tourlaville": {
@@ -8687,10 +8759,10 @@
     "value": "Mordelles", 
     "population": 6484
   }, 
-  "Vieux-Cond\u00e9": {
+  "Vieux-Condé": {
     "geonameid": "2969213", 
     "country": "FR", 
-    "value": "Vieux-Cond\u00e9", 
+    "value": "Vieux-Condé", 
     "population": 10773
   }, 
   "Conthey": {
@@ -8699,10 +8771,10 @@
     "value": "Conthey", 
     "population": 6634
   }, 
-  "Veign\u00e9": {
+  "Veigné": {
     "geonameid": "2970237", 
     "country": "FR", 
-    "value": "Veign\u00e9", 
+    "value": "Veigné", 
     "population": 5771
   }, 
   "La Bouilladisse": {
@@ -8723,10 +8795,10 @@
     "value": "Villeneuve-sur-Lot", 
     "population": 25869
   }, 
-  "La Verpilli\u00e8re": {
+  "La Verpillière": {
     "geonameid": "3005651", 
     "country": "FR", 
-    "value": "La Verpilli\u00e8re", 
+    "value": "La Verpillière", 
     "population": 6205
   }, 
   "Verdun": {
@@ -8735,10 +8807,10 @@
     "value": "Verdun", 
     "population": 21798
   }, 
-  "Mori\u00e8res-l\u00e8s-Avignon": {
+  "Morières-lès-Avignon": {
     "geonameid": "2991799", 
     "country": "FR", 
-    "value": "Mori\u00e8res-l\u00e8s-Avignon", 
+    "value": "Morières-lès-Avignon", 
     "population": 7001
   }, 
   "Vincennes": {
@@ -8765,10 +8837,10 @@
     "value": "Spiez", 
     "population": 12594
   }, 
-  "\u00c9couen": {
+  "Écouen": {
     "geonameid": "3020440", 
     "country": "FR", 
-    "value": "\u00c9couen", 
+    "value": "Écouen", 
     "population": 7583
   }, 
   "Marseille 02": {
@@ -8837,10 +8909,10 @@
     "value": "Guidel-Plage", 
     "population": 9800
   }, 
-  "Gleiz\u00e9": {
+  "Gleizé": {
     "geonameid": "3015823", 
     "country": "FR", 
-    "value": "Gleiz\u00e9", 
+    "value": "Gleizé", 
     "population": 8749
   }, 
   "Au": {
@@ -8855,16 +8927,16 @@
     "value": "Herentals", 
     "population": 25912
   }, 
-  "Les Sorini\u00e8res": {
+  "Les Sorinières": {
     "geonameid": "2999572", 
     "country": "FR", 
-    "value": "Les Sorini\u00e8res", 
+    "value": "Les Sorinières", 
     "population": 6698
   }, 
-  "Cond\u00e9-sur-Noireau": {
+  "Condé-sur-Noireau": {
     "geonameid": "3023953", 
     "country": "FR", 
-    "value": "Cond\u00e9-sur-Noireau", 
+    "value": "Condé-sur-Noireau", 
     "population": 6364
   }, 
   "Wallers": {
@@ -8885,10 +8957,10 @@
     "value": "Alep", 
     "population": 1602264
   }, 
-  "P\u00e9ronnas": {
+  "Péronnas": {
     "geonameid": "2987930", 
     "country": "FR", 
-    "value": "P\u00e9ronnas", 
+    "value": "Péronnas", 
     "population": 6411
   }, 
   "Minsk": {
@@ -8915,10 +8987,10 @@
     "value": "Almaty", 
     "population": 2000900
   }, 
-  "Jou\u00e9-l\u00e8s-Tours": {
+  "Joué-lès-Tours": {
     "geonameid": "3012219", 
     "country": "FR", 
-    "value": "Jou\u00e9-l\u00e8s-Tours", 
+    "value": "Joué-lès-Tours", 
     "population": 37466
   }, 
   "Seynod": {
@@ -8933,10 +9005,10 @@
     "value": "Escaudain", 
     "population": 9479
   }, 
-  "Hy\u00e8res": {
+  "Hyères": {
     "geonameid": "3012937", 
     "country": "FR", 
-    "value": "Hy\u00e8res", 
+    "value": "Hyères", 
     "population": 50487
   }, 
   "Maldegem": {
@@ -8969,10 +9041,10 @@
     "value": "Deuil-la-Barre", 
     "population": 21560
   }, 
-  "\u00c9vreux": {
+  "Évreux": {
     "geonameid": "3019265", 
     "country": "FR", 
-    "value": "\u00c9vreux", 
+    "value": "Évreux", 
     "population": 57795
   }, 
   "Saint-Cyr-sur-Loire": {
@@ -9029,10 +9101,10 @@
     "value": "Villars", 
     "population": 8709
   }, 
-  "Loriol-sur-Dr\u00f4me": {
+  "Loriol-sur-Drôme": {
     "geonameid": "2997569", 
     "country": "FR", 
-    "value": "Loriol-sur-Dr\u00f4me", 
+    "value": "Loriol-sur-Drôme", 
     "population": 5803
   }, 
   "Monts": {
@@ -9059,12 +9131,26 @@
     "value": "Steinhausen", 
     "population": 8509
   }, 
-  "Saint-Nicolas": {
-    "geonameid": "2977901", 
-    "country": "FR", 
-    "value": "Saint-Nicolas", 
-    "population": 5791
-  }, 
+  "Saint-Nicolas": [
+    {
+      "geonameid": "2786578", 
+      "country": "BE", 
+      "value": "Saint-Nicolas", 
+      "population": 69010
+    }, 
+    {
+      "geonameid": "2787356", 
+      "country": "BE", 
+      "value": "Saint-Nicolas", 
+      "population": 22586
+    }, 
+    {
+      "geonameid": "2977901", 
+      "country": "FR", 
+      "value": "Saint-Nicolas", 
+      "population": 5791
+    }
+  ], 
   "Reinach": {
     "geonameid": "2659076", 
     "country": "CH", 
@@ -9179,10 +9265,10 @@
     "value": "Beuvrages", 
     "population": 7834
   }, 
-  "N\u00e9rac": {
+  "Nérac": {
     "geonameid": "2990780", 
     "country": "FR", 
-    "value": "N\u00e9rac", 
+    "value": "Nérac", 
     "population": 7688
   }, 
   "Pontault-Combault": {
@@ -9221,12 +9307,20 @@
     "value": "Montereau-Fault-Yonne", 
     "population": 16993
   }, 
-  "Beaumont": {
-    "geonameid": "2802510", 
-    "country": "BE", 
-    "value": "Beaumont", 
-    "population": 6645
-  }, 
+  "Beaumont": [
+    {
+      "geonameid": "3034198", 
+      "country": "FR", 
+      "value": "Beaumont", 
+      "population": 12295
+    }, 
+    {
+      "geonameid": "2802510", 
+      "country": "BE", 
+      "value": "Beaumont", 
+      "population": 6645
+    }
+  ], 
   "Thiais": {
     "geonameid": "2972893", 
     "country": "FR", 
@@ -9251,10 +9345,10 @@
     "value": "Marly-la-Ville", 
     "population": 6034
   }, 
-  "Saint-Aubin-de-M\u00e9doc": {
+  "Saint-Aubin-de-Médoc": {
     "geonameid": "2981579", 
     "country": "FR", 
-    "value": "Saint-Aubin-de-M\u00e9doc", 
+    "value": "Saint-Aubin-de-Médoc", 
     "population": 5440
   }, 
   "Yssingeaux": {
@@ -9305,10 +9399,10 @@
     "value": "Wallisellen", 
     "population": 11705
   }, 
-  "Saint-Genis-les-Olli\u00e8res": {
+  "Saint-Genis-les-Ollières": {
     "geonameid": "2979984", 
     "country": "FR", 
-    "value": "Saint-Genis-les-Olli\u00e8res", 
+    "value": "Saint-Genis-les-Ollières", 
     "population": 5029
   }, 
   "Louvres": {
@@ -9329,22 +9423,22 @@
     "value": "Arnage", 
     "population": 5991
   }, 
-  "Pont-\u00e0-Celles": {
+  "Pont-à-Celles": {
     "geonameid": "2788765", 
     "country": "BE", 
-    "value": "Pont-\u00e0-Celles", 
+    "value": "Pont-à-Celles", 
     "population": 15909
   }, 
-  "Ch\u00e2tel-Guyon": {
+  "Châtel-Guyon": {
     "geonameid": "3026145", 
     "country": "FR", 
-    "value": "Ch\u00e2tel-Guyon", 
+    "value": "Châtel-Guyon", 
     "population": 5681
   }, 
-  "Alli\u00e8res-et-Risset": {
+  "Allières-et-Risset": {
     "geonameid": "3038106", 
     "country": "FR", 
-    "value": "Alli\u00e8res-et-Risset", 
+    "value": "Allières-et-Risset", 
     "population": 6815
   }, 
   "Lingolsheim": {
@@ -9389,10 +9483,10 @@
     "value": "Zermatt", 
     "population": 6629
   }, 
-  "Sal\u00e9": {
+  "Salé": {
     "geonameid": "2537763", 
     "country": "MA", 
-    "value": "Sal\u00e9", 
+    "value": "Salé", 
     "population": 903485
   }, 
   "Herne": {
@@ -9407,10 +9501,10 @@
     "value": "Saint-Just-Saint-Rambert", 
     "population": 14313
   }, 
-  "Saint-Cl\u00e9ment-de-Rivi\u00e8re": {
+  "Saint-Clément-de-Rivière": {
     "geonameid": "2981073", 
     "country": "FR", 
-    "value": "Saint-Cl\u00e9ment-de-Rivi\u00e8re", 
+    "value": "Saint-Clément-de-Rivière", 
     "population": 5216
   }, 
   "Ingenbohl": {
@@ -9455,10 +9549,10 @@
     "value": "Andorre-la-Vieille", 
     "population": 20430
   }, 
-  "Bel\u0153il": {
+  "Belœil": {
     "geonameid": "2802292", 
     "country": "BE", 
-    "value": "Bel\u0153il", 
+    "value": "Belœil", 
     "population": 13405
   }, 
   "La Havane": {
@@ -9467,16 +9561,16 @@
     "value": "La Havane", 
     "population": 2163824
   }, 
-  "Qui\u00e9vrain": {
+  "Quiévrain": {
     "geonameid": "2788444", 
     "country": "BE", 
-    "value": "Qui\u00e9vrain", 
+    "value": "Quiévrain", 
     "population": 6560
   }, 
-  "Savi\u00e8se": {
+  "Savièse": {
     "geonameid": "2658775", 
     "country": "CH", 
-    "value": "Savi\u00e8se", 
+    "value": "Savièse", 
     "population": 5575
   }, 
   "Zurich": {
@@ -9527,10 +9621,10 @@
     "value": "De Haan", 
     "population": 11766
   }, 
-  "Port-Sa\u00efd": {
+  "Port-Saïd": {
     "geonameid": "358619", 
     "country": "EG", 
-    "value": "Port-Sa\u00efd", 
+    "value": "Port-Saïd", 
     "population": 538378
   }, 
   "Mettet": {
@@ -9545,10 +9639,10 @@
     "value": "Dinant", 
     "population": 12875
   }, 
-  "Lesparre-M\u00e9doc": {
+  "Lesparre-Médoc": {
     "geonameid": "3000072", 
     "country": "FR", 
-    "value": "Lesparre-M\u00e9doc", 
+    "value": "Lesparre-Médoc", 
     "population": 5406
   }, 
   "Istanbul": {
@@ -9575,16 +9669,16 @@
     "value": "Galmaarden", 
     "population": 7939
   }, 
-  "Bourg-Saint-And\u00e9ol": {
+  "Bourg-Saint-Andéol": {
     "geonameid": "3030953", 
     "country": "FR", 
-    "value": "Bourg-Saint-And\u00e9ol", 
+    "value": "Bourg-Saint-Andéol", 
     "population": 8301
   }, 
-  "Uz\u00e8s": {
+  "Uzès": {
     "geonameid": "2971258", 
     "country": "FR", 
-    "value": "Uz\u00e8s", 
+    "value": "Uzès", 
     "population": 7841
   }, 
   "Canton": {
@@ -9647,22 +9741,22 @@
     "value": "Cherbourg", 
     "population": 26655
   }, 
-  "H\u00e9rouville-Saint-Clair": {
+  "Hérouville-Saint-Clair": {
     "geonameid": "3013403", 
     "country": "FR", 
-    "value": "H\u00e9rouville-Saint-Clair", 
+    "value": "Hérouville-Saint-Clair", 
     "population": 24258
   }, 
-  "Cl\u00e9on": {
+  "Cléon": {
     "geonameid": "3024669", 
     "country": "FR", 
-    "value": "Cl\u00e9on", 
+    "value": "Cléon", 
     "population": 6164
   }, 
-  "M\u00e2con": {
+  "Mâcon": {
     "geonameid": "2996882", 
     "country": "FR", 
-    "value": "M\u00e2con", 
+    "value": "Mâcon", 
     "population": 35484
   }, 
   "Bucarest": {
@@ -9671,10 +9765,10 @@
     "value": "Bucarest", 
     "population": 1877155
   }, 
-  "Margny-l\u00e8s-Compi\u00e8gne": {
+  "Margny-lès-Compiègne": {
     "geonameid": "2995790", 
     "country": "FR", 
-    "value": "Margny-l\u00e8s-Compi\u00e8gne", 
+    "value": "Margny-lès-Compiègne", 
     "population": 7011
   }, 
   "Gistel": {
@@ -9737,16 +9831,16 @@
     "value": "Lisieux", 
     "population": 24473
   }, 
-  "H\u00fcnenberg": {
+  "Hünenberg": {
     "geonameid": "2660292", 
     "country": "CH", 
-    "value": "H\u00fcnenberg", 
+    "value": "Hünenberg", 
     "population": 9032
   }, 
-  "Thouar\u00e9-sur-Loire": {
+  "Thouaré-sur-Loire": {
     "geonameid": "2972696", 
     "country": "FR", 
-    "value": "Thouar\u00e9-sur-Loire", 
+    "value": "Thouaré-sur-Loire", 
     "population": 7172
   }, 
   "Lys-lez-Lannoy": {
@@ -9821,10 +9915,10 @@
     "value": "Ploufragan", 
     "population": 11577
   }, 
-  "P\u00e9gomas": {
+  "Pégomas": {
     "geonameid": "2988220", 
     "country": "FR", 
-    "value": "P\u00e9gomas", 
+    "value": "Pégomas", 
     "population": 6052
   }, 
   "Windisch": {
@@ -9911,10 +10005,10 @@
     "value": "La Tour-du-Pin", 
     "population": 7248
   }, 
-  "Ta\u00ebf": {
+  "Taëf": {
     "geonameid": "107968", 
     "country": "SA", 
-    "value": "Ta\u00ebf", 
+    "value": "Taëf", 
     "population": 530848
   }, 
   "Machelen": {
@@ -9929,12 +10023,20 @@
     "value": "Duffel", 
     "population": 16011
   }, 
-  "Grigny": {
-    "geonameid": "3014647", 
-    "country": "FR", 
-    "value": "Grigny", 
-    "population": 8331
-  }, 
+  "Grigny": [
+    {
+      "geonameid": "3014646", 
+      "country": "FR", 
+      "value": "Grigny", 
+      "population": 24940
+    }, 
+    {
+      "geonameid": "3014647", 
+      "country": "FR", 
+      "value": "Grigny", 
+      "population": 8331
+    }
+  ], 
   "Glasgow": {
     "geonameid": "2648579", 
     "country": "GB", 
@@ -9959,10 +10061,10 @@
     "value": "Benghazi", 
     "population": 650629
   }, 
-  "Limeil-Br\u00e9vannes": {
+  "Limeil-Brévannes": {
     "geonameid": "2998305", 
     "country": "FR", 
-    "value": "Limeil-Br\u00e9vannes", 
+    "value": "Limeil-Brévannes", 
     "population": 19104
   }, 
   "Biscarrosse": {
@@ -9971,10 +10073,10 @@
     "value": "Biscarrosse", 
     "population": 10716
   }, 
-  "La Mulati\u00e8re": {
+  "La Mulatière": {
     "geonameid": "3007963", 
     "country": "FR", 
-    "value": "La Mulati\u00e8re", 
+    "value": "La Mulatière", 
     "population": 7185
   }, 
   "Pamiers": {
@@ -10007,10 +10109,10 @@
     "value": "Lausanne", 
     "population": 116751
   }, 
-  "Le Kremlin-Bic\u00eatre": {
+  "Le Kremlin-Bicêtre": {
     "geonameid": "3003737", 
     "country": "FR", 
-    "value": "Le Kremlin-Bic\u00eatre", 
+    "value": "Le Kremlin-Bicêtre", 
     "population": 27867
   }, 
   "Libourne": {
@@ -10019,16 +10121,16 @@
     "value": "Libourne", 
     "population": 24240
   }, 
-  "Ergu\u00e9-Gab\u00e9ric": {
+  "Ergué-Gabéric": {
     "geonameid": "3019920", 
     "country": "FR", 
-    "value": "Ergu\u00e9-Gab\u00e9ric", 
+    "value": "Ergué-Gabéric", 
     "population": 7326
   }, 
-  "La Charit\u00e9-sur-Loire": {
+  "La Charité-sur-Loire": {
     "geonameid": "3010201", 
     "country": "FR", 
-    "value": "La Charit\u00e9-sur-Loire", 
+    "value": "La Charité-sur-Loire", 
     "population": 5460
   }, 
   "Herent": {
@@ -10055,10 +10157,10 @@
     "value": "Guebwiller", 
     "population": 12548
   }, 
-  "R\u00fcti": {
+  "Rüti": {
     "geonameid": "2658909", 
     "country": "CH", 
-    "value": "R\u00fcti", 
+    "value": "Rüti", 
     "population": 9576
   }, 
   "Rennes": {
@@ -10187,10 +10289,10 @@
     "value": "Longvic", 
     "population": 9527
   }, 
-  "\u00c9caussinnes-d\u2019Enghien": {
+  "Écaussinnes-d’Enghien": {
     "geonameid": "2799024", 
     "country": "BE", 
-    "value": "\u00c9caussinnes-d\u2019Enghien", 
+    "value": "Écaussinnes-d’Enghien", 
     "population": 9802
   }, 
   "Frenkendorf": {
@@ -10205,10 +10307,10 @@
     "value": "Manduel", 
     "population": 6260
   }, 
-  "Behren-l\u00e8s-Forbach": {
+  "Behren-lès-Forbach": {
     "geonameid": "3033853", 
     "country": "FR", 
-    "value": "Behren-l\u00e8s-Forbach", 
+    "value": "Behren-lès-Forbach", 
     "population": 10225
   }, 
   "Zottegem": {
@@ -10247,10 +10349,10 @@
     "value": "Sint-Lievens-Houtem", 
     "population": 9146
   }, 
-  "Chamb\u00e9ry": {
+  "Chambéry": {
     "geonameid": "3027422", 
     "country": "FR", 
-    "value": "Chamb\u00e9ry", 
+    "value": "Chambéry", 
     "population": 61640
   }, 
   "Bangui": {
@@ -10301,10 +10403,10 @@
     "value": "Wetzikon", 
     "population": 12969
   }, 
-  "Gu\u00e9rande": {
+  "Guérande": {
     "geonameid": "3014392", 
     "country": "FR", 
-    "value": "Gu\u00e9rande", 
+    "value": "Guérande", 
     "population": 16523
   }, 
   "Pecquencourt": {
@@ -10319,10 +10421,10 @@
     "value": "Hombourg-Haut", 
     "population": 9702
   }, 
-  "Viry-Ch\u00e2tillon": {
+  "Viry-Châtillon": {
     "geonameid": "2967917", 
     "country": "FR", 
-    "value": "Viry-Ch\u00e2tillon", 
+    "value": "Viry-Châtillon", 
     "population": 31131
   }, 
   "Langnau am Albis": {
@@ -10337,10 +10439,10 @@
     "value": "Glabbeek", 
     "population": 5070
   }, 
-  "Chalon-sur-Sa\u00f4ne": {
+  "Chalon-sur-Saône": {
     "geonameid": "3027484", 
     "country": "FR", 
-    "value": "Chalon-sur-Sa\u00f4ne", 
+    "value": "Chalon-sur-Saône", 
     "population": 47251
   }, 
   "Chalonnes-sur-Loire": {
@@ -10379,10 +10481,10 @@
     "value": "Kirkouk", 
     "population": 601433
   }, 
-  "N\u00eemes": {
+  "Nîmes": {
     "geonameid": "2990363", 
     "country": "FR", 
-    "value": "N\u00eemes", 
+    "value": "Nîmes", 
     "population": 148236
   }, 
   "Gourin": {
@@ -10415,10 +10517,10 @@
     "value": "Grand-Fort-Philippe", 
     "population": 6188
   }, 
-  "Aubi\u00e8re": {
+  "Aubière": {
     "geonameid": "3036364", 
     "country": "FR", 
-    "value": "Aubi\u00e8re", 
+    "value": "Aubière", 
     "population": 11054
   }, 
   "Harare": {
@@ -10481,10 +10583,10 @@
     "value": "Keerbergen", 
     "population": 12363
   }, 
-  "Le Taillan-M\u00e9doc": {
+  "Le Taillan-Médoc": {
     "geonameid": "2999296", 
     "country": "FR", 
-    "value": "Le Taillan-M\u00e9doc", 
+    "value": "Le Taillan-Médoc", 
     "population": 8505
   }, 
   "Herblay": {
@@ -10523,16 +10625,16 @@
     "value": "Le Mont-sur-Lausanne", 
     "population": 5270
   }, 
-  "La Fert\u00e9-Saint-Aubin": {
+  "La Ferté-Saint-Aubin": {
     "geonameid": "3009484", 
     "country": "FR", 
-    "value": "La Fert\u00e9-Saint-Aubin", 
+    "value": "La Ferté-Saint-Aubin", 
     "population": 7178
   }, 
-  "Rhode-Saint-Gen\u00e8se": {
+  "Rhode-Saint-Genèse": {
     "geonameid": "2786700", 
     "country": "BE", 
-    "value": "Rhode-Saint-Gen\u00e8se", 
+    "value": "Rhode-Saint-Genèse", 
     "population": 17990
   }, 
   "Heist-op-den-Berg": {
@@ -10583,16 +10685,16 @@
     "value": "Esbly", 
     "population": 5609
   }, 
-  "Lom\u00e9": {
+  "Lomé": {
     "geonameid": "2365267", 
     "country": "TG", 
-    "value": "Lom\u00e9", 
+    "value": "Lomé", 
     "population": 749700
   }, 
-  "Lun\u00e9ville": {
+  "Lunéville": {
     "geonameid": "2997110", 
     "country": "FR", 
-    "value": "Lun\u00e9ville", 
+    "value": "Lunéville", 
     "population": 21582
   }, 
   "Ardooie": {
@@ -10619,10 +10721,10 @@
     "value": "Nangis", 
     "population": 8271
   }, 
-  "Ch\u00e2teauneuf-les-Martigues": {
+  "Châteauneuf-les-Martigues": {
     "geonameid": "3026227", 
     "country": "FR", 
-    "value": "Ch\u00e2teauneuf-les-Martigues", 
+    "value": "Châteauneuf-les-Martigues", 
     "population": 11496
   }, 
   "Tucson": {
@@ -10703,10 +10805,10 @@
     "value": "Bron", 
     "population": 37825
   }, 
-  "Beaufort-en-Vall\u00e9e": {
+  "Beaufort-en-Vallée": {
     "geonameid": "3034309", 
     "country": "FR", 
-    "value": "Beaufort-en-Vall\u00e9e", 
+    "value": "Beaufort-en-Vallée", 
     "population": 5677
   }, 
   "Limbourg": {
@@ -10781,10 +10883,10 @@
     "value": "Saint-Gilles", 
     "population": 13231
   }, 
-  "Fontaine-l\u00e8s-Dijon": {
+  "Fontaine-lès-Dijon": {
     "geonameid": "3018032", 
     "country": "FR", 
-    "value": "Fontaine-l\u00e8s-Dijon", 
+    "value": "Fontaine-lès-Dijon", 
     "population": 9234
   }, 
   "Coulounieix-Chamiers": {
@@ -10817,10 +10919,10 @@
     "value": "Emmen", 
     "population": 26889
   }, 
-  "Brian\u00e7on": {
+  "Briançon": {
     "geonameid": "3030142", 
     "country": "FR", 
-    "value": "Brian\u00e7on", 
+    "value": "Briançon", 
     "population": 11577
   }, 
   "Gaillon": {
@@ -10901,10 +11003,10 @@
     "value": "Beaucourt", 
     "population": 5565
   }, 
-  "\u00c9chirolles": {
+  "Échirolles": {
     "geonameid": "3020495", 
     "country": "FR", 
-    "value": "\u00c9chirolles", 
+    "value": "Échirolles", 
     "population": 33088
   }, 
   "Dijon": {
@@ -10937,10 +11039,10 @@
     "value": "Dammarie-les-Lys", 
     "population": 21066
   }, 
-  "Gu\u00eenes": {
+  "Guînes": {
     "geonameid": "3014224", 
     "country": "FR", 
-    "value": "Gu\u00eenes", 
+    "value": "Guînes", 
     "population": 5342
   }, 
   "Villeneuve-Tolosane": {
@@ -10955,18 +11057,32 @@
     "value": "Longuenesse", 
     "population": 13838
   }, 
-  "Berre-l'\u00c9tang": {
+  "Berre-l'Étang": {
     "geonameid": "3033241", 
     "country": "FR", 
-    "value": "Berre-l'\u00c9tang", 
+    "value": "Berre-l'Étang", 
     "population": 14062
   }, 
-  "Valence": {
-    "geonameid": "2971054", 
-    "country": "FR", 
-    "value": "Valence", 
-    "population": 5039
-  }, 
+  "Valence": [
+    {
+      "geonameid": "2509954", 
+      "country": "ES", 
+      "value": "Valence", 
+      "population": 814208
+    }, 
+    {
+      "geonameid": "2971053", 
+      "country": "FR", 
+      "value": "Valence", 
+      "population": 63864
+    }, 
+    {
+      "geonameid": "2971054", 
+      "country": "FR", 
+      "value": "Valence", 
+      "population": 5039
+    }
+  ], 
   "Incheon": {
     "geonameid": "1843564", 
     "country": "KR", 
@@ -11063,10 +11179,10 @@
     "value": "Fallavier", 
     "population": 6302
   }, 
-  "\u00c9ghez\u00e9e": {
+  "Éghezée": {
     "geonameid": "2798949", 
     "country": "BE", 
-    "value": "\u00c9ghez\u00e9e", 
+    "value": "Éghezée", 
     "population": 14352
   }, 
   "Chimay": {
@@ -11099,10 +11215,10 @@
     "value": "Odessa", 
     "population": 1001558
   }, 
-  "K\u00fcttigen": {
+  "Küttigen": {
     "geonameid": "2660086", 
     "country": "CH", 
-    "value": "K\u00fcttigen", 
+    "value": "Küttigen", 
     "population": 5234
   }, 
   "Commentry": {
@@ -11135,10 +11251,10 @@
     "value": "Saint-Brieuc", 
     "population": 52774
   }, 
-  "Tr\u00e8bes": {
+  "Trèbes": {
     "geonameid": "2972010", 
     "country": "FR", 
-    "value": "Tr\u00e8bes", 
+    "value": "Trèbes", 
     "population": 5972
   }, 
   "Poisy": {
@@ -11189,10 +11305,10 @@
     "value": "Milwaukee", 
     "population": 600155
   }, 
-  "Ch\u00e2teau-Thierry": {
+  "Château-Thierry": {
     "geonameid": "3026194", 
     "country": "FR", 
-    "value": "Ch\u00e2teau-Thierry", 
+    "value": "Château-Thierry", 
     "population": 15938
   }, 
   "Villefranche-sur-Mer": {
@@ -11201,16 +11317,16 @@
     "value": "Villefranche-sur-Mer", 
     "population": 7105
   }, 
-  "Carri\u00e8res-sur-Seine": {
+  "Carrières-sur-Seine": {
     "geonameid": "3028520", 
     "country": "FR", 
-    "value": "Carri\u00e8res-sur-Seine", 
+    "value": "Carrières-sur-Seine", 
     "population": 12829
   }, 
-  "Ved\u00e8ne": {
+  "Vedène": {
     "geonameid": "2970253", 
     "country": "FR", 
-    "value": "Ved\u00e8ne", 
+    "value": "Vedène", 
     "population": 9538
   }, 
   "Loudun": {
@@ -11315,16 +11431,24 @@
     "value": "Ham", 
     "population": 5698
   }, 
-  "Lille": {
-    "geonameid": "2792360", 
-    "country": "BE", 
-    "value": "Lille", 
-    "population": 15466
-  }, 
-  "C\u00facuta": {
+  "Lille": [
+    {
+      "geonameid": "2998324", 
+      "country": "FR", 
+      "value": "Lille", 
+      "population": 228328
+    }, 
+    {
+      "geonameid": "2792360", 
+      "country": "BE", 
+      "value": "Lille", 
+      "population": 15466
+    }
+  ], 
+  "Cúcuta": {
     "geonameid": "3685533", 
     "country": "CO", 
-    "value": "C\u00facuta", 
+    "value": "Cúcuta", 
     "population": 721398
   }, 
   "Gooik": {
@@ -11357,10 +11481,10 @@
     "value": "Chiclayo", 
     "population": 577375
   }, 
-  "Saint-Pryv\u00e9-Saint-Mesmin": {
+  "Saint-Pryvé-Saint-Mesmin": {
     "geonameid": "2977308", 
     "country": "FR", 
-    "value": "Saint-Pryv\u00e9-Saint-Mesmin", 
+    "value": "Saint-Pryvé-Saint-Mesmin", 
     "population": 5382
   }, 
   "Courbevoie": {
@@ -11435,10 +11559,10 @@
     "value": "Kumasi", 
     "population": 1468609
   }, 
-  "Courcelles-l\u00e8s-Lens": {
+  "Courcelles-lès-Lens": {
     "geonameid": "3023097", 
     "country": "FR", 
-    "value": "Courcelles-l\u00e8s-Lens", 
+    "value": "Courcelles-lès-Lens", 
     "population": 6205
   }, 
   "Addis-Abeba": {
@@ -11513,10 +11637,10 @@
     "value": "Fuveau", 
     "population": 7845
   }, 
-  "Ch\u00e2telet": {
+  "Châtelet": {
     "geonameid": "2800448", 
     "country": "BE", 
-    "value": "Ch\u00e2telet", 
+    "value": "Châtelet", 
     "population": 35238
   }, 
   "Minusio": {
@@ -11537,16 +11661,24 @@
     "value": "La Ravoire", 
     "population": 6768
   }, 
-  "Wohlen": {
-    "geonameid": "2657964", 
-    "country": "CH", 
-    "value": "Wohlen", 
-    "population": 9159
-  }, 
-  "Plo\u00ebrmel": {
+  "Wohlen": [
+    {
+      "geonameid": "2657963", 
+      "country": "CH", 
+      "value": "Wohlen", 
+      "population": 13875
+    }, 
+    {
+      "geonameid": "2657964", 
+      "country": "CH", 
+      "value": "Wohlen", 
+      "population": 9159
+    }
+  ], 
+  "Ploërmel": {
     "geonameid": "2986729", 
     "country": "FR", 
-    "value": "Plo\u00ebrmel", 
+    "value": "Ploërmel", 
     "population": 8422
   }, 
   "Coursan": {
@@ -11591,10 +11723,10 @@
     "value": "La Salvetat-Saint-Gilles", 
     "population": 6289
   }, 
-  "Chen\u00f4ve": {
+  "Chenôve": {
     "geonameid": "3025496", 
     "country": "FR", 
-    "value": "Chen\u00f4ve", 
+    "value": "Chenôve", 
     "population": 15791
   }, 
   "Hergiswil": {
@@ -11639,10 +11771,10 @@
     "value": "Issoire", 
     "population": 15984
   }, 
-  "La Chevroli\u00e8re": {
+  "La Chevrolière": {
     "geonameid": "3010040", 
     "country": "FR", 
-    "value": "La Chevroli\u00e8re", 
+    "value": "La Chevrolière", 
     "population": 5220
   }, 
   "Creil": {
@@ -11717,10 +11849,10 @@
     "value": "Saint-Germain-en-Laye", 
     "population": 41142
   }, 
-  "L\u2019Isle-Adam": {
+  "L’Isle-Adam": {
     "geonameid": "2998140", 
     "country": "FR", 
-    "value": "L\u2019Isle-Adam", 
+    "value": "L’Isle-Adam", 
     "population": 11160
   }, 
   "Anglet": {
@@ -11819,10 +11951,10 @@
     "value": "Charvieu-Chavagneux", 
     "population": 8506
   }, 
-  "Saint-G\u00e9ly-du-Fesc": {
+  "Saint-Gély-du-Fesc": {
     "geonameid": "2980033", 
     "country": "FR", 
-    "value": "Saint-G\u00e9ly-du-Fesc", 
+    "value": "Saint-Gély-du-Fesc", 
     "population": 8605
   }, 
   "Mondelange": {
@@ -11843,10 +11975,10 @@
     "value": "Oye-Plage", 
     "population": 5683
   }, 
-  "Plon\u00e9our-Lanvern": {
+  "Plonéour-Lanvern": {
     "geonameid": "2986708", 
     "country": "FR", 
-    "value": "Plon\u00e9our-Lanvern", 
+    "value": "Plonéour-Lanvern", 
     "population": 5038
   }, 
   "Nouzonville": {
@@ -11867,16 +11999,16 @@
     "value": "Blankenberge", 
     "population": 18230
   }, 
-  "G\u00f6teborg": {
+  "Göteborg": {
     "geonameid": "2711537", 
     "country": "SE", 
-    "value": "G\u00f6teborg", 
+    "value": "Göteborg", 
     "population": 572799
   }, 
-  "Mon\u00e9teau": {
+  "Monéteau": {
     "geonameid": "2993316", 
     "country": "FR", 
-    "value": "Mon\u00e9teau", 
+    "value": "Monéteau", 
     "population": 5225
   }, 
   "Champs-sur-Marne": {
@@ -11885,10 +12017,10 @@
     "value": "Champs-sur-Marne", 
     "population": 27776
   }, 
-  "T\u00e9bessa": {
+  "Tébessa": {
     "geonameid": "2477461", 
     "country": "DZ", 
-    "value": "T\u00e9bessa", 
+    "value": "Tébessa", 
     "population": 634332
   }, 
   "Genlis": {
@@ -11951,10 +12083,10 @@
     "value": "Balsthal", 
     "population": 5863
   }, 
-  "Ern\u00e9e": {
+  "Ernée": {
     "geonameid": "3019895", 
     "country": "FR", 
-    "value": "Ern\u00e9e", 
+    "value": "Ernée", 
     "population": 6127
   }, 
   "Anse": {
@@ -11969,10 +12101,10 @@
     "value": "Lahore", 
     "population": 6310888
   }, 
-  "Ambar\u00e8s-et-Lagrave": {
+  "Ambarès-et-Lagrave": {
     "geonameid": "3037956", 
     "country": "FR", 
-    "value": "Ambar\u00e8s-et-Lagrave", 
+    "value": "Ambarès-et-Lagrave", 
     "population": 12955
   }, 
   "Saint-Jean-Bonnefonds": {
@@ -11999,10 +12131,10 @@
     "value": "Bassersdorf", 
     "population": 7010
   }, 
-  "\u0110\u00e0 N\u1eb5ng": {
+  "Đà Nẵng": {
     "geonameid": "1583992", 
     "country": "VN", 
-    "value": "\u0110\u00e0 N\u1eb5ng", 
+    "value": "Đà Nẵng", 
     "population": 752493
   }, 
   "Chicago": {
@@ -12077,10 +12209,10 @@
     "value": "Tremblay-en-France", 
     "population": 35591
   }, 
-  "Fabr\u00e8gues": {
+  "Fabrègues": {
     "geonameid": "3019160", 
     "country": "FR", 
-    "value": "Fabr\u00e8gues", 
+    "value": "Fabrègues", 
     "population": 6607
   }, 
   "Nogent-sur-Seine": {
@@ -12113,16 +12245,16 @@
     "value": "Cognin", 
     "population": 6577
   }, 
-  "Saint-\u00c9tienne": {
+  "Saint-Étienne": {
     "geonameid": "2980291", 
     "country": "FR", 
-    "value": "Saint-\u00c9tienne", 
+    "value": "Saint-Étienne", 
     "population": 176280
   }, 
-  "Valr\u00e9as": {
+  "Valréas": {
     "geonameid": "2970838", 
     "country": "FR", 
-    "value": "Valr\u00e9as", 
+    "value": "Valréas", 
     "population": 10211
   }, 
   "Falaise": {
@@ -12191,10 +12323,10 @@
     "value": "Nidau", 
     "population": 6696
   }, 
-  "Ch\u00eane-Bougeries": {
+  "Chêne-Bougeries": {
     "geonameid": "3209498", 
     "country": "CH", 
-    "value": "Ch\u00eane-Bougeries", 
+    "value": "Chêne-Bougeries", 
     "population": 10487
   }, 
   "Eschenbach": {
@@ -12263,10 +12395,10 @@
     "value": "Antoing", 
     "population": 7507
   }, 
-  "Portes-l\u00e8s-Valence": {
+  "Portes-lès-Valence": {
     "geonameid": "2985987", 
     "country": "FR", 
-    "value": "Portes-l\u00e8s-Valence", 
+    "value": "Portes-lès-Valence", 
     "population": 8675
   }, 
   "Haute-Goulaine": {
@@ -12281,10 +12413,10 @@
     "value": "Saint-Berthevin", 
     "population": 6887
   }, 
-  "Cr\u00e9py-en-Valois": {
+  "Crépy-en-Valois": {
     "geonameid": "3022569", 
     "country": "FR", 
-    "value": "Cr\u00e9py-en-Valois", 
+    "value": "Crépy-en-Valois", 
     "population": 15694
   }, 
   "Chevreuse": {
@@ -12329,10 +12461,10 @@
     "value": "Eysines", 
     "population": 21394
   }, 
-  "Aubigny-sur-N\u00e8re": {
+  "Aubigny-sur-Nère": {
     "geonameid": "3036326", 
     "country": "FR", 
-    "value": "Aubigny-sur-N\u00e8re", 
+    "value": "Aubigny-sur-Nère", 
     "population": 5984
   }, 
   "Beauchamp": {
@@ -12365,16 +12497,16 @@
     "value": "Barquisimeto", 
     "population": 809490
   }, 
-  "\u00c9pinay-sur-Seine": {
+  "Épinay-sur-Seine": {
     "geonameid": "3020020", 
     "country": "FR", 
-    "value": "\u00c9pinay-sur-Seine", 
+    "value": "Épinay-sur-Seine", 
     "population": 46145
   }, 
-  "Pont-du-Ch\u00e2teau": {
+  "Pont-du-Château": {
     "geonameid": "2986219", 
     "country": "FR", 
-    "value": "Pont-du-Ch\u00e2teau", 
+    "value": "Pont-du-Château", 
     "population": 9474
   }, 
   "Ledeberg": {
@@ -12461,10 +12593,10 @@
     "value": "Poitiers", 
     "population": 85960
   }, 
-  "La Talaudi\u00e8re": {
+  "La Talaudière": {
     "geonameid": "3006320", 
     "country": "FR", 
-    "value": "La Talaudi\u00e8re", 
+    "value": "La Talaudière", 
     "population": 6791
   }, 
   "Schifflange": {
@@ -12485,10 +12617,10 @@
     "value": "Yokohama", 
     "population": 3574443
   }, 
-  "Ambl\u00e8ve": {
+  "Amblève": {
     "geonameid": "2803242", 
     "country": "BE", 
-    "value": "Ambl\u00e8ve", 
+    "value": "Amblève", 
     "population": 5221
   }, 
   "Port-de-Bouc": {
@@ -12515,16 +12647,16 @@
     "value": "Saint-Maximin-la-Sainte-Baume", 
     "population": 15225
   }, 
-  "Saint-Paul-Trois-Ch\u00e2teaux": {
+  "Saint-Paul-Trois-Châteaux": {
     "geonameid": "2977638", 
     "country": "FR", 
-    "value": "Saint-Paul-Trois-Ch\u00e2teaux", 
+    "value": "Saint-Paul-Trois-Châteaux", 
     "population": 8028
   }, 
-  "Saint-Germain-l\u00e8s-Corbeil": {
+  "Saint-Germain-lès-Corbeil": {
     "geonameid": "2979752", 
     "country": "FR", 
-    "value": "Saint-Germain-l\u00e8s-Corbeil", 
+    "value": "Saint-Germain-lès-Corbeil", 
     "population": 7481
   }, 
   "Malaunay": {
@@ -12551,10 +12683,10 @@
     "value": "Jouy-le-Moutier", 
     "population": 19087
   }, 
-  "Chi\u00e8vres": {
+  "Chièvres": {
     "geonameid": "2800328", 
     "country": "BE", 
-    "value": "Chi\u00e8vres", 
+    "value": "Chièvres", 
     "population": 6045
   }, 
   "Vosselaar": {
@@ -12605,10 +12737,10 @@
     "value": "Mandeure", 
     "population": 5416
   }, 
-  "Saint-Brice-sous-For\u00eat": {
+  "Saint-Brice-sous-Forêt": {
     "geonameid": "2981283", 
     "country": "FR", 
-    "value": "Saint-Brice-sous-For\u00eat", 
+    "value": "Saint-Brice-sous-Forêt", 
     "population": 13606
   }, 
   "Nogent-le-Rotrou": {
@@ -12659,16 +12791,16 @@
     "value": "Hoeselt", 
     "population": 9265
   }, 
-  "Tain-l\u2019Hermitage": {
+  "Tain-l’Hermitage": {
     "geonameid": "2973531", 
     "country": "FR", 
-    "value": "Tain-l\u2019Hermitage", 
+    "value": "Tain-l’Hermitage", 
     "population": 5923
   }, 
-  "M\u00fbrs-Erign\u00e9": {
+  "Mûrs-Erigné": {
     "geonameid": "2991128", 
     "country": "FR", 
-    "value": "M\u00fbrs-Erign\u00e9", 
+    "value": "Mûrs-Erigné", 
     "population": 5384
   }, 
   "Fukuoka": {
@@ -12689,10 +12821,10 @@
     "value": "Brioude", 
     "population": 7451
   }, 
-  "Essey-l\u00e8s-Nancy": {
+  "Essey-lès-Nancy": {
     "geonameid": "3019607", 
     "country": "FR", 
-    "value": "Essey-l\u00e8s-Nancy", 
+    "value": "Essey-lès-Nancy", 
     "population": 8090
   }, 
   "Le Portel": {
@@ -12719,10 +12851,10 @@
     "value": "Virton", 
     "population": 11259
   }, 
-  "Lan\u00e7on-Provence": {
+  "Lançon-Provence": {
     "geonameid": "3007912", 
     "country": "FR", 
-    "value": "Lan\u00e7on-Provence", 
+    "value": "Lançon-Provence", 
     "population": 7031
   }, 
   "Tangshan": {
@@ -12749,10 +12881,10 @@
     "value": "Saint-Vincent-de-Tyrosse", 
     "population": 5898
   }, 
-  "Pac\u00e9": {
+  "Pacé": {
     "geonameid": "2988853", 
     "country": "FR", 
-    "value": "Pac\u00e9", 
+    "value": "Pacé", 
     "population": 8608
   }, 
   "Oyonnax": {
@@ -12767,22 +12899,22 @@
     "value": "Alexandrie", 
     "population": 3811516
   }, 
-  "Lod\u00e8ve": {
+  "Lodève": {
     "geonameid": "2997936", 
     "country": "FR", 
-    "value": "Lod\u00e8ve", 
+    "value": "Lodève", 
     "population": 7515
   }, 
-  "Compi\u00e8gne": {
+  "Compiègne": {
     "geonameid": "3024066", 
     "country": "FR", 
-    "value": "Compi\u00e8gne", 
+    "value": "Compiègne", 
     "population": 44243
   }, 
-  "G\u00e9rardmer": {
+  "Gérardmer": {
     "geonameid": "3016274", 
     "country": "FR", 
-    "value": "G\u00e9rardmer", 
+    "value": "Gérardmer", 
     "population": 10084
   }, 
   "Laxou": {
@@ -12803,10 +12935,10 @@
     "value": "Douai", 
     "population": 46531
   }, 
-  "\u00c9pinay-sous-S\u00e9nart": {
+  "Épinay-sous-Sénart": {
     "geonameid": "3020024", 
     "country": "FR", 
-    "value": "\u00c9pinay-sous-S\u00e9nart", 
+    "value": "Épinay-sous-Sénart", 
     "population": 12826
   }, 
   "Pia": {
@@ -12833,10 +12965,10 @@
     "value": "La Ville-du-Bois", 
     "population": 6224
   }, 
-  "Saint-P\u00e9ray": {
+  "Saint-Péray": {
     "geonameid": "2977623", 
     "country": "FR", 
-    "value": "Saint-P\u00e9ray", 
+    "value": "Saint-Péray", 
     "population": 6922
   }, 
   "Niel": {
@@ -12983,10 +13115,10 @@
     "value": "Theux", 
     "population": 11587
   }, 
-  "\u00c9merainville": {
+  "Émerainville": {
     "geonameid": "3020247", 
     "country": "FR", 
-    "value": "\u00c9merainville", 
+    "value": "Émerainville", 
     "population": 7002
   }, 
   "Le Pont-de-Claix": {
@@ -13037,10 +13169,10 @@
     "value": "Beaune", 
     "population": 24162
   }, 
-  "Saint-Beno\u00eet": {
+  "Saint-Benoît": {
     "geonameid": "2981408", 
     "country": "FR", 
-    "value": "Saint-Beno\u00eet", 
+    "value": "Saint-Benoît", 
     "population": 7598
   }, 
   "Loos": {
@@ -13055,10 +13187,10 @@
     "value": "Hersin-Coupigny", 
     "population": 6609
   }, 
-  "L\u00e9ognan": {
+  "Léognan": {
     "geonameid": "3003067", 
     "country": "FR", 
-    "value": "L\u00e9ognan", 
+    "value": "Léognan", 
     "population": 8890
   }, 
   "Alfortville": {
@@ -13073,10 +13205,10 @@
     "value": "La Roche-sur-Yon", 
     "population": 59410
   }, 
-  "Saint-R\u00e9my-de-Provence": {
+  "Saint-Rémy-de-Provence": {
     "geonameid": "2977214", 
     "country": "FR", 
-    "value": "Saint-R\u00e9my-de-Provence", 
+    "value": "Saint-Rémy-de-Provence", 
     "population": 10562
   }, 
   "Sombreffe": {
@@ -13133,10 +13265,10 @@
     "value": "Sarzeau", 
     "population": 7116
   }, 
-  "Marsannay-la-C\u00f4te": {
+  "Marsannay-la-Côte": {
     "geonameid": "2995489", 
     "country": "FR", 
-    "value": "Marsannay-la-C\u00f4te", 
+    "value": "Marsannay-la-Côte", 
     "population": 5181
   }, 
   "Colombelles": {
@@ -13205,10 +13337,10 @@
     "value": "Ruelle-sur-Touvre", 
     "population": 7597
   }, 
-  "Bl\u00e9gny": {
+  "Blégny": {
     "geonameid": "2801820", 
     "country": "BE", 
-    "value": "Bl\u00e9gny", 
+    "value": "Blégny", 
     "population": 12745
   }, 
   "Ponthierry": {
@@ -13223,22 +13355,22 @@
     "value": "Dixmude", 
     "population": 15515
   }, 
-  "Le Pr\u00e9-Saint-Gervais": {
+  "Le Pré-Saint-Gervais": {
     "geonameid": "3002499", 
     "country": "FR", 
-    "value": "Le Pr\u00e9-Saint-Gervais", 
+    "value": "Le Pré-Saint-Gervais", 
     "population": 17786
   }, 
-  "Saint-Leu-la-For\u00eat": {
+  "Saint-Leu-la-Forêt": {
     "geonameid": "2978768", 
     "country": "FR", 
-    "value": "Saint-Leu-la-For\u00eat", 
+    "value": "Saint-Leu-la-Forêt", 
     "population": 16075
   }, 
-  "Courri\u00e8res": {
+  "Courrières": {
     "geonameid": "3022969", 
     "country": "FR", 
-    "value": "Courri\u00e8res", 
+    "value": "Courrières", 
     "population": 10330
   }, 
   "Derendingen": {
@@ -13325,16 +13457,16 @@
     "value": "Grenade", 
     "population": 6486
   }, 
-  "Qu\u00e9vy-le-Petit": {
+  "Quévy-le-Petit": {
     "geonameid": "2788446", 
     "country": "BE", 
-    "value": "Qu\u00e9vy-le-Petit", 
+    "value": "Quévy-le-Petit", 
     "population": 7689
   }, 
-  "T\u00e9h\u00e9ran": {
+  "Téhéran": {
     "geonameid": "112931", 
     "country": "IR", 
-    "value": "T\u00e9h\u00e9ran", 
+    "value": "Téhéran", 
     "population": 7153309
   }, 
   "Santes": {
@@ -13385,10 +13517,10 @@
     "value": "Aucamville", 
     "population": 6202
   }, 
-  "Saint-\u00c9tienne-au-Mont": {
+  "Saint-Étienne-au-Mont": {
     "geonameid": "2980283", 
     "country": "FR", 
-    "value": "Saint-\u00c9tienne-au-Mont", 
+    "value": "Saint-Étienne-au-Mont", 
     "population": 5078
   }, 
   "Martigny-Ville": {
@@ -13409,10 +13541,10 @@
     "value": "Sofia", 
     "population": 1152556
   }, 
-  "Mont\u00e9limar": {
+  "Montélimar": {
     "geonameid": "2992703", 
     "country": "FR", 
-    "value": "Mont\u00e9limar", 
+    "value": "Montélimar", 
     "population": 35637
   }, 
   "Mandalay": {
@@ -13433,12 +13565,26 @@
     "value": "Jabbeke", 
     "population": 13488
   }, 
-  "Marly": {
-    "geonameid": "2659758", 
-    "country": "CH", 
-    "value": "Marly", 
-    "population": 7653
-  }, 
+  "Marly": [
+    {
+      "geonameid": "2995656", 
+      "country": "FR", 
+      "value": "Marly", 
+      "population": 11681
+    }, 
+    {
+      "geonameid": "2995649", 
+      "country": "FR", 
+      "value": "Marly", 
+      "population": 10997
+    }, 
+    {
+      "geonameid": "2659758", 
+      "country": "CH", 
+      "value": "Marly", 
+      "population": 7653
+    }
+  ], 
   "Noisiel": {
     "geonameid": "2990192", 
     "country": "FR", 
@@ -13463,10 +13609,10 @@
     "value": "Stabroek", 
     "population": 17294
   }, 
-  "Reignier-\u00c9sery": {
+  "Reignier-Ésery": {
     "geonameid": "2984127", 
     "country": "FR", 
-    "value": "Reignier-\u00c9sery", 
+    "value": "Reignier-Ésery", 
     "population": 5892
   }, 
   "Villmergen": {
@@ -13493,16 +13639,16 @@
     "value": "Versailles", 
     "population": 85416
   }, 
-  "L'Ha\u00ff-les-Roses": {
+  "L'Haÿ-les-Roses": {
     "geonameid": "2998632", 
     "country": "FR", 
-    "value": "L'Ha\u00ff-les-Roses", 
+    "value": "L'Haÿ-les-Roses", 
     "population": 29703
   }, 
-  "Montpon-M\u00e9nest\u00e9rol": {
+  "Montpon-Ménestérol": {
     "geonameid": "2992132", 
     "country": "FR", 
-    "value": "Montpon-M\u00e9nest\u00e9rol", 
+    "value": "Montpon-Ménestérol", 
     "population": 5658
   }, 
   "Lisses": {
@@ -13535,16 +13681,16 @@
     "value": "Neuilly-sur-Seine", 
     "population": 61300
   }, 
-  "Le Pian-M\u00e9doc": {
+  "Le Pian-Médoc": {
     "geonameid": "3002836", 
     "country": "FR", 
-    "value": "Le Pian-M\u00e9doc", 
+    "value": "Le Pian-Médoc", 
     "population": 5897
   }, 
-  "Saint-Pierre-l\u00e8s-Nemours": {
+  "Saint-Pierre-lès-Nemours": {
     "geonameid": "2977425", 
     "country": "FR", 
-    "value": "Saint-Pierre-l\u00e8s-Nemours", 
+    "value": "Saint-Pierre-lès-Nemours", 
     "population": 6435
   }, 
   "Gold Coast": {
@@ -13583,10 +13729,10 @@
     "value": "Lannemezan", 
     "population": 6606
   }, 
-  "Gi\u00e8res": {
+  "Gières": {
     "geonameid": "3016089", 
     "country": "FR", 
-    "value": "Gi\u00e8res", 
+    "value": "Gières", 
     "population": 6299
   }, 
   "Sury-le-Comtal": {
@@ -13613,16 +13759,16 @@
     "value": "La Rochelle", 
     "population": 76810
   }, 
-  "Tr\u00e9lissac": {
+  "Trélissac": {
     "geonameid": "2971890", 
     "country": "FR", 
-    "value": "Tr\u00e9lissac", 
+    "value": "Trélissac", 
     "population": 6867
   }, 
-  "Saint-Pierre-d\u2019Ol\u00e9ron": {
+  "Saint-Pierre-d’Oléron": {
     "geonameid": "2977471", 
     "country": "FR", 
-    "value": "Saint-Pierre-d\u2019Ol\u00e9ron", 
+    "value": "Saint-Pierre-d’Oléron", 
     "population": 6751
   }, 
   "Drancy": {
@@ -13637,16 +13783,16 @@
     "value": "Londerzeel", 
     "population": 17274
   }, 
-  "Ch\u00e2lette-sur-Loing": {
+  "Châlette-sur-Loing": {
     "geonameid": "3027531", 
     "country": "FR", 
-    "value": "Ch\u00e2lette-sur-Loing", 
+    "value": "Châlette-sur-Loing", 
     "population": 14268
   }, 
-  "Valfin-l\u00e8s-Saint-Claude": {
+  "Valfin-lès-Saint-Claude": {
     "geonameid": "2971006", 
     "country": "FR", 
-    "value": "Valfin-l\u00e8s-Saint-Claude", 
+    "value": "Valfin-lès-Saint-Claude", 
     "population": 12966
   }, 
   "Leipzig": {
@@ -13745,16 +13891,16 @@
     "value": "Peymeinade", 
     "population": 7465
   }, 
-  "\u00dcr\u00fcmqi": {
+  "Ürümqi": {
     "geonameid": "1529102", 
     "country": "CN", 
-    "value": "\u00dcr\u00fcmqi", 
+    "value": "Ürümqi", 
     "population": 3029372
   }, 
-  "Saint-Martin-d'H\u00e8res": {
+  "Saint-Martin-d'Hères": {
     "geonameid": "2978317", 
     "country": "FR", 
-    "value": "Saint-Martin-d'H\u00e8res", 
+    "value": "Saint-Martin-d'Hères", 
     "population": 35528
   }, 
   "Aix-les-Bains": {
@@ -13763,10 +13909,10 @@
     "value": "Aix-les-Bains", 
     "population": 27651
   }, 
-  "Mortagne-sur-S\u00e8vre": {
+  "Mortagne-sur-Sèvre": {
     "geonameid": "2991700", 
     "country": "FR", 
-    "value": "Mortagne-sur-S\u00e8vre", 
+    "value": "Mortagne-sur-Sèvre", 
     "population": 6428
   }, 
   "Deerlijk": {
@@ -13853,10 +13999,10 @@
     "value": "Aureilhan", 
     "population": 7859
   }, 
-  "Vi\u00e8ge": {
+  "Viège": {
     "geonameid": "2658112", 
     "country": "CH", 
-    "value": "Vi\u00e8ge", 
+    "value": "Viège", 
     "population": 6576
   }, 
   "Ensisheim": {
@@ -13865,10 +14011,10 @@
     "value": "Ensisheim", 
     "population": 6940
   }, 
-  "P\u00e9tange": {
+  "Pétange": {
     "geonameid": "2960187", 
     "country": "LU", 
-    "value": "P\u00e9tange", 
+    "value": "Pétange", 
     "population": 7187
   }, 
   "Heers": {
@@ -13877,16 +14023,16 @@
     "value": "Heers", 
     "population": 6689
   }, 
-  "Marcq-en-Bar\u0153ul": {
+  "Marcq-en-Barœul": {
     "geonameid": "2995908", 
     "country": "FR", 
-    "value": "Marcq-en-Bar\u0153ul", 
+    "value": "Marcq-en-Barœul", 
     "population": 38629
   }, 
-  "Romans-sur-Is\u00e8re": {
+  "Romans-sur-Isère": {
     "geonameid": "2983011", 
     "country": "FR", 
-    "value": "Romans-sur-Is\u00e8re", 
+    "value": "Romans-sur-Isère", 
     "population": 35002
   }, 
   "Differdange": {
@@ -13901,10 +14047,10 @@
     "value": "Riyad", 
     "population": 4205961
   }, 
-  "Saint-Maur-des-Foss\u00e9s": {
+  "Saint-Maur-des-Fossés": {
     "geonameid": "2978179", 
     "country": "FR", 
-    "value": "Saint-Maur-des-Foss\u00e9s", 
+    "value": "Saint-Maur-des-Fossés", 
     "population": 75402
   }, 
   "Limoux": {
@@ -13955,10 +14101,10 @@
     "value": "Charlotte", 
     "population": 827097
   }, 
-  "\u00c9vry": {
+  "Évry": {
     "geonameid": "3019256", 
     "country": "FR", 
-    "value": "\u00c9vry", 
+    "value": "Évry", 
     "population": 51900
   }, 
   "Villeneuve-sur-Yonne": {
@@ -13997,10 +14143,10 @@
     "value": "Osaka", 
     "population": 2592413
   }, 
-  "Bagnols-sur-C\u00e8ze": {
+  "Bagnols-sur-Cèze": {
     "geonameid": "3035396", 
     "country": "FR", 
-    "value": "Bagnols-sur-C\u00e8ze", 
+    "value": "Bagnols-sur-Cèze", 
     "population": 19640
   }, 
   "Saint-Quentin": {
@@ -14027,10 +14173,10 @@
     "value": "Hirson", 
     "population": 11133
   }, 
-  "Pont-\u00c9v\u00eaque": {
+  "Pont-Évêque": {
     "geonameid": "2986191", 
     "country": "FR", 
-    "value": "Pont-\u00c9v\u00eaque", 
+    "value": "Pont-Évêque", 
     "population": 5479
   }, 
   "Vevey": {
@@ -14273,10 +14419,10 @@
     "value": "Muri bei Bern", 
     "population": 12374
   }, 
-  "Fleury-M\u00e9rogis": {
+  "Fleury-Mérogis": {
     "geonameid": "3018279", 
     "country": "FR", 
-    "value": "Fleury-M\u00e9rogis", 
+    "value": "Fleury-Mérogis", 
     "population": 9241
   }, 
   "Villeparisis": {
@@ -14369,10 +14515,10 @@
     "value": "Belfort", 
     "population": 54562
   }, 
-  "Ch\u00e2teau-d\u2019Olonne": {
+  "Château-d’Olonne": {
     "geonameid": "3026291", 
     "country": "FR", 
-    "value": "Ch\u00e2teau-d\u2019Olonne", 
+    "value": "Château-d’Olonne", 
     "population": 13420
   }, 
   "Nice": {
@@ -14417,16 +14563,16 @@
     "value": "Somain", 
     "population": 12310
   }, 
-  "Ath\u00e8nes": {
+  "Athènes": {
     "geonameid": "264371", 
     "country": "GR", 
-    "value": "Ath\u00e8nes", 
+    "value": "Athènes", 
     "population": 664046
   }, 
-  "Champagne-au-Mont-d\u2019Or": {
+  "Champagne-au-Mont-d’Or": {
     "geonameid": "3027255", 
     "country": "FR", 
-    "value": "Champagne-au-Mont-d\u2019Or", 
+    "value": "Champagne-au-Mont-d’Or", 
     "population": 5681
   }, 
   "Val-de-Reuil": {
@@ -14441,10 +14587,10 @@
     "value": "Moulins", 
     "population": 23095
   }, 
-  "Bonchamp-l\u00e8s-Laval": {
+  "Bonchamp-lès-Laval": {
     "geonameid": "3031835", 
     "country": "FR", 
-    "value": "Bonchamp-l\u00e8s-Laval", 
+    "value": "Bonchamp-lès-Laval", 
     "population": 5094
   }, 
   "Mont-Saint-Martin": {
@@ -14465,10 +14611,10 @@
     "value": "Huy", 
     "population": 19973
   }, 
-  "Unter\u00e4geri": {
+  "Unterägeri": {
     "geonameid": "2658264", 
     "country": "CH", 
-    "value": "Unter\u00e4geri", 
+    "value": "Unterägeri", 
     "population": 7973
   }, 
   "Zedelgem": {
@@ -14519,10 +14665,10 @@
     "value": "Pertuis", 
     "population": 19926
   }, 
-  "Bill\u00e8re": {
+  "Billère": {
     "geonameid": "3032639", 
     "country": "FR", 
-    "value": "Bill\u00e8re", 
+    "value": "Billère", 
     "population": 14914
   }, 
   "Nijlen": {
@@ -14615,10 +14761,10 @@
     "value": "Deinze", 
     "population": 29815
   }, 
-  "Braine-le-Ch\u00e2teau": {
+  "Braine-le-Château": {
     "geonameid": "2801152", 
     "country": "BE", 
-    "value": "Braine-le-Ch\u00e2teau", 
+    "value": "Braine-le-Château", 
     "population": 9627
   }, 
   "Vigneux-de-Bretagne": {
@@ -14765,10 +14911,10 @@
     "value": "Dublin", 
     "population": 1024027
   }, 
-  "Anh\u00e9e": {
+  "Anhée": {
     "geonameid": "2803174", 
     "country": "BE", 
-    "value": "Anh\u00e9e", 
+    "value": "Anhée", 
     "population": 7125
   }, 
   "La Chapelle-Saint-Luc": {
@@ -14813,10 +14959,10 @@
     "value": "Ranst", 
     "population": 17405
   }, 
-  "Segr\u00e9": {
+  "Segré": {
     "geonameid": "2975314", 
     "country": "FR", 
-    "value": "Segr\u00e9", 
+    "value": "Segré", 
     "population": 7428
   }, 
   "Claye-Souilly": {
@@ -14867,10 +15013,10 @@
     "value": "Avallon", 
     "population": 8740
   }, 
-  "Bois-d\u2019Arcy": {
+  "Bois-d’Arcy": {
     "geonameid": "3032064", 
     "country": "FR", 
-    "value": "Bois-d\u2019Arcy", 
+    "value": "Bois-d’Arcy", 
     "population": 13475
   }, 
   "Vilvoorde": {
@@ -14885,10 +15031,10 @@
     "value": "Porrentruy", 
     "population": 6521
   }, 
-  "D\u00e9troit": {
+  "Détroit": {
     "geonameid": "4990729", 
     "country": "US", 
-    "value": "D\u00e9troit", 
+    "value": "Détroit", 
     "population": 677116
   }, 
   "La Tronche": {
@@ -14897,10 +15043,10 @@
     "value": "La Tronche", 
     "population": 7125
   }, 
-  "Tr\u00e9gunc": {
+  "Trégunc": {
     "geonameid": "2971926", 
     "country": "FR", 
-    "value": "Tr\u00e9gunc", 
+    "value": "Trégunc", 
     "population": 6775
   }, 
   "Nieuwerkerken": {
@@ -14969,10 +15115,10 @@
     "value": "Zonhoven", 
     "population": 19922
   }, 
-  "\u00c9talle": {
+  "Étalle": {
     "geonameid": "2798593", 
     "country": "BE", 
-    "value": "\u00c9talle", 
+    "value": "Étalle", 
     "population": 5228
   }, 
   "Castelginest": {
@@ -14981,10 +15127,10 @@
     "value": "Castelginest", 
     "population": 8709
   }, 
-  "Vaux-le-P\u00e9nil": {
+  "Vaux-le-Pénil": {
     "geonameid": "2970338", 
     "country": "FR", 
-    "value": "Vaux-le-P\u00e9nil", 
+    "value": "Vaux-le-Pénil", 
     "population": 11758
   }, 
   "Boortmeerbeek": {
@@ -15011,16 +15157,16 @@
     "value": "Canet-en-Roussillon", 
     "population": 11148
   }, 
-  "Le Plessis-Tr\u00e9vise": {
+  "Le Plessis-Trévise": {
     "geonameid": "3002647", 
     "country": "FR", 
-    "value": "Le Plessis-Tr\u00e9vise", 
+    "value": "Le Plessis-Trévise", 
     "population": 18618
   }, 
-  "Roche-la-Moli\u00e8re": {
+  "Roche-la-Molière": {
     "geonameid": "2983251", 
     "country": "FR", 
-    "value": "Roche-la-Moli\u00e8re", 
+    "value": "Roche-la-Molière", 
     "population": 10372
   }, 
   "Haguenau": {
@@ -15029,10 +15175,10 @@
     "value": "Haguenau", 
     "population": 38721
   }, 
-  "Beaupr\u00e9au": {
+  "Beaupréau": {
     "geonameid": "3034111", 
     "country": "FR", 
-    "value": "Beaupr\u00e9au", 
+    "value": "Beaupréau", 
     "population": 6932
   }, 
   "Oberriet": {
@@ -15059,10 +15205,10 @@
     "value": "Villeurbanne", 
     "population": 131445
   }, 
-  "Dom\u00e8ne": {
+  "Domène": {
     "geonameid": "3021210", 
     "country": "FR", 
-    "value": "Dom\u00e8ne", 
+    "value": "Domène", 
     "population": 6882
   }, 
   "Revin": {
@@ -15083,10 +15229,10 @@
     "value": "Abidjan", 
     "population": 3677115
   }, 
-  "H\u0153nheim": {
+  "Hœnheim": {
     "geonameid": "3013226", 
     "country": "FR", 
-    "value": "H\u0153nheim", 
+    "value": "Hœnheim", 
     "population": 10921
   }, 
   "Sainte-Luce-sur-Loire": {
@@ -15143,10 +15289,10 @@
     "value": "Saint-Marcellin", 
     "population": 7592
   }, 
-  "Dammartin-en-Go\u00eble": {
+  "Dammartin-en-Goële": {
     "geonameid": "3021848", 
     "country": "FR", 
-    "value": "Dammartin-en-Go\u00eble", 
+    "value": "Dammartin-en-Goële", 
     "population": 8552
   }, 
   "Goldach": {
@@ -15179,10 +15325,10 @@
     "value": "Narbonne", 
     "population": 50776
   }, 
-  "H\u00e9nin-Beaumont": {
+  "Hénin-Beaumont": {
     "geonameid": "3013525", 
     "country": "FR", 
-    "value": "H\u00e9nin-Beaumont", 
+    "value": "Hénin-Beaumont", 
     "population": 25371
   }, 
   "Blonay": {
@@ -15215,10 +15361,10 @@
     "value": "Steenokkerzeel", 
     "population": 10566
   }, 
-  "P\u00e9ruwelz": {
+  "Péruwelz": {
     "geonameid": "2789162", 
     "country": "BE", 
-    "value": "P\u00e9ruwelz", 
+    "value": "Péruwelz", 
     "population": 16647
   }, 
   "Saint-Saulve": {
@@ -15227,16 +15373,16 @@
     "value": "Saint-Saulve", 
     "population": 11303
   }, 
-  "Verri\u00e8res-le-Buisson": {
+  "Verrières-le-Buisson": {
     "geonameid": "2969692", 
     "country": "FR", 
-    "value": "Verri\u00e8res-le-Buisson", 
+    "value": "Verrières-le-Buisson", 
     "population": 16789
   }, 
-  "Tournon-sur-Rh\u00f4ne": {
+  "Tournon-sur-Rhône": {
     "geonameid": "2972214", 
     "country": "FR", 
-    "value": "Tournon-sur-Rh\u00f4ne", 
+    "value": "Tournon-sur-Rhône", 
     "population": 10571
   }, 
   "Chapelle-au-Bois": {
@@ -15257,16 +15403,16 @@
     "value": "Raismes", 
     "population": 13719
   }, 
-  "Duba\u00ef": {
+  "Dubaï": {
     "geonameid": "292223", 
     "country": "AE", 
-    "value": "Duba\u00ef", 
+    "value": "Dubaï", 
     "population": 1137347
   }, 
-  "Ch\u00e2teaubourg": {
+  "Châteaubourg": {
     "geonameid": "3026306", 
     "country": "FR", 
-    "value": "Ch\u00e2teaubourg", 
+    "value": "Châteaubourg", 
     "population": 5362
   }, 
   "Kaprijke": {
@@ -15317,10 +15463,10 @@
     "value": "Noyelles-Godault", 
     "population": 5624
   }, 
-  "Livron-sur-Dr\u00f4me": {
+  "Livron-sur-Drôme": {
     "geonameid": "2998059", 
     "country": "FR", 
-    "value": "Livron-sur-Dr\u00f4me", 
+    "value": "Livron-sur-Drôme", 
     "population": 8440
   }, 
   "Pontarlier": {
@@ -15329,10 +15475,10 @@
     "value": "Pontarlier", 
     "population": 20313
   }, 
-  "Cr\u00e9teil": {
+  "Créteil": {
     "geonameid": "3022530", 
     "country": "FR", 
-    "value": "Cr\u00e9teil", 
+    "value": "Créteil", 
     "population": 84833
   }, 
   "Termonde": {
@@ -15347,16 +15493,16 @@
     "value": "Stavelot", 
     "population": 6646
   }, 
-  "H\u00f4 Chi Minh Ville": {
+  "Hô Chi Minh Ville": {
     "geonameid": "1566083", 
     "country": "VN", 
-    "value": "H\u00f4 Chi Minh Ville", 
+    "value": "Hô Chi Minh Ville", 
     "population": 3467331
   }, 
-  "Sant Juli\u00e0 de L\u00f2ria": {
+  "Sant Julià de Lòria": {
     "geonameid": "3039163", 
     "country": "AD", 
-    "value": "Sant Juli\u00e0 de L\u00f2ria", 
+    "value": "Sant Julià de Lòria", 
     "population": 8022
   }, 
   "Madrid": {
@@ -15425,22 +15571,22 @@
     "value": "Abou Dabi", 
     "population": 603492
   }, 
-  "Saint-Di\u00e9-des-Vosges": {
+  "Saint-Dié-des-Vosges": {
     "geonameid": "2980827", 
     "country": "FR", 
-    "value": "Saint-Di\u00e9-des-Vosges", 
+    "value": "Saint-Dié-des-Vosges", 
     "population": 24628
   }, 
-  "S\u00e8vres": {
+  "Sèvres": {
     "geonameid": "2974678", 
     "country": "FR", 
-    "value": "S\u00e8vres", 
+    "value": "Sèvres", 
     "population": 23724
   }, 
-  "Ch\u00e2teaurenard": {
+  "Châteaurenard": {
     "geonameid": "3026211", 
     "country": "FR", 
-    "value": "Ch\u00e2teaurenard", 
+    "value": "Châteaurenard", 
     "population": 14205
   }, 
   "Auriol": {
@@ -15509,16 +15655,16 @@
     "value": "Romilly-sur-Seine", 
     "population": 14566
   }, 
-  "Saint-Av\u00e9": {
+  "Saint-Avé": {
     "geonameid": "2981515", 
     "country": "FR", 
-    "value": "Saint-Av\u00e9", 
+    "value": "Saint-Avé", 
     "population": 8907
   }, 
-  "Quimperl\u00e9": {
+  "Quimperlé": {
     "geonameid": "2984699", 
     "country": "FR", 
-    "value": "Quimperl\u00e9", 
+    "value": "Quimperlé", 
     "population": 12312
   }, 
   "Chambly": {
@@ -15527,18 +15673,26 @@
     "value": "Chambly", 
     "population": 9506
   }, 
-  "\u00c9taples": {
+  "Étaples": {
     "geonameid": "3019441", 
     "country": "FR", 
-    "value": "\u00c9taples", 
+    "value": "Étaples", 
     "population": 11397
   }, 
-  "Chang\u00e9": {
-    "geonameid": "3026940", 
-    "country": "FR", 
-    "value": "Chang\u00e9", 
-    "population": 5245
-  }, 
+  "Changé": [
+    {
+      "geonameid": "3026941", 
+      "country": "FR", 
+      "value": "Changé", 
+      "population": 5546
+    }, 
+    {
+      "geonameid": "3026940", 
+      "country": "FR", 
+      "value": "Changé", 
+      "population": 5245
+    }
+  ], 
   "Vaulx-en-Velin": {
     "geonameid": "2970456", 
     "country": "FR", 
@@ -15605,10 +15759,10 @@
     "value": "Palerme", 
     "population": 648260
   }, 
-  "Ann\u0153ullin": {
+  "Annœullin": {
     "geonameid": "3037520", 
     "country": "FR", 
-    "value": "Ann\u0153ullin", 
+    "value": "Annœullin", 
     "population": 10528
   }, 
   "Tournefeuille": {
@@ -15659,10 +15813,10 @@
     "value": "Hulshout", 
     "population": 9198
   }, 
-  "Max\u00e9ville": {
+  "Maxéville": {
     "geonameid": "2994951", 
     "country": "FR", 
-    "value": "Max\u00e9ville", 
+    "value": "Maxéville", 
     "population": 9226
   }, 
   "Harnes": {
@@ -15779,10 +15933,10 @@
     "value": "Bouaye", 
     "population": 5673
   }, 
-  "Pontch\u00e2teau": {
+  "Pontchâteau": {
     "geonameid": "2986271", 
     "country": "FR", 
-    "value": "Pontch\u00e2teau", 
+    "value": "Pontchâteau", 
     "population": 8474
   }, 
   "Montreux": {
@@ -15797,16 +15951,16 @@
     "value": "Le Bourget", 
     "population": 12690
   }, 
-  "L\u00e9zignan-Corbi\u00e8res": {
+  "Lézignan-Corbières": {
     "geonameid": "2998644", 
     "country": "FR", 
-    "value": "L\u00e9zignan-Corbi\u00e8res", 
+    "value": "Lézignan-Corbières", 
     "population": 9042
   }, 
-  "K\u014dbe": {
+  "Kōbe": {
     "geonameid": "1859171", 
     "country": "JP", 
-    "value": "K\u014dbe", 
+    "value": "Kōbe", 
     "population": 1528478
   }, 
   "Meulebeke": {
@@ -15869,10 +16023,10 @@
     "value": "Brasschaat", 
     "population": 37040
   }, 
-  "Court-Saint-\u00c9tienne": {
+  "Court-Saint-Étienne": {
     "geonameid": "2800042", 
     "country": "BE", 
-    "value": "Court-Saint-\u00c9tienne", 
+    "value": "Court-Saint-Étienne", 
     "population": 9353
   }, 
   "Carquefou": {
@@ -15929,10 +16083,10 @@
     "value": "Hamme", 
     "population": 22891
   }, 
-  "Asunci\u00f3n": {
+  "Asunción": {
     "geonameid": "3439389", 
     "country": "PY", 
-    "value": "Asunci\u00f3n", 
+    "value": "Asunción", 
     "population": 1482200
   }, 
   "Saint-Martin-Boulogne": {
@@ -15971,16 +16125,16 @@
     "value": "Bruxelles", 
     "population": 1019022
   }, 
-  "Saint-Germain-l\u00e8s-Arpajon": {
+  "Saint-Germain-lès-Arpajon": {
     "geonameid": "2979755", 
     "country": "FR", 
-    "value": "Saint-Germain-l\u00e8s-Arpajon", 
+    "value": "Saint-Germain-lès-Arpajon", 
     "population": 8695
   }, 
-  "La Fert\u00e9-sous-Jouarre": {
+  "La Ferté-sous-Jouarre": {
     "geonameid": "3009481", 
     "country": "FR", 
-    "value": "La Fert\u00e9-sous-Jouarre", 
+    "value": "La Ferté-sous-Jouarre", 
     "population": 9443
   }, 
   "Florange": {
@@ -16001,10 +16155,10 @@
     "value": "Champigneulles", 
     "population": 6947
   }, 
-  "\u00c9pinal": {
+  "Épinal": {
     "geonameid": "3020035", 
     "country": "FR", 
-    "value": "\u00c9pinal", 
+    "value": "Épinal", 
     "population": 39518
   }, 
   "Buxerolles": {
@@ -16025,10 +16179,10 @@
     "value": "Tassin-la-Demi-Lune", 
     "population": 16920
   }, 
-  "D\u00fcbendorf": {
+  "Dübendorf": {
     "geonameid": "2660971", 
     "country": "CH", 
-    "value": "D\u00fcbendorf", 
+    "value": "Dübendorf", 
     "population": 19882
   }, 
   "Longpont-sur-Orge": {
@@ -16043,10 +16197,10 @@
     "value": "Harelbeke", 
     "population": 25978
   }, 
-  "Amn\u00e9ville": {
+  "Amnéville": {
     "geonameid": "3037838", 
     "country": "FR", 
-    "value": "Amn\u00e9ville", 
+    "value": "Amnéville", 
     "population": 10162
   }, 
   "Pierrelatte": {
@@ -16067,12 +16221,20 @@
     "value": "Tegucigalpa", 
     "population": 850848
   }, 
-  "Buchs": {
-    "geonameid": "2661348", 
-    "country": "CH", 
-    "value": "Buchs", 
-    "population": 6599
-  }, 
+  "Buchs": [
+    {
+      "geonameid": "2661349", 
+      "country": "CH", 
+      "value": "Buchs", 
+      "population": 10418
+    }, 
+    {
+      "geonameid": "2661348", 
+      "country": "CH", 
+      "value": "Buchs", 
+      "population": 6599
+    }
+  ], 
   "Lannion": {
     "geonameid": "3007609", 
     "country": "FR", 
@@ -16139,10 +16301,10 @@
     "value": "Roquebrune-Cap-Martin", 
     "population": 11834
   }, 
-  "T\u00e9teghem": {
+  "Téteghem": {
     "geonameid": "2973049", 
     "country": "FR", 
-    "value": "T\u00e9teghem", 
+    "value": "Téteghem", 
     "population": 7465
   }, 
   "Bassens": {
@@ -16157,10 +16319,10 @@
     "value": "Schlieren", 
     "population": 12695
   }, 
-  "Pont-\u00e0-Mousson": {
+  "Pont-à-Mousson": {
     "geonameid": "2986306", 
     "country": "FR", 
-    "value": "Pont-\u00e0-Mousson", 
+    "value": "Pont-à-Mousson", 
     "population": 15411
   }, 
   "Grabels": {
@@ -16199,10 +16361,10 @@
     "value": "Auray", 
     "population": 12269
   }, 
-  "Sabl\u00e9-sur-Sarthe": {
+  "Sablé-sur-Sarthe": {
     "geonameid": "2982076", 
     "country": "FR", 
-    "value": "Sabl\u00e9-sur-Sarthe", 
+    "value": "Sablé-sur-Sarthe", 
     "population": 14734
   }, 
   "Mayenne": {
@@ -16211,10 +16373,10 @@
     "value": "Mayenne", 
     "population": 15583
   }, 
-  "Sarlat-la-Can\u00e9da": {
+  "Sarlat-la-Canéda": {
     "geonameid": "2976007", 
     "country": "FR", 
-    "value": "Sarlat-la-Can\u00e9da", 
+    "value": "Sarlat-la-Canéda", 
     "population": 11126
   }, 
   "Neuhausen": {
@@ -16223,10 +16385,10 @@
     "value": "Neuhausen", 
     "population": 10019
   }, 
-  "Labarthe-sur-L\u00e8ze": {
+  "Labarthe-sur-Lèze": {
     "geonameid": "3011312", 
     "country": "FR", 
-    "value": "Labarthe-sur-L\u00e8ze", 
+    "value": "Labarthe-sur-Lèze", 
     "population": 5208
   }, 
   "Mazingarbe": {
@@ -16253,10 +16415,10 @@
     "value": "Aartselaar", 
     "population": 14193
   }, 
-  "W\u00fcrenlos": {
+  "Würenlos": {
     "geonameid": "2657947", 
     "country": "CH", 
-    "value": "W\u00fcrenlos", 
+    "value": "Würenlos", 
     "population": 5497
   }, 
   "La Tour-de-Peilz": {
@@ -16283,10 +16445,10 @@
     "value": "Igis", 
     "population": 6828
   }, 
-  "S\u00e3o Paulo": {
+  "São Paulo": {
     "geonameid": "3448439", 
     "country": "BR", 
-    "value": "S\u00e3o Paulo", 
+    "value": "São Paulo", 
     "population": 10021295
   }, 
   "Wielsbeke": {
@@ -16313,10 +16475,10 @@
     "value": "Raeren", 
     "population": 9925
   }, 
-  "Villeneuve-l\u00e8s-Maguelone": {
+  "Villeneuve-lès-Maguelone": {
     "geonameid": "2968536", 
     "country": "FR", 
-    "value": "Villeneuve-l\u00e8s-Maguelone", 
+    "value": "Villeneuve-lès-Maguelone", 
     "population": 8343
   }, 
   "Amman": {
@@ -16355,10 +16517,10 @@
     "value": "Salbris", 
     "population": 5810
   }, 
-  "Andr\u00e9zieux": {
+  "Andrézieux": {
     "geonameid": "3037689", 
     "country": "FR", 
-    "value": "Andr\u00e9zieux", 
+    "value": "Andrézieux", 
     "population": 9452
   }, 
   "Gourdon": {
@@ -16475,10 +16637,10 @@
     "value": "Mulhouse", 
     "population": 111430
   }, 
-  "J\u0153uf": {
+  "Jœuf": {
     "geonameid": "3012322", 
     "country": "FR", 
-    "value": "J\u0153uf", 
+    "value": "Jœuf", 
     "population": 7064
   }, 
   "Wuxi": {
@@ -16505,10 +16667,10 @@
     "value": "Pretoria", 
     "population": 1619438
   }, 
-  "Le Tr\u00e9port": {
+  "Le Tréport": {
     "geonameid": "2999093", 
     "country": "FR", 
-    "value": "Le Tr\u00e9port", 
+    "value": "Le Tréport", 
     "population": 6062
   }, 
   "Herrliberg": {
@@ -16565,10 +16727,10 @@
     "value": "Mennecy", 
     "population": 14646
   }, 
-  "Ch\u00e2tillon": {
+  "Châtillon": {
     "geonameid": "3026083", 
     "country": "FR", 
-    "value": "Ch\u00e2tillon", 
+    "value": "Châtillon", 
     "population": 32383
   }, 
   "Crissier": {
@@ -16601,10 +16763,10 @@
     "value": "Lanaken", 
     "population": 24771
   }, 
-  "Angoul\u00eame": {
+  "Angoulême": {
     "geonameid": "3037598", 
     "country": "FR", 
-    "value": "Angoul\u00eame", 
+    "value": "Angoulême", 
     "population": 49468
   }, 
   "Basse Lasne": {
@@ -16643,10 +16805,10 @@
     "value": "Anzegem", 
     "population": 13920
   }, 
-  "Saint-Cyr-l'\u00c9cole": {
+  "Saint-Cyr-l'École": {
     "geonameid": "2980942", 
     "country": "FR", 
-    "value": "Saint-Cyr-l'\u00c9cole", 
+    "value": "Saint-Cyr-l'École", 
     "population": 16365
   }, 
   "Tervuren": {
@@ -16673,16 +16835,16 @@
     "value": "Brooklyn", 
     "population": 2300664
   }, 
-  "Le Puy-Sainte-R\u00e9parade": {
+  "Le Puy-Sainte-Réparade": {
     "geonameid": "3002443", 
     "country": "FR", 
-    "value": "Le Puy-Sainte-R\u00e9parade", 
+    "value": "Le Puy-Sainte-Réparade", 
     "population": 5041
   }, 
-  "La Bruy\u00e8re": {
+  "La Bruyère": {
     "geonameid": "2793733", 
     "country": "BE", 
-    "value": "La Bruy\u00e8re", 
+    "value": "La Bruyère", 
     "population": 8194
   }, 
   "Vaucresson": {
@@ -16697,10 +16859,10 @@
     "value": "La Celle-Saint-Cloud", 
     "population": 21539
   }, 
-  "G\u00e9menos": {
+  "Gémenos": {
     "geonameid": "3016398", 
     "country": "FR", 
-    "value": "G\u00e9menos", 
+    "value": "Gémenos", 
     "population": 5727
   }, 
   "Toronto": {
@@ -16775,10 +16937,10 @@
     "value": "Haillicourt", 
     "population": 5121
   }, 
-  "B\u00e9ziers": {
+  "Béziers": {
     "geonameid": "3032833", 
     "country": "FR", 
-    "value": "B\u00e9ziers", 
+    "value": "Béziers", 
     "population": 74081
   }, 
   "Thionville": {
@@ -16823,10 +16985,10 @@
     "value": "Simiane-Collongue", 
     "population": 5521
   }, 
-  "Hano\u00ef": {
+  "Hanoï": {
     "geonameid": "1581130", 
     "country": "VN", 
-    "value": "Hano\u00ef", 
+    "value": "Hanoï", 
     "population": 1431270
   }, 
   "Shanghai": {
@@ -16907,10 +17069,10 @@
     "value": "Buenos Aires", 
     "population": 13076300
   }, 
-  "Neuch\u00e2tel": {
+  "Neuchâtel": {
     "geonameid": "2659496", 
     "country": "CH", 
-    "value": "Neuch\u00e2tel", 
+    "value": "Neuchâtel", 
     "population": 31270
   }, 
   "Lviv": {
@@ -16979,10 +17141,10 @@
     "value": "Lendelede", 
     "population": 5393
   }, 
-  "La Fert\u00e9-Bernard": {
+  "La Ferté-Bernard": {
     "geonameid": "3009494", 
     "country": "FR", 
-    "value": "La Fert\u00e9-Bernard", 
+    "value": "La Ferté-Bernard", 
     "population": 10201
   }, 
   "Mamers": {
@@ -17081,16 +17243,16 @@
     "value": "Vauvert", 
     "population": 10798
   }, 
-  "Trith-Saint-L\u00e9ger": {
+  "Trith-Saint-Léger": {
     "geonameid": "2971651", 
     "country": "FR", 
-    "value": "Trith-Saint-L\u00e9ger", 
+    "value": "Trith-Saint-Léger", 
     "population": 6357
   }, 
-  "D\u00fcsseldorf": {
+  "Düsseldorf": {
     "geonameid": "2934246", 
     "country": "DE", 
-    "value": "D\u00fcsseldorf", 
+    "value": "Düsseldorf", 
     "population": 573057
   }, 
   "Migennes": {
@@ -17183,10 +17345,10 @@
     "value": "Saint-Herblain", 
     "population": 46898
   }, 
-  "Villefranche-sur-Sa\u00f4ne": {
+  "Villefranche-sur-Saône": {
     "geonameid": "2968748", 
     "country": "FR", 
-    "value": "Villefranche-sur-Sa\u00f4ne", 
+    "value": "Villefranche-sur-Saône", 
     "population": 32994
   }, 
   "Le Petit-Quevilly": {
@@ -17195,10 +17357,10 @@
     "value": "Le Petit-Quevilly", 
     "population": 22691
   }, 
-  "S\u00e9n\u00e9": {
+  "Séné": {
     "geonameid": "2975113", 
     "country": "FR", 
-    "value": "S\u00e9n\u00e9", 
+    "value": "Séné", 
     "population": 8465
   }, 
   "Amay": {
@@ -17207,10 +17369,10 @@
     "value": "Amay", 
     "population": 13307
   }, 
-  "Le M\u00e9e-sur-Seine": {
+  "Le Mée-sur-Seine": {
     "geonameid": "3003481", 
     "country": "FR", 
-    "value": "Le M\u00e9e-sur-Seine", 
+    "value": "Le Mée-sur-Seine", 
     "population": 22058
   }, 
   "Domat": {
@@ -17231,10 +17393,10 @@
     "value": "Saint-Brevin-les-Pins", 
     "population": 10396
   }, 
-  "Medell\u00edn": {
+  "Medellín": {
     "geonameid": "3674962", 
     "country": "CO", 
-    "value": "Medell\u00edn", 
+    "value": "Medellín", 
     "population": 1999979
   }, 
   "Thonon-les-Bains": {
@@ -17243,10 +17405,10 @@
     "value": "Thonon-les-Bains", 
     "population": 31684
   }, 
-  "Ch\u00e2lons-en-Champagne": {
+  "Châlons-en-Champagne": {
     "geonameid": "3027487", 
     "country": "FR", 
-    "value": "Ch\u00e2lons-en-Champagne", 
+    "value": "Châlons-en-Champagne", 
     "population": 51257
   }, 
   "Gaillac": {
@@ -17321,10 +17483,10 @@
     "value": "Bihorel", 
     "population": 8589
   }, 
-  "Fontaines-sur-Sa\u00f4ne": {
+  "Fontaines-sur-Saône": {
     "geonameid": "3017994", 
     "country": "FR", 
-    "value": "Fontaines-sur-Sa\u00f4ne", 
+    "value": "Fontaines-sur-Saône", 
     "population": 7129
   }, 
   "Villeneuve-Loubet": {
@@ -17333,10 +17495,10 @@
     "value": "Villeneuve-Loubet", 
     "population": 14354
   }, 
-  "Juran\u00e7on": {
+  "Jurançon": {
     "geonameid": "3012049", 
     "country": "FR", 
-    "value": "Juran\u00e7on", 
+    "value": "Jurançon", 
     "population": 7041
   }, 
   "Assesse": {
@@ -17345,10 +17507,10 @@
     "value": "Assesse", 
     "population": 6279
   }, 
-  "Fl\u00e9ron": {
+  "Fléron": {
     "geonameid": "2798301", 
     "country": "BE", 
-    "value": "Fl\u00e9ron", 
+    "value": "Fléron", 
     "population": 15994
   }, 
   "Cochabamba": {
@@ -17375,10 +17537,10 @@
     "value": "Pithiviers", 
     "population": 9659
   }, 
-  "Ch\u00e2teau-Renault": {
+  "Château-Renault": {
     "geonameid": "3026208", 
     "country": "FR", 
-    "value": "Ch\u00e2teau-Renault", 
+    "value": "Château-Renault", 
     "population": 5789
   }, 
   "Bois-le-Roi": {
@@ -17405,10 +17567,10 @@
     "value": "Villennes-sur-Seine", 
     "population": 5070
   }, 
-  "Courth\u00e9zon": {
+  "Courthézon": {
     "geonameid": "3022897", 
     "country": "FR", 
-    "value": "Courth\u00e9zon", 
+    "value": "Courthézon", 
     "population": 5723
   }, 
   "Noyelles-sous-Lens": {
@@ -17477,10 +17639,10 @@
     "value": "Angers", 
     "population": 168279
   }, 
-  "Bourg-l\u00e8s-Valence": {
+  "Bourg-lès-Valence": {
     "geonameid": "3030985", 
     "country": "FR", 
-    "value": "Bourg-l\u00e8s-Valence", 
+    "value": "Bourg-lès-Valence", 
     "population": 19770
   }, 
   "Beauvais": {
@@ -17507,10 +17669,10 @@
     "value": "Shijiazhuang", 
     "population": 2834942
   }, 
-  "Mign\u00e9-Auxances": {
+  "Migné-Auxances": {
     "geonameid": "2993918", 
     "country": "FR", 
-    "value": "Mign\u00e9-Auxances", 
+    "value": "Migné-Auxances", 
     "population": 6164
   }, 
   "Gournay-en-Bray": {
@@ -17543,22 +17705,22 @@
     "value": "Gennevilliers", 
     "population": 42294
   }, 
-  "P\u00e9ronne": {
+  "Péronne": {
     "geonameid": "2987928", 
     "country": "FR", 
-    "value": "P\u00e9ronne", 
+    "value": "Péronne", 
     "population": 9011
   }, 
-  "Quincy-sous-S\u00e9nart": {
+  "Quincy-sous-Sénart": {
     "geonameid": "2984678", 
     "country": "FR", 
-    "value": "Quincy-sous-S\u00e9nart", 
+    "value": "Quincy-sous-Sénart", 
     "population": 7808
   }, 
-  "Chi\u015fin\u0103u": {
+  "Chişinău": {
     "geonameid": "618426", 
     "country": "MD", 
-    "value": "Chi\u015fin\u0103u", 
+    "value": "Chişinău", 
     "population": 635994
   }, 
   "Crolles": {
@@ -17597,10 +17759,10 @@
     "value": "La Motte-Servolex", 
     "population": 13499
   }, 
-  "Sotteville-l\u00e8s-Rouen": {
+  "Sotteville-lès-Rouen": {
     "geonameid": "2974153", 
     "country": "FR", 
-    "value": "Sotteville-l\u00e8s-Rouen", 
+    "value": "Sotteville-lès-Rouen", 
     "population": 30619
   }, 
   "Gignac-la-Nerthe": {
@@ -17681,10 +17843,10 @@
     "value": "Tirlemont", 
     "population": 31743
   }, 
-  "L\u2019Isle-sur-la-Sorgue": {
+  "L’Isle-sur-la-Sorgue": {
     "geonameid": "2998127", 
     "country": "FR", 
-    "value": "L\u2019Isle-sur-la-Sorgue", 
+    "value": "L’Isle-sur-la-Sorgue", 
     "population": 16968
   }, 
   "Bauvin": {
@@ -17693,10 +17855,10 @@
     "value": "Bauvin", 
     "population": 5426
   }, 
-  "Ch\u00e2tel-Saint-Denis": {
+  "Châtel-Saint-Denis": {
     "geonameid": "2661202", 
     "country": "CH", 
-    "value": "Ch\u00e2tel-Saint-Denis", 
+    "value": "Châtel-Saint-Denis", 
     "population": 5094
   }, 
   "Talant": {
@@ -17717,10 +17879,10 @@
     "value": "Marrakech", 
     "population": 839296
   }, 
-  "Mehun-sur-Y\u00e8vre": {
+  "Mehun-sur-Yèvre": {
     "geonameid": "2994756", 
     "country": "FR", 
-    "value": "Mehun-sur-Y\u00e8vre", 
+    "value": "Mehun-sur-Yèvre", 
     "population": 7257
   }, 
   "Rotselaar": {
@@ -17735,10 +17897,10 @@
     "value": "Bondues", 
     "population": 11285
   }, 
-  "F\u00e8s": {
+  "Fès": {
     "geonameid": "2548885", 
     "country": "MA", 
-    "value": "F\u00e8s", 
+    "value": "Fès", 
     "population": 964891
   }, 
   "Oudenburg": {
@@ -17777,10 +17939,10 @@
     "value": "Mortsel", 
     "population": 24525
   }, 
-  "Saint-Est\u00e8ve": {
+  "Saint-Estève": {
     "geonameid": "2980313", 
     "country": "FR", 
-    "value": "Saint-Est\u00e8ve", 
+    "value": "Saint-Estève", 
     "population": 10403
   }, 
   "Silly": {
@@ -17789,10 +17951,10 @@
     "value": "Silly", 
     "population": 7887
   }, 
-  "M\u00fcnchenstein": {
+  "Münchenstein": {
     "geonameid": "2659551", 
     "country": "CH", 
-    "value": "M\u00fcnchenstein", 
+    "value": "Münchenstein", 
     "population": 11644
   }, 
   "Overpelt": {
@@ -17837,10 +17999,10 @@
     "value": "Yverdon-les-Bains", 
     "population": 23702
   }, 
-  "B\u00fclach": {
+  "Bülach": {
     "geonameid": "2661338", 
     "country": "CH", 
-    "value": "B\u00fclach", 
+    "value": "Bülach", 
     "population": 13172
   }, 
   "Cancale": {
@@ -17861,16 +18023,16 @@
     "value": "Thoune", 
     "population": 42136
   }, 
-  "K\u00fcsnacht": {
+  "Küsnacht": {
     "geonameid": "2660089", 
     "country": "CH", 
-    "value": "K\u00fcsnacht", 
+    "value": "Küsnacht", 
     "population": 11525
   }, 
-  "Mo\u00eblan-sur-Mer": {
+  "Moëlan-sur-Mer": {
     "geonameid": "2993647", 
     "country": "FR", 
-    "value": "Mo\u00eblan-sur-Mer", 
+    "value": "Moëlan-sur-Mer", 
     "population": 6984
   }, 
   "Riga": {
@@ -17891,10 +18053,10 @@
     "value": "Nivelles", 
     "population": 24149
   }, 
-  "S\u00e9rignan": {
+  "Sérignan": {
     "geonameid": "2974925", 
     "country": "FR", 
-    "value": "S\u00e9rignan", 
+    "value": "Sérignan", 
     "population": 6936
   }, 
   "Amilly": {
@@ -17945,10 +18107,10 @@
     "value": "Meythet", 
     "population": 8538
   }, 
-  "Avrill\u00e9": {
+  "Avrillé": {
     "geonameid": "3035612", 
     "country": "FR", 
-    "value": "Avrill\u00e9", 
+    "value": "Avrillé", 
     "population": 13723
   }, 
   "Waremme": {
@@ -17963,10 +18125,10 @@
     "value": "Barranquilla", 
     "population": 1380425
   }, 
-  "\u00c9palinges": {
+  "Épalinges": {
     "geonameid": "2660884", 
     "country": "CH", 
-    "value": "\u00c9palinges", 
+    "value": "Épalinges", 
     "population": 7706
   }, 
   "Landen": {
@@ -18005,10 +18167,10 @@
     "value": "Pignan", 
     "population": 6348
   }, 
-  "B\u00e9theny": {
+  "Bétheny": {
     "geonameid": "3033014", 
     "country": "FR", 
-    "value": "B\u00e9theny", 
+    "value": "Bétheny", 
     "population": 6002
   }, 
   "Montesson": {
@@ -18023,10 +18185,10 @@
     "value": "Kuching", 
     "population": 570407
   }, 
-  "Juign\u00e9": {
+  "Juigné": {
     "geonameid": "3012124", 
     "country": "FR", 
-    "value": "Juign\u00e9", 
+    "value": "Juigné", 
     "population": 7007
   }, 
   "Le Perreux-sur-Marne": {
@@ -18137,10 +18299,10 @@
     "value": "Dourges", 
     "population": 5761
   }, 
-  "Orl\u00e9ans": {
+  "Orléans": {
     "geonameid": "2989317", 
     "country": "FR", 
-    "value": "Orl\u00e9ans", 
+    "value": "Orléans", 
     "population": 124149
   }, 
   "Salon-de-Provence": {

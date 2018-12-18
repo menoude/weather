@@ -55,6 +55,7 @@
   }, 
   "Bolivarian Republic of Venezuela": {
     "geonameid": "3625428", 
+    "country": "VE", 
     "value": "Bolivarian Republic of Venezuela", 
     "population": 27223228
   }, 
@@ -156,6 +157,7 @@
   }, 
   "Republic of Moldova": {
     "geonameid": "617790", 
+    "country": "MD", 
     "value": "Republic of Moldova", 
     "population": 4324000
   }, 
@@ -275,6 +277,7 @@
   }, 
   "Plurinational State of Bolivia": {
     "geonameid": "3923057", 
+    "country": "BO", 
     "value": "Plurinational State of Bolivia", 
     "population": 9947418
   }, 
@@ -352,6 +355,7 @@
   }, 
   "Union of Burma": {
     "geonameid": "1327865", 
+    "country": "MM", 
     "value": "Union of Burma", 
     "population": 53414374
   }, 
@@ -417,6 +421,7 @@
   }, 
   "Republic of the Congo": {
     "geonameid": "2260494", 
+    "country": "CG", 
     "value": "Republic of the Congo", 
     "population": 3039126
   }, 
@@ -482,6 +487,7 @@
   }, 
   "Vatican": {
     "geonameid": "3164670", 
+    "country": "VA", 
     "value": "Vatican", 
     "population": 921
   }, 
@@ -499,6 +505,7 @@
   }, 
   "United States": {
     "geonameid": "6252001", 
+    "country": "US", 
     "value": "United States", 
     "population": 310232863
   }, 
@@ -526,10 +533,10 @@
     "value": "Mali", 
     "population": 13796354
   }, 
-  "People\u2019s Republic of China": {
+  "People’s Republic of China": {
     "geonameid": "1814991", 
     "country": "CN", 
-    "value": "People\u2019s Republic of China", 
+    "value": "People’s Republic of China", 
     "population": 1330044000
   }, 
   "Socialist Republic of Vietnam": {
@@ -676,12 +683,6 @@
     "value": "Ireland", 
     "population": 4622917
   }, 
-  "Italy": {
-    "geonameid": "3175395", 
-    "country": "IT", 
-    "value": "Italy", 
-    "population": 60340328
-  }, 
   "Republic of Belarus": {
     "geonameid": "630336", 
     "country": "BY", 
@@ -748,9 +749,10 @@
     "value": "Kiribati", 
     "population": 92533
   }, 
-  "Democratic People\u2019s Republic of Korea": {
+  "Democratic People’s Republic of Korea": {
     "geonameid": "1873107", 
-    "value": "Democratic People\u2019s Republic of Korea", 
+    "country": "KP", 
+    "value": "Democratic People’s Republic of Korea", 
     "population": 22912177
   }, 
   "Belize": {
@@ -795,11 +797,11 @@
     "value": "Republic of Guatemala", 
     "population": 13550440
   }, 
-  "Namibia": {
-    "geonameid": "3355338", 
-    "country": "NA", 
-    "value": "Namibia", 
-    "population": 2128471
+  "Italian Republic": {
+    "geonameid": "3175395", 
+    "country": "IT", 
+    "value": "Italian Republic", 
+    "population": 60340328
   }, 
   "Nauru": {
     "geonameid": "2110425", 
@@ -863,6 +865,7 @@
   }, 
   "Republic of Korea": {
     "geonameid": "1835841", 
+    "country": "KR", 
     "value": "Republic of Korea", 
     "population": 48422644
   }, 
@@ -890,9 +893,10 @@
     "value": "Eswatini", 
     "population": 1354051
   }, 
-  "Lao People\u2019s Democratic Republic": {
+  "Lao People’s Democratic Republic": {
     "geonameid": "1655842", 
-    "value": "Lao People\u2019s Democratic Republic", 
+    "country": "LA", 
+    "value": "Lao People’s Democratic Republic", 
     "population": 6368162
   }, 
   "Republic of Panama": {
@@ -951,6 +955,7 @@
   }, 
   "Democratic Republic of the Congo": {
     "geonameid": "203312", 
+    "country": "CD", 
     "value": "Democratic Republic of the Congo", 
     "population": 70916439
   }, 
@@ -1032,10 +1037,10 @@
     "value": "Republic of Indonesia", 
     "population": 242968342
   }, 
-  "Republic of C\u00f4te d\u2019Ivoire": {
+  "Republic of Côte d’Ivoire": {
     "geonameid": "2287781", 
     "country": "CI", 
-    "value": "Republic of C\u00f4te d\u2019Ivoire", 
+    "value": "Republic of Côte d’Ivoire", 
     "population": 21058798
   }, 
   "Trinidad and Tobago": {
@@ -1044,10 +1049,10 @@
     "value": "Trinidad and Tobago", 
     "population": 1328019
   }, 
-  "People\u2019s Democratic Republic of Algeria": {
+  "People’s Democratic Republic of Algeria": {
     "geonameid": "2589581", 
     "country": "DZ", 
-    "value": "People\u2019s Democratic Republic of Algeria", 
+    "value": "People’s Democratic Republic of Algeria", 
     "population": 34586184
   }, 
   "Kingdom of Spain": {
@@ -1094,6 +1099,7 @@
   }, 
   "Republic of Macedonia": {
     "geonameid": "718075", 
+    "country": "MK", 
     "value": "Republic of Macedonia", 
     "population": 2062294
   }, 
@@ -1123,6 +1129,7 @@
   }, 
   "Islamic Republic of Iran": {
     "geonameid": "130758", 
+    "country": "IR", 
     "value": "Islamic Republic of Iran", 
     "population": 76923300
   }, 
@@ -1131,6 +1138,12 @@
     "country": "LK", 
     "value": "Sri Lanka", 
     "population": 21513990
+  }, 
+  "Namibia": {
+    "geonameid": "3355338", 
+    "country": "NA", 
+    "value": "Namibia", 
+    "population": 2128471
   }, 
   "Botswana": {
     "geonameid": "933860", 

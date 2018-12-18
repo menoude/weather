@@ -12,8 +12,6 @@ class Location {
     setFromSlot(places, locationSlot) {
         let place;
         
-        if (!locationSlot)
-            return ;
         place = places.lookUp(locationSlot['value']['value']);
         if (place) {
             this.name = place['value'];
@@ -21,6 +19,10 @@ class Location {
             this.population = place['population'];
             this.id = place['geonameid'];
         }
+    }
+
+    setFromSlots(places, locationSlot) {
+
     }
 }
 

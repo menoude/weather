@@ -50,7 +50,7 @@ client.on('message', (topic, data) => {
 })
 
 async function handle(topic, data) {
-    let message, period, location, report;
+    let message, period, location, slot, report;
 
     message = new Message(topic, data, locale, config);
     if (message.endNotice())
@@ -59,8 +59,12 @@ async function handle(topic, data) {
         message.filterErrors();
         // period = new Period();
         location = new Location(places);
-        // period.setFromSlot(message.findPeriod());
-        location.setFromSlot(places, message.findLocation());
+        // period.setFromSlot(message.filterPeriod());
+        slot = message.filterLocation();
+        if (slot.length > 1)
+            location.setFromSlots(places, slot);
+        if (slot.length)
+            location.setFromSlot(places, slot);
         // report = new Report(period, location);
         // await report.fetchInfo();
         // report.trim();
