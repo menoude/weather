@@ -15,12 +15,12 @@ class Places {
             }
         }
         this.region = {
-            "California": {
-                "geonameid": "5332921", 
+            "New York": {
+                "geonameid": "5128638", 
                 "country": "US", 
-                "value": "California", 
-                "population": 37691912
-            },
+                "value": "New York", 
+                "population": 19274244
+              }
         }
         this.country = {
             "United States": {
@@ -31,7 +31,7 @@ class Places {
         }
     }
 
-    loadPlaces(locale) {
+    loadData(locale) {
         let path;
 
         path = placesData[locale.language];
@@ -42,6 +42,19 @@ class Places {
         } catch (e) {
             throw new CustomError(e.message, 'places');
         }
+    }
+
+    lookUp(place) {
+        for (let category of ['city', 'region', 'country']) {
+            if (this[category][place])
+                return (this[category][place]);
+        }
+    }
+
+    setDefaultLocation(defaultLocation) {
+        if (!defaultLocation)
+            throw new CustomError('', 'defaultLocation');
+        this.defaultLocation = defaultLocation;
     }
 }
 

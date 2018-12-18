@@ -1,6 +1,7 @@
 'use strict'
 
 const { subscriptions } = require('./utils.js');
+const CustomError = require('./customError.js');
 
 class Message {
     constructor(topic, data, locale) {
@@ -9,6 +10,8 @@ class Message {
         this.locale = locale;
         if (this.data.sessionId)
             this.sessionId = this.data.sessionId;
+        console.log(this.data.slots);
+        
     }
 
     endNotice() {
@@ -29,9 +32,9 @@ class Message {
 
     findLocation() {
         return (this.data.slots.find((item) => {
-            return (item.slotname === 'city' ||
-                item.slotname === 'region' ||
-                item.slotname === 'country');
+            return (item.slotName === 'city' ||
+                item.slotName === 'region' ||
+                item.slotName === 'country');
         }));
     }
 }

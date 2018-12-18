@@ -8,11 +8,9 @@ const CustomError = require('./customError.js');
 
 class Config {
 
-    constructor(locale, places) {
+    constructor(locale) {
         this.locale = locale.language;
-        this.defautLocation = this.locale === 'english' ?
-            places.cities['New York City'] :
-            places.cities['Paris'];
+        this.defaultLocation = this.locale === 'english' ? 'New York City' : 'Paris';
     }
 
     parseConfig(filePath) {

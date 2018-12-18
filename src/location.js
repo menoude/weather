@@ -1,18 +1,26 @@
 'use strict'
 
 class Location {
-    constructor(config) {
-// set the default location
+
+    constructor(places) {
+        this.name = places.defaultLocation['value'];
+        this.country = places.defaultLocation['country'];
+        this.population = places.defaultLocation['population'];
+        this.id = places.defaultLocation['geonameid'];
     }
     
-    setFromSlot(locationSlot, places) {
+    setFromSlot(places, locationSlot) {
         let place;
         
         if (!locationSlot)
             return ;
-        this.name = locationSlot.value.value;
-        this.type = locationSlot.slotName;
-        this.id = places[this.type][this.name].id;
+        place = places.lookUp(locationSlot['value']['value']);
+        if (place) {
+            this.name = place['value'];
+            this.country = place['country'];
+            this.population = place['population'];
+            this.id = place['geonameid'];
+        }
     }
 }
 

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 'use strict'
 
 const {
@@ -8,9 +9,9 @@ const Config = require('./src/config.js');
 const Locale = require('./src/locale.js');
 const Places = require('./src/places.js');
 const Message = require('./src/message.js');
-const Period = require('./period.js');
-const Location = require('./location.js');
-const Report = require('./report.js');
+// const Period = require('./src/period.js');
+const Location = require('./src/location.js');
+// const Report = require('./src/report.js');
 
 const mqtt = require('mqtt');
 
@@ -20,7 +21,7 @@ const client = mqtt.connect('mqtt://localhost', {
 
 const locale = new Locale();
 const places = new Places();
-const config = new Config(locale, places);
+const config = new Config(locale);
 
 // sets up config, locale and locations database
 // when encountering an error, gives feedback through tts and exits
@@ -28,7 +29,8 @@ client.on('connect', () => {
     try {
         config.parseConfig('./config.ini');
         locale.loadConfig(config);
-        places.loadPlaces(locale);
+        places.loadData(locale);
+        places.setDefaultLocation(places.lookUp(config.defaultLocation));
         for (let topic in subscriptions) {
             client.subscribe(topic, (err) => {
                 if (err)
@@ -55,14 +57,14 @@ async function handle(topic, data) {
         return;
     try {
         message.filterErrors();
-        period = new Period();
-        location = new Location(config);
-        period.setFromSlot(message.findPeriod());
-        location.setFromSlot(message.findLocation());
-        report = new Report(period, location);
-        await report.fetchInfo();
-        report.trim();
-        console.log(report);
+        // period = new Period();
+        location = new Location(places);
+        // period.setFromSlot(message.findPeriod());
+        location.setFromSlot(places, message.findLocation());
+        // report = new Report(period, location);
+        // await report.fetchInfo();
+        // report.trim();
+        console.log(location);
 
     } catch (err) {
         console.log(err);
