@@ -8,7 +8,6 @@ const {
 } = require('./utils.js');
 
 class Locale {
-
     constructor(config) {
         this.language = 'english';
         this.errorMessages = errorMessages['english'];

@@ -3,7 +3,6 @@
 const { hermes } = require('./utils.js');
 
 class CustomError extends Error {
-    
     constructor(message, reason, sessionId) {
         super();
         this.message = message;

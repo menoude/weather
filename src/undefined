@@ -7,6 +7,10 @@ class Location {
         let place;
 
         place = places.lookUp(defaultLocation);
+        console.log('1');
+        console.log(place);
+        console.log('2');
+        
         place = places.getMostPopulated(place);
         this.name = place.value;
         this.country = place.country;
@@ -16,20 +20,20 @@ class Location {
 
     setFromSlots(places, locationSlots) {
         let place, countryHint;
-
-        if (!Array.isArray(locationSlots) || !locationSlots.length)
+        
+        if (!locationSlots)
             return ;
         else if (locationSlots.length === 1)
-            place = places.lookUp(locationSlots[0]['value']['value']);
+            place = places.lookUp(locationSlots['value']['value']);
         else if (locationSlots.length === 2) {
-            countryHint = locationSlots.filter(slot => slot.slotName === 'country');
+            countryHint = locationSlots.find(slot => slot.slotName === 'country');
             if (countryHint.length !== 1)
-                throw new CustomError('', 'locationSlots');
-            countryHint = places.lookUpCountry(countryHint[0]['value']['value']);
-            place = places.lookUp(locationSlots.find(slot => slot.slotName !== 'country')['value']['value']);
+                throw new CustomError('locationSlots');
+            countryHint = places.lookUpCountry(countryHint);
+            place = places.lookup(locationSlots.find(slot => slot.slotName !== 'country')['value']['value']);
             place = places.getCountrySpecific(place, countryHint);
         } else
-            throw new CustomError('', 'locationSlots');
+            throw new CustomError('locationSlots');
         place = places.getMostPopulated(place);
         this.name = place.value;
         this.country = place.country;

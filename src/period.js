@@ -9,7 +9,6 @@
 // if week, has to be later than last week and at most next week (depending on if we're)
 
 class Period {
-
     constructor() {
         this.start = new Date();
         this.end = this.start;

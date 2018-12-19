@@ -10,8 +10,6 @@ class Message {
         this.locale = locale;
         if (this.data.sessionId)
             this.sessionId = this.data.sessionId;
-        console.log(this.data.slots);
-        
     }
 
     endNotice() {
@@ -24,17 +22,17 @@ class Message {
             throw new CustomError('', this.data.termination.reason, this.sessionId);
     }
 
-    filterPeriod() {
-        return (this.data.slots.find((item) => {
-            return (item.slotname === 'forecast_datetime');
+    filterPeriodSlots() {
+        return (this.data.slots.filter((slot) => {
+            return (slot.slotname === 'forecast_datetime');
         }));
     }
 
-    filterLocation() {
-        return (this.data.slots.find((item) => {
-            return (item.slotName === 'city' ||
-                item.slotName === 'region' ||
-                item.slotName === 'country');
+    filterLocationSlots() {
+        return (this.data.slots.filter((slot) => {
+            return (slot.slotName === 'city' ||
+                slot.slotName === 'region' ||
+                slot.slotName === 'country');
         }));
     }
 }

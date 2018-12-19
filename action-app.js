@@ -30,14 +30,15 @@ client.on('connect', () => {
         config.parseConfig('./config.ini');
         locale.loadConfig(config);
         places.loadData(locale);
-        places.setDefaultLocation(places.lookUp(config.defaultLocation));
+        if (!places.lookUp(config.defaultLocation))
+            throw new CustomError('', 'defaultLocation');
         for (let topic in subscriptions) {
             client.subscribe(topic, (err) => {
                 if (err)
                     throw new CustomError(err, 'mqtt');
             });
         }
-    } catch (err) {
+    } catch (err) {        
         err.formulate(locale);
         console.log(err);
         client.publish(err.endpoint, err.payload);
@@ -47,10 +48,10 @@ client.on('connect', () => {
 
 client.on('message', (topic, data) => {
     handle(topic, data);
-})
+});
 
 async function handle(topic, data) {
-    let message, period, location, slot, report;
+    let message, period, location, report;
 
     message = new Message(topic, data, locale, config);
     if (message.endNotice())
@@ -58,20 +59,16 @@ async function handle(topic, data) {
     try {
         message.filterErrors();
         // period = new Period();
-        location = new Location(places);
-        // period.setFromSlot(message.filterPeriod());
-        slot = message.filterLocation();
-        if (slot.length > 1)
-            location.setFromSlots(places, slot);
-        if (slot.length)
-            location.setFromSlot(places, slot);
+        location = new Location(places, config.defaultLocation);
+        // period.setFromSlot(message.filterPeriodSlots());
+        location.setFromSlots(places, message.filterLocationSlots());
         // report = new Report(period, location);
         // await report.fetchInfo();
         // report.trim();
         console.log(location);
 
     } catch (err) {
-        console.log(err);
+        // console.log(err);
         err.formulate(locale);
         console.log(err);
         client.publish(err.endpoint, err.payload);

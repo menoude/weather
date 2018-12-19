@@ -5,11 +5,11 @@ const { readFileSync } = require('fs');
 const CustomError = require('./customError.js');
 
 class Places {
-
     constructor() {
         this.city = {
             "New York City": {
                 "geonameid": "5128581", 
+                "country": "US", 
                 "value": "New York City", 
                 "population": 8175133
             }
@@ -25,6 +25,7 @@ class Places {
         this.country = {
             "United States": {
                 "geonameid": "6252001", 
+                "country": "US", 
                 "value": "United States", 
                 "population": 310232863
             }
@@ -49,12 +50,28 @@ class Places {
             if (this[category][place])
                 return (this[category][place]);
         }
+        throw new CustomError('', 'place');
+    }
+    
+    lookUpCountry(country) {
+        if (this.country[country])
+            return (this.country[country]);
+        throw new CustomError('', 'country');
     }
 
-    setDefaultLocation(defaultLocation) {
-        if (!defaultLocation)
-            throw new CustomError('', 'defaultLocation');
-        this.defaultLocation = defaultLocation;
+    getMostPopulated(list) {
+        if (!Array.isArray(list))
+            return (list);
+        list.sort((a, b) => {
+            return (a.population < b.population);
+        });
+        return (list[0]);
+    }
+
+    getCountrySpecific(list, countrySlot) {
+        if (list.length === 1)
+            return (list);
+        return (list.filter((place) => place.country === countrySlot.country));
     }
 }
 

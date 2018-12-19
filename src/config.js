@@ -7,7 +7,6 @@ const ini = require('ini');
 const CustomError = require('./customError.js');
 
 class Config {
-
     constructor(locale) {
         this.locale = locale.language;
         this.defaultLocation = this.locale === 'english' ? 'New York City' : 'Paris';
