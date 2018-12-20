@@ -1,6 +1,7 @@
 'use strict'
 
 const CustomError = require('./customError.js');
+const Moment = require('moment');
 const axios = require('axios');
 
 class Provider {
@@ -10,14 +11,13 @@ class Provider {
     }
 
     intersectPeriods(period) {
-        let providerStart, providerEnd;
+        let now, limit;
 
-        providerStart = new Date();
-        providerEnd = new Date();
-        providerEnd.setDate(end.getDate() + 5);
-        period.start = period.start >= providerStart ? period.start : providerStart;
-        period.end = period.end <= providerEnd ? period.end : providerEnd;
-        if (period.start > period.end)
+        now = new Moment();
+        limit = new Moment().add(this.daysLimit, 'days');
+        period.start = period.start.isAfter(now) ? period.start : now;
+        period.end = period.end.isBefore(limit) ? period.end : limit;
+        if (period.start.isAfter(period.end))
             throw new CustomError('', 'providerRange');
     }
 

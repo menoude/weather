@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/menoude/weather#readme",
   "dependencies": {
+    "moment": "^2.23.0",
     "mqtt": "^2.18.8"
   }
 }
