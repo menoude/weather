@@ -13,7 +13,7 @@ class Location {
         this.population = place.population;
         this.id = place.geonameid;
     }
-
+    // sets the location using all the slots (3 at most)
     setFromSlots(places, locationSlots) {
         let place, countryHint;
 

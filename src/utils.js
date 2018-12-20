@@ -24,8 +24,10 @@ const errorMessages = {
         abortedByUser: 'Sorry, there was an error.',
         intentNotRecognized: 'Sorry, I did not understand your request.',
         timeout: 'Sorry, your session timed out.',
-        timeRange: 'Sorry, the time period should be within 5 days from now.',
-        APICall: 'Sorry, there was a communication issue with the service provider.',
+        intersection: 'Sorry, the time period should be within 5 days from now.',
+        APIResponse: 'Sorry, there was an issue with the service provider.',
+        APIRequest: 'Sorry, the service provider is unreachable.',
+        API: 'Sorry, there was an issue with your data retrieving.',
         localisation: 'Sorry, this localisation is not supported.'
     },
     french: {
@@ -40,8 +42,10 @@ const errorMessages = {
         abortedByUser: 'Désolé une erreur s\'est produite.',
         intentNotRecognized: 'Désolé, je n\'ai pas compris votre requête.',
         timeout: 'Désolé, la durée maximale de votre session est dépassée.',
-        timeRange: 'Désolé, la période demandée doit être comprise entre aujourd\'hui et dans 5 jours au plus tard.',
-        APICall: 'Désolé, il y a eu une erreur de communication avec le service de météo.',
+        intersection: 'Désolé, la période demandée doit être comprise entre aujourd\'hui et dans 5 jours au plus tard.',
+        APIResponse: 'Désolé, une erreur s\'est produite avec le service de météo.',
+        APIRequest: 'Désolé, le service de météo est injoignable.',
+        API: 'Désolé, une erreur s\'est durant la recherche de vos données.',
         localisation: 'Désolé, cette langue n\'est pas supportée.'
     }
 };

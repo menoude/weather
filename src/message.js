@@ -7,7 +7,6 @@ class Message {
     constructor(topic, data) {
         this.topic = subscriptions[topic];
         this.data = JSON.parse(data);
-        this.locale = locale;
         if (this.data.sessionId)
             this.sessionId = this.data.sessionId;
     }

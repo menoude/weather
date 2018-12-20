@@ -9,10 +9,13 @@ const {
 
 class Locale {
     constructor(config) {
-        this.errorMessages = errorMessages[config.locale];
-        this.conditions = conditions[config.locale];
-        this.presentAnnouncement = presentAnnouncement[config.locale];
-        this.futureAnnouncement = futureAnnouncement[config.locale];
+        let defaultLanguage;
+
+        defaultLanguage = 'english';
+        this.errorMessages = errorMessages[defaultLanguage];
+        this.conditions = conditions[defaultLanguage];
+        this.presentAnnouncement = presentAnnouncement[defaultLanguage];
+        this.futureAnnouncement = futureAnnouncement[defaultLanguage];
     }
 
     loadLanguage(config) {

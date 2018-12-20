@@ -9,11 +9,13 @@ const Config = require('./src/config.js');
 const Locale = require('./src/locale.js');
 const Places = require('./src/places.js');
 const Message = require('./src/message.js');
-// const Period = require('./src/period.js');
+const Period = require('./src/period.js');
 const Location = require('./src/location.js');
-const Provider = require('./src/provider.js');
+const Info = require('./src/info.js');
 
 const mqtt = require('mqtt');
+
+const FORECAST_DAYS_LIMIT = 5;
 
 const client = mqtt.connect('mqtt://localhost', {
     port: 1883
@@ -51,7 +53,7 @@ client.on('message', (topic, data) => {
 });
 
 async function handle(topic, data) {
-    let message, period, location, provider;
+    let message, period, location, info;
 
     message = new Message(topic, data);
     if (message.endNotice())
@@ -60,16 +62,18 @@ async function handle(topic, data) {
         message.filterErrors();
         period = new Period();
         location = new Location(places, config);
-        // period.setFromSlot(message.filterPeriodSlots());
+        period.setFromSlots(message.filterPeriodSlots());
+        period.intersect(FORECAST_DAYS_LIMIT);
         location.setFromSlots(places, message.filterLocationSlots());
-        provider = new Provider();
-        provider.intersectPeriods(period);
-        await provider.fetch();
-        // provider.trimInfo(period);
+        info = new Info();
+        await info.fetch(config, location);
+        info.trim(period);
+        console.log(period);
         console.log(location);
-
+        console.log(info);
+        console.log(info.data.weather);
     } catch (err) {
-        // console.log(err);
+        console.log(err);
         err.formulate(locale);
         console.log(err);
         client.publish(err.endpoint, err.payload);
