@@ -11,7 +11,7 @@ const Places = require('./src/places.js');
 const Message = require('./src/message.js');
 // const Period = require('./src/period.js');
 const Location = require('./src/location.js');
-// const Report = require('./src/report.js');
+const Provider = require('./src/provider.js');
 
 const mqtt = require('mqtt');
 
@@ -19,17 +19,17 @@ const client = mqtt.connect('mqtt://localhost', {
     port: 1883
 });
 
+const config = new Config();
 const locale = new Locale();
 const places = new Places();
-const config = new Config(locale);
 
 // sets up config, locale and locations database
 // when encountering an error, gives feedback through tts and exits
 client.on('connect', () => {
     try {
         config.parseConfig('./config.ini');
-        locale.loadConfig(config);
-        places.loadData(locale);
+        locale.loadLanguage(config);
+        places.loadData(config);
         if (!places.lookUp(config.defaultLocation))
             throw new CustomError('', 'defaultLocation');
         for (let topic in subscriptions) {
@@ -51,20 +51,21 @@ client.on('message', (topic, data) => {
 });
 
 async function handle(topic, data) {
-    let message, period, location, report;
+    let message, period, location, provider;
 
-    message = new Message(topic, data, locale, config);
+    message = new Message(topic, data);
     if (message.endNotice())
         return;
     try {
         message.filterErrors();
-        // period = new Period();
-        location = new Location(places, config.defaultLocation);
+        period = new Period();
+        location = new Location(places, config);
         // period.setFromSlot(message.filterPeriodSlots());
         location.setFromSlots(places, message.filterLocationSlots());
-        // report = new Report(period, location);
-        // await report.fetchInfo();
-        // report.trim();
+        provider = new Provider();
+        provider.intersectPeriods(period);
+        await provider.fetch();
+        // provider.trimInfo(period);
         console.log(location);
 
     } catch (err) {

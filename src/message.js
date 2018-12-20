@@ -4,7 +4,7 @@ const { subscriptions } = require('./utils.js');
 const CustomError = require('./customError.js');
 
 class Message {
-    constructor(topic, data, locale) {
+    constructor(topic, data) {
         this.topic = subscriptions[topic];
         this.data = JSON.parse(data);
         this.locale = locale;

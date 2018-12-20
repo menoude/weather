@@ -32,10 +32,10 @@ class Places {
         }
     }
 
-    loadData(locale) {
+    loadData(config) {
         let path;
 
-        path = placesData[locale.language];
+        path = placesData[config.locale];
         try {
             this.city = JSON.parse(readFileSync(`${path}/city.json`));
             this.region = JSON.parse(readFileSync(`${path}/region.json`));

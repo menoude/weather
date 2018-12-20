@@ -20,7 +20,6 @@ class Period {
     }
 }
 
-const FUTURE_LIMIT = 5;
 const futureInstantCheckers = {
     'Second': checkFutureTimes,
     'Minute': checkFutureTimes,
@@ -29,16 +28,7 @@ const futureInstantCheckers = {
     'Week': checkFutureWeek
 };
 
-class Time {
-    
-    constructor(timeSlot) {
-        this.formulation = null;
-        this.timeSlot = timeSlot;
-    }
-}
-
 class CurrentTime extends Time {
-    
     constructor(timeSlot) {
         super(timeSlot);
         this.future = false;
@@ -56,7 +46,6 @@ class CurrentTime extends Time {
 }
 
 class FutureInstant extends Time {
-    
     constructor(timeSlot) {
         super(timeSlot);
         this.future = true;
@@ -78,7 +67,6 @@ class FutureInstant extends Time {
 }
 
 class FutureInterval extends Time {
-    
     constructor(timeSlot) {
         super(timeSlot);
         this.future = true;

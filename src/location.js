@@ -3,10 +3,10 @@
 const CustomError = require('./customError.js');
 
 class Location {
-    constructor(places, defaultLocation) {
+    constructor(places, config) {
         let place;
 
-        place = places.lookUp(defaultLocation);
+        place = places.lookUp(config.defaultLocation);
         place = places.getMostPopulated(place);
         this.name = place.value;
         this.country = place.country;
