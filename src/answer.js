@@ -3,7 +3,6 @@
 const { hermes } = require('./utils.js');
 
 class Answer {
-    
     constructor(locale, sessionId, intent, report) {
         this.locale = locale;
         this.report = report;

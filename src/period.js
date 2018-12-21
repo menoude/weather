@@ -20,11 +20,15 @@ class Period {
 
         now = new Moment();
         limit = new Moment().add(daysLimit, 'days');
-        console.log(this.start, now, this.end, limit);
-        this.start = this.start.isAfter(now) ? this.start : now; // to fix!!
-        this.end = this.end.isBefore(limit) ? this.end : limit;
-        console.log(this.start, this.end);
-        
+        // console.log('start: ', this.start)
+        // console.log('end: ', this.end);
+        // console.log('now: ', now);
+        // console.log('limit: ', limit);
+        this.start = this.start.isSameOrAfter(now, 'minute') ? this.start : now; // to fix!!
+        this.end = this.end.isSameOrBefore(limit, 'minute') ? this.end : limit;
+        // console.log('start: ', this.start)
+        // console.log('end: ', this.end);
+
         if (this.start.isAfter(this.end))
             throw new CustomError('', 'intersection');
     }
