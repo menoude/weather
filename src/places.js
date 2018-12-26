@@ -1,32 +1,36 @@
 'use strict'
 
-const { placesData } = require('./utils.js');
-const { readFileSync } = require('fs');
+const {
+    placesData
+} = require('./utils.js');
+const {
+    readFileSync
+} = require('fs');
 const CustomError = require('./customError.js');
 
 class Places {
     constructor() {
         this.city = {
             "New York City": {
-                "geonameid": "5128581", 
-                "country": "US", 
-                "value": "New York City", 
+                "geonameid": "5128581",
+                "country": "US",
+                "value": "New York City",
                 "population": 8175133
             }
         }
         this.region = {
             "New York": {
-                "geonameid": "5128638", 
-                "country": "US", 
-                "value": "New York", 
+                "geonameid": "5128638",
+                "country": "US",
+                "value": "New York",
                 "population": 19274244
-              }
+            }
         }
         this.country = {
             "United States": {
-                "geonameid": "6252001", 
-                "country": "US", 
-                "value": "United States", 
+                "geonameid": "6252001",
+                "country": "US",
+                "value": "United States",
                 "population": 310232863
             }
         }
@@ -45,33 +49,31 @@ class Places {
         }
     }
 
-    lookUp(place) {
-        for (let category of ['city', 'region', 'country']) {
-            if (this[category][place])
-                return (this[category][place]);
+    lookUp(place, categories = ['city', 'region', 'country']) {
+        let composite;
+
+        composite = place.split(/,| /);
+        while (composite.length) {
+            place = composite.join(' ');
+            for (let category of categories) {
+                if (this[category][place]) {
+                    return (Array.isArray(this[category][place] ?
+                        this[category][place] : [this[category][place]]));
+                }
+                composite.pop();
+            }
         }
-        throw new CustomError('', 'place');
-    }
-    
-    lookUpCountry(country) {
-        if (this.country[country])
-            return (this.country[country]);
-        throw new CustomError('', 'country');
     }
 
-    getMostPopulated(list) {
-        if (!Array.isArray(list))
-            return (list);
-        list.sort((a, b) => {
-            return (a.population < b.population);
-        });
-        return (list[0]);
+    regionToCountry(region) {
+        region = this.lookUp(region, ['region']);
+        return (this.lookUp(region))
     }
 
-    getCountrySpecific(list, countrySlot) {
-        if (list.length === 1)
-            return (list);
-        return (list.filter((place) => place.country === countrySlot.country));
+    filterByCountry(places, country) {
+        if (places.length === 1)
+            return (places);
+        return (places.filter(place => place.country === country.country));
     }
 }
 
