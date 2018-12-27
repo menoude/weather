@@ -53,9 +53,10 @@ class Places {
         let composite;
 
         console.log(place);
-        
         composite = place.split(/,| /);
+        console.log(composite);
         while (composite.length) {
+            
             place = composite.join(' ');
             for (let category of categories) {
                 if (this[category][place]) {
@@ -90,13 +91,10 @@ class Places {
     }
 
     filterByCountry(placeName, countryName) {
-        let citiesOrRegions, country, filtered;
+        let citiesOrRegions, filtered;
 
         citiesOrRegions = this.lookUp(placeName, ['city', 'region']);
         if (citiesOrRegions.length === 1)
-            return (citiesOrRegions);
-        country = this.lookUp(countryName, ['country']);
-        if (!country.length)
             return (citiesOrRegions);
         filtered = citiesOrRegions.filter(place => place.country === country.country)
         if (filtered.length)
