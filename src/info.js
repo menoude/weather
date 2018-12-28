@@ -24,7 +24,7 @@ class Info {
                 throw new CustomError(err.message, 'API');
         }
         this.data = response.data.list;
-        console.log(this.data);
+        // console.log(this.data);
         
     }
 

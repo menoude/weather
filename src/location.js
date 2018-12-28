@@ -14,14 +14,16 @@ class Location {
     }
 
     setFromSlots(places, slots) {
-        let city, region, country;
+        let place, city, region, country;
 
+        console.log(slots);
+        
         if (!slots.length)
             return ;
         else if (slots.length > 3)
             throw new CustomError('', 'slots');
         else if (slots.length === 1)
-            place = places.lookUp(slot[0].value.value);
+            place = places.lookUp(slots[0].value.value);
         else {
             city = this._extractSlot(slots, 'city');
             region = this._extractSlot(slots, 'region');
@@ -32,12 +34,11 @@ class Location {
                 place = places.filterByCountry(city ? city : region, country);
             else
                 place = places.filterCitiesByCountry(places.filterByRegion(city, region), country);
-            this._setAttributes(place[0]);
+            console.log(place);
         }
         if (!place.length)
             throw new CustomError('', 'place');
-        place = place[0];
-        this._setAttributes(place);
+        this._setAttributes(place[0]);
     }
 
     _extractSlot(slots, type) {
@@ -52,7 +53,6 @@ class Location {
     }
 
     _setAttributes(place) {
-        place = place[0];
         this.name = place.value;
         this.country = place.country;
         this.population = place.population;
