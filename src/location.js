@@ -16,8 +16,6 @@ class Location {
     setFromSlots(places, slots) {
         let place, city, region, country;
 
-        console.log(slots);
-        
         if (!slots.length)
             return ;
         else if (slots.length > 3)
@@ -29,12 +27,11 @@ class Location {
             region = this._extractSlot(slots, 'region');
             country = this._extractSlot(slots, 'country');
             if (!country)
-                place = places.filterByRegion(city, region);
+                place = places.findByRegion(city, region);
             else if (!city || !region)
-                place = places.filterByCountry(city ? city : region, country);
+                place = places.findByCountry(city ? city : region, country);
             else
-                place = places.filterCitiesByCountry(places.filterByRegion(city, region), country);
-            console.log(place);
+                place = places.filterByCountry(places.findByRegion(city, region), country);
         }
         if (!place.length)
             throw new CustomError('', 'place');

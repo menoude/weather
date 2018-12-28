@@ -54,9 +54,7 @@ class Places {
 
         composite = place.split(/,| |\?/);
         while (composite.length) {
-            console.log(composite);
             place = composite.join(' ').trim();
-            console.log(place);
             for (let category of categories) {
                 if (this[category][place]) {
                     return (
@@ -70,7 +68,7 @@ class Places {
         return ([]);
     }
 
-    filterByRegion(cityName, regionName) {
+    findByRegion(cityName, regionName) {
         let cities, regions, filtered;
 
         cities = this.lookUp(cityName, ['city']);
@@ -89,7 +87,7 @@ class Places {
         return (cities);
     }
 
-    filterByCountry(placeName, countryName) {
+    findByCountry(placeName, countryName) {
         let citiesOrRegions, country, filtered;
 
         citiesOrRegions = this.lookUp(placeName, ['city', 'region']);
@@ -104,7 +102,7 @@ class Places {
         return (citiesOrRegions);
     }
 
-    filterCitiesByCountry(cities, country) {
+    filterByCountry(cities, country) {
         let filtered;
 
         if (cities.length === 1)
